@@ -1,0 +1,26 @@
+# This file is deprecated as per GLEP 56 in favor of metadata.xml.
+# Please add your descriptions to your package's metadata.xml ONLY.
+# * generated automatically using pmaint *
+
+dev-cpp/usockets:libuv - Enable bindings to use the libuv dispatcher
+dev-libs/libucl:regex - Enable regex support
+dev-libs/libucl:sign - Enable signatures check
+dev-libs/libucl:urls - Enable URLs fetch
+dev-libs/libucl:utils - Install utils for checking other configs
+gui-wm/hikari:gamma - add gamma control for redshift
+gui-wm/hikari:layershell - add support for wayland apps using layer shell
+gui-wm/hikari:screencopy - add support for screen grabbing
+gui-wm/wayfire:debug - Adds debugging symbols for error reporting. ENABLE ALL USE FLAGS BEFORE REPORTING BUGS.
+gui-wm/wayfire:wf-config - Makes wayfire use the system-wide wf-config, else builds it as a submodule. DO NOT DISABLE UNLESS YOU KNOW WHAT YOU ARE DOING.
+gui-wm/wayfire:wlroots - Makes wayfire use the system wide wlroots, else builds it as a submodule. DO NOT DISABLE UNLESS YOU KNOW WHAT YOU ARE DOING.
+mail-client/mutt-wizard:abook - Command line address book for mutt
+mail-client/mutt-wizard:cron - Enables periodic syncing of email
+mail-client/mutt-wizard:gpg - Enables using gpg for email signing and encryption
+mail-client/mutt-wizard:libnotify - Try to sens desktop notifications for new mail
+mail-client/mutt-wizard:links - Uses links to view html emails in mutt
+mail-client/mutt-wizard:lynx - Uses lynx to view html emails in mutt
+mail-client/mutt-wizard:notmuch - Pulls in notmuch (thin frontend on xapian)
+mail-client/mutt-wizard:w3m - Uses w3m to view html emails in mutt
+media-fonts/fontawesome:otf - Install the OpenType version of the font
+media-fonts/fontawesome:ttf - Install the TrueType version of the font
+net-misc/purritobin:libuv - use libuv to do async operations, instead of linux kernels epoll
