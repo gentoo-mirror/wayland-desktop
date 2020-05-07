@@ -17,7 +17,7 @@ KEYWORDS="~amd64"
 
 LICENSE="MIT"
 SLOT="0"
-IUSE=""
+IUSE="viewer"
 REQUIRED_USE="${PYTHON_REQUIRED_USE}"
 
 DISTUTILS_IN_SOURCE_BUILD=1
@@ -31,7 +31,8 @@ RDEPEND="${PYTHON_DEPS}
 	dev-python/matplotlib[${PYTHON_USEDEP}]
 	dev-python/pot[${PYTHON_USEDEP}]
 	dev-python/sphinx[${PYTHON_USEDEP}]
-	x11-libs/libQGLViewer
+	sci-libs/scikits_learn[${PYTHON_USEDEP}]
+	viewer? ( x11-libs/libQGLViewer )
 "
 BDEPEND="${RDEPEND}"
 
