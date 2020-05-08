@@ -24,3 +24,5 @@ mail-client/mutt-wizard:w3m - Uses w3m to view html emails in mutt
 media-fonts/fontawesome:otf - Install the OpenType version of the font
 media-fonts/fontawesome:ttf - Install the TrueType version of the font
 net-misc/purritobin:libuv - use libuv to do async operations, instead of linux kernels epoll
+sci-mathematics/ripser:progress - print progress of calculations in console
+sci-mathematics/ripser:sparsehash - use google sparsehash for storage
