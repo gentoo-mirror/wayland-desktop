@@ -17,7 +17,7 @@ gui-apps/wcm 0.4.0 9999: Wayfire Config Manager
 gui-apps/wf-recorder 0.2 9999: A program for screen recording of wlroots-based compositors
 gui-apps/wf-shell 0.4.0 9999: A compiz like 3D wayland compositor
 gui-libs/wf-config 0.4.0 9999: library for managing wayfire configuration files
-gui-wm/hikari 1.0.4: wayland compositor inspired by CWM
+gui-wm/hikari 1.0.4 1.2.0: wayland compositor inspired by CWM
 gui-wm/wayfire 0.4.0 9999: compiz like 3D wayland compositor
 mail-client/mutt-wizard 9999 20200313: A system for automatically configuring mutt and isync
 media-fonts/fontawesome 4.7.0 5.1.0 5.11.2 5.13.0 9999: The iconic font
