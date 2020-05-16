@@ -11,7 +11,7 @@ KEYWORDS="~amd64 ~x86"
 
 LICENSE="MIT"
 SLOT="0"
-IUSE="gamma layershell screencopy X"
+IUSE="+gamma +layershell +screencopy +X"
 
 DEPEND="
 		dev-libs/glib
@@ -44,6 +44,7 @@ BDEPEND="
 		virtual/pkgconfig
 "
 
+# keep this as others OS's are using this as reference
 PATCHES=(
 	"${FILESDIR}/patch-gnu-make.patch"
 )
