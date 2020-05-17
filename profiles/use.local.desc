@@ -10,9 +10,6 @@ dev-libs/libucl:utils - Install utils for checking other configs
 gui-wm/hikari:gamma - add gamma control for redshift
 gui-wm/hikari:layershell - add support for wayland apps using layer shell
 gui-wm/hikari:screencopy - add support for screen grabbing
-gui-wm/wayfire:debug - Adds debugging symbols for error reporting. ENABLE ALL USE FLAGS BEFORE REPORTING BUGS.
-gui-wm/wayfire:wf-config - Makes wayfire use the system-wide wf-config, else builds it as a submodule. DO NOT DISABLE UNLESS YOU KNOW WHAT YOU ARE DOING.
-gui-wm/wayfire:wlroots - Makes wayfire use the system wide wlroots, else builds it as a submodule. DO NOT DISABLE UNLESS YOU KNOW WHAT YOU ARE DOING.
 mail-client/mutt-wizard:abook - Command line address book for mutt
 mail-client/mutt-wizard:cron - Enables periodic syncing of email
 mail-client/mutt-wizard:gpg - Enables using gpg for email signing and encryption
