@@ -15,6 +15,7 @@ dev-python/ripser 0.4.1:
 dev-python/umap-learn 0.4.2: Uniform Manifold Approximation and Projection
 gui-apps/wf-recorder 0.2 9999: A program for screen recording of wlroots-based compositors
 gui-wm/hikari 1.2.0: wayland compositor inspired by CWM
+gui-wm/waybox 9999: openbox clone on wayland
 mail-client/mutt-wizard 9999 20200313: A system for automatically configuring mutt and isync
 media-fonts/fontawesome 4.7.0 5.1.0 5.11.2 5.13.0 9999: The iconic font
 net-misc/purritobin 0.1.2 9999: minimalistic commanline pastebin
