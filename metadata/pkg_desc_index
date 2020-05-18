@@ -15,6 +15,7 @@ dev-python/ripser 0.4.1:
 dev-python/umap-learn 0.4.2: Uniform Manifold Approximation and Projection
 gui-apps/lavalauncher 1.7.1 9999: simple launcher for wayland
 gui-apps/wf-recorder 0.2 9999: A program for screen recording of wlroots-based compositors
+gui-wm/cage 0.1.1 9999: wayland kiosk
 gui-wm/hikari 1.2.0: wayland compositor inspired by CWM
 gui-wm/waybox 9999: openbox clone on wayland
 mail-client/mutt-wizard 9999 20200313: A system for automatically configuring mutt and isync
