@@ -5,7 +5,7 @@ EAPI=7
 
 inherit meson
 
-DESCRIPTION="A program for screen recording of wlroots-based compositors"
+DESCRIPTION="simple launcher for wayland"
 HOMEPAGE="https://git.sr.ht/~leon_plickat/lavalauncher"
 
 if [[ ${PV} == 9999 ]]; then
@@ -13,6 +13,7 @@ if [[ ${PV} == 9999 ]]; then
 	EHG_REPO_URI="https://git.sr.ht/~leon_plickat/lavalauncher"
 else
 	SRC_URI="https://git.sr.ht/~leon_plickat/lavalauncher/archive/v${PV}.tar.gz -> ${P}.tar.gz"
+	S="${WORKDIR}/${PN}-v${PV}"
 	KEYWORDS="~amd64 ~arm64 ~x86"
 fi
 
@@ -20,11 +21,12 @@ LICENSE="GPL-3"
 SLOT="0"
 IUSE=""
 
-DEPEND="
-	media-video/ffmpeg
-	media-sound/pulseaudio
+RDEPEND="
+	dev-libs/wayland
+	x11-libs/cairo
 "
 BDEPEND="
+	${RDEPEND}
 	virtual/pkgconfig
 	dev-libs/wayland-protocols
 "
