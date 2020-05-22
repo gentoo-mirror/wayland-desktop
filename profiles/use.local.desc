@@ -7,6 +7,8 @@ dev-libs/libucl:regex - Enable regex support
 dev-libs/libucl:sign - Enable signatures check
 dev-libs/libucl:urls - Enable URLs fetch
 dev-libs/libucl:utils - Install utils for checking other configs
+gui-apps/wf-recorder:man - Build and install man pages.
+gui-apps/wf-recorder:opencl - use opencl to do efficient encoding
 gui-wm/hikari:gamma - add gamma control for redshift
 gui-wm/hikari:layershell - add support for wayland apps using layer shell
 gui-wm/hikari:screencopy - add support for screen grabbing
