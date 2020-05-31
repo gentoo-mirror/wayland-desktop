@@ -1,5 +1,5 @@
-dev-cpp/usockets 0.3.5: Simple, secure & standards compliant web I/O for the most demanding of applications
-dev-cpp/uwebsockets 0.17.4: Simple, secure & standards compliant web I/O for the most demanding of applications
+dev-cpp/usockets 0.4.0: Simple, secure & standards compliant web I/O for the most demanding of applications
+dev-cpp/uwebsockets 0.17.6: Simple, secure & standards compliant web I/O for the most demanding of applications
 dev-libs/libucl 0.8.1 9999: Universal configuration library parser
 dev-python/bokeh 2.0.2: Statistical and interactive HTML plots for Python
 dev-python/colorlover 0.3.0: color scales in python for humans
