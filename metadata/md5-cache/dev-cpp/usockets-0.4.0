@@ -4,11 +4,11 @@ DEPEND=ssl? ( libressl? ( >=dev-libs/libressl-3.0.0:=[static-libs?] ) !libressl?
 DESCRIPTION=Simple, secure & standards compliant web I/O for the most demanding of applications
 EAPI=7
 HOMEPAGE=https://github.com/uNetworking/uSockets
-IUSE=libuv +ssl libressl debug static-libs
+IUSE=libuv +ssl libressl static-libs
 KEYWORDS=~amd64 ~arm64 ~x86
 LICENSE=Apache-2.0
 RDEPEND=ssl? ( libressl? ( >=dev-libs/libressl-3.0.0:=[static-libs?] ) !libressl? ( >=dev-libs/openssl-1.1.0:=[static-libs?] ) ) libuv? ( dev-libs/libuv[static-libs?] )
 SLOT=0
 SRC_URI=https://github.com/uNetworking/uSockets/archive/v0.4.0.tar.gz -> usockets-0.4.0.tar.gz
 _eclasses_=multilib	0914eab919f4f11dd9e0407b92af4726	toolchain-funcs	d3e75048a89c0445838d2f44e5c65d97
-_md5_=f489f657694f98762c4cbcd2b2d8555c
+_md5_=2547dec4b3bf506cfcfc92b1eb46d7d6
