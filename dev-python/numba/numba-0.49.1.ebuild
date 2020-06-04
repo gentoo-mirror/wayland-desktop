@@ -33,8 +33,8 @@ BDEPEND="
 	)
 "
 
+#"${FILESDIR}/numba-skip-tests.patch"
 PATCHES=(
-	"${FILESDIR}/numba-skip-tests.patch"
 	"${FILESDIR}/numba-0.49.1-tbb-check.patch"
 )
 
@@ -46,6 +46,7 @@ python_compile() {
 }
 
 python_test() {
+	distutils_install_for_testing
 	${EPYTHON} -m numba.runtests -vv || die
 }
 
