@@ -18,23 +18,25 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86 ~amd64-linux ~x86-linux"
 IUSE="examples openmp threads"
 
-distutils_enable_tests unittest
-
-RDEPEND="
+DEPEND="
 	>=dev-python/llvmlite-0.32.0[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	openmp? ( virtual/mpi[cxx,threads?] )
-	threads? ( dev-cpp/tbb )
 "
+RDEPEND="${DEPEND}"
 BDEPEND="
-	${RDEPEND}
+	${DEPEND}
+	threads? ( dev-cpp/tbb )
 	test? (
 		sci-libs/scipy[${PYTHON_USEDEP}]
 	)
 "
 
-#"${FILESDIR}/numba-skip-tests.patch"
+DISTUTILS_IN_SOURCE_BUILD=1
+distutils_enable_tests unittest
+
 PATCHES=(
+	"${FILESDIR}/numba-skip-tests.patch"
 	"${FILESDIR}/numba-0.49.1-tbb-check.patch"
 )
 
