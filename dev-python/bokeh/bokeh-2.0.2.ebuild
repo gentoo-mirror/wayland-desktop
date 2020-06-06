@@ -13,9 +13,7 @@ inherit distutils-r1
 DESCRIPTION="Statistical and interactive HTML plots for Python"
 HOMEPAGE="https://bokeh.org/
 	https://github.com/bokeh/bokeh
-	https://pypi.org/project/bokeh/"
-# missing test files in pypi, don't use
-#SRC_URI="https://github.com/bokeh/bokeh/archive/${PV}.tar.gz -> ${P}.tar.gz"
+"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
 LICENSE="BSD"
