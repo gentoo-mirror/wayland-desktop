@@ -17,7 +17,7 @@ HOMEPAGE="https://bokeh.org/
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
 LICENSE="BSD"
-SLOT="0"
+OBSLOT="0"
 KEYWORDS="~amd64 ~x86 ~amd64-linux ~x86-linux"
 IUSE="examples"
 
@@ -43,7 +43,6 @@ RDEPEND="${DEPEND}"
 BDEPEND="
 	${DEPEND}
 	sys-apps/ripgrep[pcre]
-
 	test? (
 		dev-python/beautifulsoup:4[${PYTHON_USEDEP}]
 		dev-python/boto[${PYTHON_USEDEP}]
@@ -78,7 +77,7 @@ PATCHES=(
 python_test() {
 	distutils_install_for_testing
 	# disable tests having network calls
-	# and assertion failers
+	# and assertion failures
 	local SKIP_TESTS=" \
 		not (test_model and test_select) and \
 		not (test___init__ and TestWarnings and test_filters) and \
@@ -91,7 +90,8 @@ python_test() {
 		not test_bundle and \
 		not test_ext \
 	"
-	pytest -m "not sampledata and not selenium" tests/unit -k "${SKIP_TESTS}" -vv || die "unit tests fail with ${EPYTHON}"
+	pytest -m "not sampledata and not selenium" tests/unit -k \
+		   "${SKIP_TESTS}" -vv || die "unit tests fail with ${EPYTHON}"
 }
 
 python_install_all() {
@@ -102,7 +102,7 @@ python_install_all() {
 }
 
 pkg_postinst() {
-	optfeature "integration with amazon services" dev-python/boto
-	optfeature "pypi integration for publishing bokeh build packages" dev-python/twine
-	optfeature "using the js library for integration project integration" net-libs/nodejs
+	optfeature "integration with amazon S3" dev-python/boto
+	optfeature "pypi integration to publish packages" dev-python/twine
+	optfeature "js library usage" net-libs/nodejs
 }
