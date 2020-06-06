@@ -1,0 +1,12 @@
+BDEPEND=dev-util/debootstrap net-misc/rsync app-crypt/gnupg sys-fs/squashfs-tools dev-vcs/git >=dev-lang/go-1.10
+DEFINED_PHASES=-
+DESCRIPTION=image build for lxd and lxc
+EAPI=7
+HOMEPAGE=https://github.com/wizbright/waybox
+KEYWORDS=~amd64 ~x86
+LICENSE=Apache-2.0
+RESTRICT=strip
+SLOT=0
+SRC_URI=https://github.com/lxc/distrobuilder/archive/distrobuilder-1.0.tar.gz
+_eclasses_=golang-base	c57d2c3f9e1a02d0feb8b87c7b689892
+_md5_=befc2927a9aa43aac1820669de5be410
