@@ -6,7 +6,7 @@ dev-python/colorlover 0.3.0: color scales in python for humans
 dev-python/datashader 0.10.0: Data visualization toolchain based on aggregating into a grid
 dev-python/holoviews 1.13.2: Data visualization toolchain based on aggregating into a grid
 dev-python/kmapper 1.2.0: Python implementation of Mapper algorithm for Topological Data Analysis
-dev-python/numba 0.37.0 0.39.0 0.50.0: NumPy aware dynamic Python compiler using LLVM
+dev-python/numba 0.49.1: NumPy aware dynamic Python compiler using LLVM
 dev-python/persim 0.1.2: Distances and representations of persistence diagrams
 dev-python/pot 0.4.0: Python Optimal Transport Library
 dev-python/pynndescent 0.4.2: 
@@ -16,7 +16,7 @@ dev-python/umap-learn 0.4.2: Uniform Manifold Approximation and Projection
 gui-apps/lavalauncher 1.7.1 9999: simple launcher for wayland
 gui-libs/greetd 0.6.1 9999: minimalistic login greeter daemon
 gui-wm/cage 9999: wayland kiosk
-gui-wm/hikari 1.2.0: wayland compositor inspired by CWM
+gui-wm/hikari 2.0.0: wayland compositor inspired by CWM
 gui-wm/waybox 9999: openbox clone on wayland
 mail-client/mutt-wizard 9999 20200313: A system for automatically configuring mutt and isync
 media-libs/wlrobs 9999: obs-studio plugin to screen capture on wlroots compositors
