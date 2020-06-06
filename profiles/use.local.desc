@@ -3,14 +3,7 @@
 # * generated automatically using pmaint *
 
 dev-cpp/usockets:libuv - Enable bindings to use the libuv dispatcher
-dev-libs/libucl:regex - Enable regex support
-dev-libs/libucl:sign - Enable signatures check
-dev-libs/libucl:urls - Enable URLs fetch
-dev-libs/libucl:utils - Install utils for checking other configs
 gui-libs/greetd:man - build and install man pages
-gui-wm/hikari:gamma - add gamma control for redshift
-gui-wm/hikari:layershell - add support for wayland apps using layer shell
-gui-wm/hikari:screencopy - add support for screen grabbing
 mail-client/mutt-wizard:abook - Command line address book for mutt
 mail-client/mutt-wizard:cron - Enables periodic syncing of email
 mail-client/mutt-wizard:gpg - Enables using gpg for email signing and encryption
