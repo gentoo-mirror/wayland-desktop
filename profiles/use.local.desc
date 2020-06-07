@@ -3,6 +3,8 @@
 # * generated automatically using pmaint *
 
 dev-cpp/usockets:libuv - Enable bindings to use the libuv dispatcher
+gui-libs/greetd:man - Build and install man pages
+gui-libs/greetd:systemd - Install the systemd init file
 mail-client/mutt-wizard:abook - Command line address book for mutt
 mail-client/mutt-wizard:cron - Enables periodic syncing of email
 mail-client/mutt-wizard:gpg - Enables using gpg for email signing and encryption
