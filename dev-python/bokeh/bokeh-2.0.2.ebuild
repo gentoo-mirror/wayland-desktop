@@ -17,7 +17,7 @@ HOMEPAGE="https://bokeh.org/
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
 LICENSE="BSD"
-OBSLOT="0"
+SLOT="0"
 KEYWORDS="~amd64 ~x86 ~amd64-linux ~x86-linux"
 IUSE="examples"
 
@@ -42,14 +42,13 @@ DEPEND="
 RDEPEND="${DEPEND}"
 BDEPEND="
 	${DEPEND}
-	sys-apps/ripgrep[pcre]
 	test? (
 		dev-python/beautifulsoup:4[${PYTHON_USEDEP}]
 		dev-python/boto[${PYTHON_USEDEP}]
 		dev-python/colorama[${PYTHON_USEDEP}]
 		dev-python/flaky[${PYTHON_USEDEP}]
 		dev-python/ipython[notebook,${PYTHON_USEDEP}]
-		dev-python/pandas[full-support,${PYTHON_USEDEP}]
+		dev-python/pandas[${PYTHON_USEDEP}]
 		dev-python/pytest[${PYTHON_USEDEP}]
 		dev-python/pytest-asyncio[${PYTHON_USEDEP}]
 		dev-python/pytest-html[${PYTHON_USEDEP}]
@@ -90,7 +89,7 @@ python_test() {
 		not test_bundle and \
 		not test_ext \
 	"
-	pytest -m "not sampledata and not selenium" tests/unit -k \
+	pytest -m "not sampledata" tests/unit -k \
 		   "${SKIP_TESTS}" -vv || die "unit tests fail with ${EPYTHON}"
 }
 
