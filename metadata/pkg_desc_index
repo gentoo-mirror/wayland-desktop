@@ -19,7 +19,6 @@ dev-python/umap-learn 0.4.2: Uniform Manifold Approximation and Projection
 gui-libs/greetd 0.6.1: ipc based login daemon
 gui-wm/cage 9999: wayland kiosk
 gui-wm/waybox 9999: openbox clone on wayland
-mail-client/mutt-wizard 9999 20200313: A system for automatically configuring mutt and isync
 media-libs/wlrobs 9999: obs-studio plugin to screen capture on wlroots compositors
 net-misc/purritobin 0.2.1 9999: minimalistic commanline pastebin
 sci-mathematics/gudhi 3.1.1: An open source C++, python library for Topological Data Analysis
