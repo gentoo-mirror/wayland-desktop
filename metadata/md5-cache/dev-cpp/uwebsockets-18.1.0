@@ -1,4 +1,4 @@
-DEFINED_PHASES=compile install
+DEFINED_PHASES=compile install prepare
 DESCRIPTION=Simple, secure & standards compliant web I/O for the most demanding of applications
 EAPI=7
 HOMEPAGE=https://github.com/uNetworking/uWebSockets
@@ -6,5 +6,5 @@ KEYWORDS=~amd64 ~arm64 ~x86
 LICENSE=Apache-2.0
 RDEPEND=~dev-cpp/usockets-0.4.0
 SLOT=0
-SRC_URI=https://github.com/uNetworking/uWebSockets/archive/v0.17.6.tar.gz -> uwebsockets-0.17.6.tar.gz
-_md5_=3f1e4a10a9a73a97ae09be28dea784da
+SRC_URI=https://github.com/uNetworking/uWebSockets/archive/v18.1.0.tar.gz -> uwebsockets-18.1.0.tar.gz
+_md5_=7f8537f432067695f3c055b36a12e2bc
