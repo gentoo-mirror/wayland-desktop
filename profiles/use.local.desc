@@ -3,8 +3,8 @@
 # * generated automatically using pmaint *
 
 dev-cpp/usockets:libuv - Enable bindings to use the libuv dispatcher
+gui-apps/gtkgreet:layershell - Enable layer shell support
 gui-apps/gtkgreet:man - Build and install man pages
-gui-apps/gtkgreet:systemd - Install the systemd init file
 gui-libs/greetd:man - Build and install man pages
 gui-libs/greetd:systemd - Install the systemd init file
 net-misc/purritobin:libuv - use libuv to do async operations, instead of linux kernels epoll
