@@ -2,12 +2,10 @@
 # Please add your descriptions to your package's metadata.xml ONLY.
 # * generated automatically using pmaint *
 
-dev-cpp/usockets:libuv - Enable bindings to use the libuv dispatcher
 gui-apps/gtkgreet:layershell - Enable layer shell support
 gui-apps/gtkgreet:man - Build and install man pages
 gui-libs/greetd:man - Build and install man pages
 gui-libs/greetd:systemd - Install the systemd init file
 gui-wm/cage:man - Build and install man pages
-net-misc/purritobin:libuv - use libuv to do async operations, instead of linux kernels epoll
 sci-mathematics/ripser:progress - print progress of calculations in console
 sci-mathematics/ripser:sparsehash - use google sparsehash for storage
