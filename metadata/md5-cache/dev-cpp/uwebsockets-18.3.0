@@ -6,5 +6,5 @@ KEYWORDS=~amd64 ~arm64 ~x86
 LICENSE=Apache-2.0
 RDEPEND=~dev-cpp/usockets-0.4.0
 SLOT=0
-SRC_URI=https://github.com/uNetworking/uWebSockets/archive/v18.1.0.tar.gz -> uwebsockets-18.1.0.tar.gz
+SRC_URI=https://github.com/uNetworking/uWebSockets/archive/v18.3.0.tar.gz -> uwebsockets-18.3.0.tar.gz
 _md5_=7f8537f432067695f3c055b36a12e2bc

@@ -3,7 +3,7 @@ acct-user/greetd 0: User for gui-libs/greetd
 app-emulation/distrobuilder 1.0: image build for lxd and lxc
 app-text/scdoc 1.9.3-r1 1.10.0 1.10.1 9999: Standalone tool for generating man pages with a simple syntax
 dev-cpp/usockets 0.4.0: Simple, secure & standards compliant web I/O for the most demanding of applications
-dev-cpp/uwebsockets 18.1.0: Simple, secure & standards compliant web I/O for the most demanding of applications
+dev-cpp/uwebsockets 18.3.0: Simple, secure & standards compliant web I/O for the most demanding of applications
 dev-python/bokeh 2.0.2: Statistical and interactive HTML plots for Python
 dev-python/colorlover 0.3.0: color scales in python for humans
 dev-python/datashader 0.10.0: Data visualization toolchain based on aggregating into a grid
