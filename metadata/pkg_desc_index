@@ -18,7 +18,7 @@ dev-python/ripser 0.4.1:
 dev-python/umap-learn 0.4.2: Uniform Manifold Approximation and Projection
 gui-apps/gtkgreet 0.6 9999: gtk based greeter for greetd
 gui-libs/greetd 0.6.1: ipc based login daemon
-gui-wm/cage 9999: wayland kiosk
+gui-wm/cage 0.1.1_p20200531 9999: wayland kiosk
 gui-wm/waybox 9999: openbox clone on wayland
 media-libs/wlrobs 9999: obs-studio plugin to screen capture on wlroots compositors
 net-misc/purritobin 0.2.1 9999: minimalistic commanline pastebin
