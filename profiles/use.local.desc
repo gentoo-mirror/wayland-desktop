@@ -6,6 +6,9 @@ dev-libs/aml:examples - Build and install examples
 gui-libs/neatvnc:examples - Build and install examples
 gui-libs/neatvnc:jpeg - Enable fast encodings
 gui-libs/neatvnc:tracing - Trace kernel and memory calls
+gui-libs/wayland-logout:c - install compiled c version
+gui-libs/wayland-logout:python - install python script
+gui-libs/wayland-logout:shell - install shell script
 gui-wm/cage:man - Build and install man pages
 sci-mathematics/ripser:progress - print progress of calculations in console
 sci-mathematics/ripser:sparsehash - use google sparsehash for storage
