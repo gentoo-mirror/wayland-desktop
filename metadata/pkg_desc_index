@@ -11,8 +11,9 @@ dev-python/pot 0.4.0: Python Optimal Transport Library
 dev-python/pynndescent 0.4.8: nearest neighbor descent for approximate nearest neighbors
 dev-python/ripser 0.4.1: python frontend for the fast ripser tda tool
 dev-python/umap-learn 0.4.2: Uniform Manifold Approximation and Projection
-gui-apps/azote 1.7.12 9999: wallpaper manager for wlroots compositors
+gui-apps/azote 1.7.14 9999: wallpaper manager for wlroots compositors
 gui-apps/wayvnc 0.1.2_p1 9999: VNC server for wlroots based Wayland compositors
+gui-apps/wlr-randr 0.1.0 9999: xrandr clone for wlroots compositors
 gui-libs/neatvnc 0.1.0_p1 9999: liberally licensed VNC server library with a clean interface
 gui-libs/wayland-logout 1.0 9999: general logout scripts for wayland compositors
 gui-wm/cage 0.1.1_p20200531 9999: wayland kiosk
