@@ -16,7 +16,7 @@ gui-apps/wayvnc 0.1.2_p1 9999: VNC server for wlroots based Wayland compositors
 gui-apps/wlr-randr 0.1.0 9999: xrandr clone for wlroots compositors
 gui-libs/neatvnc 0.1.0_p1 9999: liberally licensed VNC server library with a clean interface
 gui-libs/wayland-logout 1.0 9999: general logout scripts for wayland compositors
-gui-wm/cage 0.1.1_p20200531 9999: wayland kiosk
+gui-wm/cage 0.1.2.1 9999: wayland kiosk
 gui-wm/waybox 9999: openbox clone on wayland
 sci-mathematics/gudhi 3.1.1: An open source C++, python library for Topological Data Analysis
 sci-mathematics/ripser 1.1: efficient computation of Vietoris–Rips persistence barcodes
