@@ -13,5 +13,3 @@ gui-libs/wayland-logout:c - install compiled c version
 gui-libs/wayland-logout:python - install python script
 gui-libs/wayland-logout:shell - install shell script
 gui-wm/cage:man - Build and install man pages
-sci-mathematics/ripser:progress - print progress of calculations in console
-sci-mathematics/ripser:sparsehash - use google sparsehash for storage
