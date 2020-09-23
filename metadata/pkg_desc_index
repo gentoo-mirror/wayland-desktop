@@ -1,12 +1,10 @@
 app-emulation/distrobuilder 1.0: image build for lxd and lxc
 dev-libs/aml 0_pre20200521 9999: event timer executor loop
-dev-python/POT 0.7.0: Python Optimal Transport Library
 dev-python/bokeh 2.0.2: Statistical and interactive HTML plots for Python
 dev-python/colorlover 0.3.0: color scales in python for humans
 dev-python/datashader 0.10.0: Data visualization toolchain based on aggregating into a grid
 dev-python/holoviews 1.13.2: Data visualization toolchain based on aggregating into a grid
 dev-python/persim 0.1.2: Distances and representations of persistence diagrams
-dev-python/pot 0.4.0: Python Optimal Transport Library
 dev-python/pynndescent 0.4.8: nearest neighbor descent for approximate nearest neighbors
 dev-python/ripser 0.4.1: python frontend for the fast ripser tda tool
 dev-python/umap-learn 0.4.2: Uniform Manifold Approximation and Projection
