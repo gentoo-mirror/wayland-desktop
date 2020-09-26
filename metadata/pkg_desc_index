@@ -1,13 +1,5 @@
 app-emulation/distrobuilder 1.0: image build for lxd and lxc
 dev-libs/aml 0_pre20200521 9999: event timer executor loop
-dev-python/bokeh 2.0.2: Statistical and interactive HTML plots for Python
-dev-python/colorlover 0.3.0: color scales in python for humans
-dev-python/datashader 0.10.0: Data visualization toolchain based on aggregating into a grid
-dev-python/holoviews 1.13.2: Data visualization toolchain based on aggregating into a grid
-dev-python/persim 0.1.2: Distances and representations of persistence diagrams
-dev-python/pynndescent 0.4.8: nearest neighbor descent for approximate nearest neighbors
-dev-python/ripser 0.4.1: python frontend for the fast ripser tda tool
-dev-python/umap-learn 0.4.2: Uniform Manifold Approximation and Projection
 gui-apps/azote 1.7.14 9999: wallpaper manager for wlroots compositors
 gui-apps/wayvnc 0.1.2_p1 9999: VNC server for wlroots based Wayland compositors
 gui-apps/wlr-randr 0.1.0 9999: xrandr clone for wlroots compositors
@@ -15,4 +7,3 @@ gui-libs/neatvnc 0.1.0_p1 9999: liberally licensed VNC server library with a cle
 gui-libs/wayland-logout 1.0 9999: general logout scripts for wayland compositors
 gui-wm/cage 0.1.2.1 9999: wayland kiosk
 gui-wm/waybox 9999: openbox clone on wayland
-sci-mathematics/gudhi 3.3.0: An open source C++, python library for Topological Data Analysis
