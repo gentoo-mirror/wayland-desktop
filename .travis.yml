@@ -36,5 +36,4 @@ before_script:
     - ln -s /var/db/repos/gentoo/profiles/default/linux/amd64/17.0 /etc/portage/make.profile
     - cd travis-overlay
 script:
-    - ls -la && pwd && ls -la ../ && ls -ls ../../ && .travis/travis_ci.sh 
-
+    - .travis/travis_ci.sh
