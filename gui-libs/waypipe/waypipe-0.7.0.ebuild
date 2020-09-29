@@ -15,7 +15,7 @@ if [[ ${PV} == 9999 ]]; then
 else
 	SRC_URI="https://gitlab.freedesktop.org/mstoeckl/waypipe/-/archive/v${PV}/${PN}-v${PV}.tar.gz -> ${P}.tar.gz"
 	S="${WORKDIR}"/${PN}-v${PV}
-	KEYWORDS="~amd64 ~arm64 ~x86"
+	KEYWORDS="~amd64 ~x86"
 fi
 
 LICENSE="MIT"
@@ -32,7 +32,7 @@ RDEPEND="${DEPEND}
 "
 BDEPEND="
 	dev-libs/wayland
-	virtual/pkg-config
+	virtual/pkgconfig
 "
 
 src_configure() {
