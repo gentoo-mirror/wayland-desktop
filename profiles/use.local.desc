@@ -12,7 +12,7 @@ gui-libs/neatvnc:tracing - Trace kernel and memory calls
 gui-libs/wayland-logout:c - install compiled c version
 gui-libs/wayland-logout:python - install python script
 gui-libs/wayland-logout:shell - install shell script
-gui-libs/waypipe:c - install compiled c version
-gui-libs/waypipe:python - install python script
-gui-libs/waypipe:shell - install shell script
+gui-libs/waypipe:dmabuf - use dmabuf for data exchange
+gui-libs/waypipe:man - build man pages
+gui-libs/waypipe:video - link with ffmpeg
 gui-wm/cage:man - Build and install man pages
