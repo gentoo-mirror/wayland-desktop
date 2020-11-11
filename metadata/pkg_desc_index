@@ -1,4 +1,3 @@
-app-emulation/distrobuilder 1.0: image build for lxd and lxc
 dev-libs/aml 0_pre20200521 9999: event timer executor loop
 gui-apps/azote 1.7.14 9999: wallpaper manager for wlroots compositors
 gui-apps/desq-polkit 0_p20201029 9999: polkit auth backend for DesQ
