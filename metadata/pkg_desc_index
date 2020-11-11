@@ -4,7 +4,6 @@ gui-apps/desq-polkit 0_p20201029 9999: polkit auth backend for DesQ
 gui-apps/desq-session 0_p20201110 9999: session manager for DesQ
 gui-apps/desq-settings 0_p20201101 9999: main user interface shell for DesQ
 gui-apps/desq-shell 0_p20201110 9999: main user interface shell for DesQ
-gui-apps/paperdesktop 0_p20201107 9999: main user interface shell for DesQ
 gui-apps/wayvnc 0.1.2_p1 9999: VNC server for wlroots based Wayland compositors
 gui-apps/wlr-randr 0.1.0 9999: xrandr clone for wlroots compositors
 gui-libs/libdesq 0_p20201105 9999: DesQ library for X/Wayland protocol handling
