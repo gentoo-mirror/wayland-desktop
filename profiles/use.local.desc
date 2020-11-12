@@ -3,9 +3,6 @@
 # * generated automatically using pmaint *
 
 dev-libs/aml:examples - Build and install examples
-gui-apps/azote:imagemagick - enable colorpicker using imagemagick
-gui-apps/azote:simple-colorpicker - enable colorpicker without imagemagick
-gui-apps/azote:yaml - enable support for reading yaml files
 gui-apps/swaylock-effects:fish-completion - Enable fish completion support
 gui-apps/swaylock-effects:gdk-pixbuf - Enable additional image format support via the x11-libs/gdk-pixbuf library
 gui-apps/swaylock-effects:man - Build and install man pages
