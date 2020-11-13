@@ -5,6 +5,10 @@ inherit xdg-utils
 DESCRIPTION="meta package for a simple wayfire DE"
 HOMEPAGE="https://github.com/"
 
+if [[ "${PV}" != *9999 ]]; then
+KEYWORDS="~amd64"
+fi
+
 S="${WORKDIR}"
 LICENSE="ISC"
 SLOT="0"
@@ -40,6 +44,8 @@ src_install() {
 	insinto /usr/share/wayfire-de
 	doins -r "${sdir}"/wayfire-de_configs/.
 	doins "${FILESDIR}"/default_wallpaper
+	exeinto /usr/share/wayfire-de
+	doexe "${sdir}"/wallpaper_rotate
 }
 
 pkg_postinst() {
