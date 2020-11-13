@@ -1,9 +1,0 @@
-DEFINED_PHASES=install postinst postrm
-DESCRIPTION=meta package for a simple wayfire DE
-EAPI=7
-HOMEPAGE=https://github.com/
-LICENSE=ISC
-RDEPEND=dev-libs/light gui-apps/oguri gui-apps/grim gui-apps/mako gui-apps/nwg-launchers gui-apps/slurp gui-apps/swaylock-effects gui-apps/wl-clipboard gui-apps/wayland-logout gui-wm/wayfire x11-themes/beautyline-icon-theme x11-themes/candy-icon-theme x11-themes/oie-icon-theme x11-themes/sweet-folders-icon-theme x11-themes/sweet-dark-gtk-theme
-SLOT=0
-_eclasses_=xdg-utils	ff2ff954e6b17929574eee4efc5152ba
-_md5_=3a2962b7ab538c7d3c37f9d7622c6077
