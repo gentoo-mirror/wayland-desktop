@@ -3,6 +3,7 @@ gui-apps/desq-polkit 0_p20201029 9999: polkit auth backend for DesQ
 gui-apps/desq-session 0_p20201110 9999: session manager for DesQ
 gui-apps/desq-settings 0_p20201101 9999: main user interface shell for DesQ
 gui-apps/desq-shell 0_p20201110 9999: main user interface shell for DesQ
+gui-apps/nwg-launchers 0.4.2-r2 9999: simple gtk launchers for X and wlroots compositors
 gui-apps/oguri 0_p20201102 9999: animated wallpaper daemon for Wayland compositors
 gui-apps/swaylock-effects 1.6.2 9999: Screen locker for Wayland
 gui-apps/wayfire-de 2 9999: meta package for a simple wayfire DE
