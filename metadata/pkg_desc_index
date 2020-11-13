@@ -11,7 +11,6 @@ gui-libs/libdesq 0_p20201105 9999: DesQ library for X/Wayland protocol handling
 gui-libs/libdesqui 0_p20201021 9999: DesQ library for UI elements
 gui-libs/libdesqwl 0_p20201110 9999: DesQ library for additional Wayland protocol handling
 gui-libs/neatvnc 0.1.0_p1 9999: liberally licensed VNC server library with a clean interface
-gui-libs/wayland-logout 1.0 9999: general logout scripts for wayland compositors
 gui-libs/waypipe 0.7.0: network transparency with Wayland
 gui-wm/cage 0.1.2.1 9999: wayland kiosk
 gui-wm/waybox 9999: openbox clone on wayland

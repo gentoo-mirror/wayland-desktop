@@ -7,4 +7,4 @@ LICENSE=GPL-3
 SLOT=0
 SRC_URI=https://github.com/EliverLara/Sweet-folders/archive/d50fbe3d93df4c494958c773b681ab36049935a1.tar.gz -> sweet-folders-icon-theme-0_pre20200227.tar.gz
 _eclasses_=xdg-utils	ff2ff954e6b17929574eee4efc5152ba
-_md5_=0a644628ed4ccbca7bdb3ebeefac69e6
+_md5_=9981f4e615ff08c85266ed68eaf2a5bb

@@ -7,4 +7,4 @@ LICENSE=GPL-3
 SLOT=0
 SRC_URI=https://github.com/EliverLara/candy-icons/archive/4c80adb4630fb75c16ce2c94be7614e6d45f35ba.tar.gz -> candy-icon-theme-0_pre20201031.tar.gz
 _eclasses_=xdg-utils	ff2ff954e6b17929574eee4efc5152ba
-_md5_=51ed0ccb9e4e46c888c90df8d538f8dc
+_md5_=6620ddbc4bd0673bcc97916e4ece45fd
