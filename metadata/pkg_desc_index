@@ -14,7 +14,7 @@ gui-libs/libdesqui 0_p20201021 9999: DesQ library for UI elements
 gui-libs/libdesqwl 0_p20201110 9999: DesQ library for additional Wayland protocol handling
 gui-libs/love-nuklear 2.6.1: lightweight immediate mode GUI for love games
 gui-libs/neatvnc 0.1.0_p1 9999: liberally licensed VNC server library with a clean interface
-gui-libs/nuklear 4.06.1: single-header ANSI C cross platform GUI library
+gui-libs/nuklear 4.06.1-r1: single-header ANSI C cross platform GUI library
 gui-libs/waypipe 0.7.0: network transparency with Wayland
 gui-libs/westeros 9999: wayland compositing library
 gui-wm/cage 0.1.2.1 9999: wayland kiosk

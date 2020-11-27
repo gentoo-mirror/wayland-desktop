@@ -9,4 +9,4 @@ LICENSE=MIT Unlicense
 SLOT=1/2
 SRC_URI=https://github.com/Immediate-Mode-UI/Nuklear/archive/74a4df4eb965150ede86fefa6c147476541078a4.tar.gz -> nuklear-4.06.1.tar.gz
 _eclasses_=font	dd073b36fe3fd8b868c23bc23209db45
-_md5_=5df3a6d1d51386a93180e6c5050eba02
+_md5_=828faa1ab29174428517244255f391c9
