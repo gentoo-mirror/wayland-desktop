@@ -8,7 +8,6 @@ gui-apps/nwg-launchers 0.4.2-r2 9999: simple gtk launchers for X and wlroots com
 gui-apps/oguri 0_p20201102 9999: animated wallpaper daemon for Wayland compositors
 gui-apps/swappy 1.2.1 9999: wayland native snapshot editing tool
 gui-apps/swaylock-effects 1.6.2 9999: Screen locker for Wayland
-gui-apps/wayfire-de 3 9999: meta package for a simple wayfire DE
 gui-apps/wayvnc 0.1.2_p1 9999: VNC server for wlroots based Wayland compositors
 gui-libs/libdesq 0_p20201105 9999: DesQ library for X/Wayland protocol handling
 gui-libs/libdesqui 0_p20201021 9999: DesQ library for UI elements
