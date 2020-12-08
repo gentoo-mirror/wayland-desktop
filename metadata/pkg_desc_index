@@ -1,4 +1,7 @@
 dev-libs/aml 0_pre20200521 9999: event timer executor loop
+dev-libs/liri-cmake-shared 0_pre20201011 9999: shared cmake configuration utils for liri
+dev-libs/liri-qtaccountsservice 1.3.0_p20201011 9999: Qt-style API for AccountsService DBus service
+dev-libs/liri-qtgsettings 1.3.0_p20200913 9999: Qt wrapper for GSettings for Liri
 dev-libs/rax 1.2 9999: radix tree implementation in ANSI C
 gui-apps/desq-polkit 0_p20201029 9999: polkit auth backend for DesQ
 gui-apps/desq-session 0_p20201110 9999: session manager for DesQ
@@ -6,12 +9,16 @@ gui-apps/desq-settings 0_p20201101 9999: main user interface shell for DesQ
 gui-apps/desq-shell 0_p20201110 9999: main user interface shell for DesQ
 gui-apps/nwg-launchers 0.4.2-r2 9999: simple gtk launchers for X and wlroots compositors
 gui-apps/oguri 0_p20201102 9999: animated wallpaper daemon for Wayland compositors
+gui-apps/pico-wayfire 9999: dotfiles for creating a consistent look on wayfire
 gui-apps/swappy 1.2.1 9999: wayland native snapshot editing tool
 gui-apps/swaylock-effects 1.6.2 9999: Screen locker for Wayland
 gui-apps/wayvnc 0.1.2_p1 9999: VNC server for wlroots based Wayland compositors
 gui-libs/libdesq 0_p20201105 9999: DesQ library for X/Wayland protocol handling
 gui-libs/libdesqui 0_p20201021 9999: DesQ library for UI elements
 gui-libs/libdesqwl 0_p20201110 9999: DesQ library for additional Wayland protocol handling
+gui-libs/libliri 0_pre20201205 9999: Liri core library
+gui-libs/liri-fluid 1.2.1_p20201011 9999: Liri library for QtQuick apps with Material Design
+gui-libs/liri-wayland 0_pre20201205 9999: Liri wayland client and server extensions
 gui-libs/love-nuklear 2.6.1: lightweight immediate mode GUI for love games
 gui-libs/neatvnc 0.1.0_p1 9999: liberally licensed VNC server library with a clean interface
 gui-libs/nuklear 4.06.1-r1: single-header ANSI C cross platform GUI library
