@@ -12,7 +12,7 @@ gui-apps/oguri 0_p20201102 9999: animated wallpaper daemon for Wayland composito
 gui-apps/pico-wayfire 9999: dotfiles for creating a consistent look on wayfire
 gui-apps/swappy 1.2.1 9999: wayland native snapshot editing tool
 gui-apps/swaylock-effects 1.6.2 9999: Screen locker for Wayland
-gui-apps/waypipe 0.7.0: network transparency with Wayland
+gui-apps/waypipe 0.7.0 0.7.1 9999: network transparency with Wayland
 gui-apps/wayvnc 0.1.2_p1 9999: VNC server for wlroots based Wayland compositors
 gui-libs/libdesq 0_p20201105 9999: DesQ library for X/Wayland protocol handling
 gui-libs/libdesqui 0_p20201021 9999: DesQ library for UI elements
