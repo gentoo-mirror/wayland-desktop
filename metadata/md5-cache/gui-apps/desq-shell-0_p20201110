@@ -9,5 +9,5 @@ LICENSE=GPL-3
 RDEPEND=dev-libs/libdbusmenu-qt dev-qt/qtcore:5 dev-qt/qtgui:5 dev-qt/qtwidgets:5 dev-qt/qtsvg:5 gui-libs/libdesq:= gui-libs/libdesqwl:= gui-libs/libdesqui:= x11-misc/qt5ct
 SLOT=0
 SRC_URI=https://gitlab.com/DesQ/Shell/-/archive/29820a7f4723df9933aa6752704f1574ee1a9406/Shell-29820a7f4723df9933aa6752704f1574ee1a9406.tar.gz -> desq-shell-0_p20201110.tar.gz
-_eclasses_=multilib	d410501a125f99ffb560b0c523cd3d1e	qmake-utils	dc74fe3891abc25e80dad5cd3d7c6e47	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb
+_eclasses_=multilib	d410501a125f99ffb560b0c523cd3d1e	qmake-utils	dc74fe3891abc25e80dad5cd3d7c6e47	toolchain-funcs	1a94dc06d324bd0dab754e11abe6d27e
 _md5_=aed3007bc10d988cd567b2d70cde1007
