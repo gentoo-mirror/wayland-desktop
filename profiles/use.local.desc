@@ -14,7 +14,6 @@ gui-apps/waypipe:dmabuf - Use dmabuf for data exchange and hardware decoding
 gui-apps/waypipe:ffmpeg - Link with ffmpeg for software decoding
 gui-apps/waypipe:man - Build and install man pages
 gui-apps/waypipe:systemtap - Enable SystemTAP/DTrace tracing
-gui-libs/love-nuklear:extras - install fonts shipped with package
 gui-libs/neatvnc:examples - Build and install examples
 gui-libs/neatvnc:jpeg - Enable fast encodings
 gui-libs/neatvnc:tracing - Trace kernel and memory calls
