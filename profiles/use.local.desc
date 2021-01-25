@@ -2,7 +2,6 @@
 # Please add your descriptions to your package's metadata.xml ONLY.
 # * generated automatically using pmaint *
 
-dev-libs/aml:examples - Build and install examples
 gui-apps/nwg-launchers:bar - Installs nwgbar, a horizontal or vertical button bar.
 gui-apps/nwg-launchers:dmenu - Installs nwgdmenu, GTK dynamic menu windows.
 gui-apps/nwg-launchers:grid - Installs nwggrid, a GNOME-like application grid.
@@ -10,14 +9,6 @@ gui-apps/swappy:man - Build and install man pages
 gui-apps/swaylock-effects:fish-completion - Enable fish completion support
 gui-apps/swaylock-effects:gdk-pixbuf - Enable additional image format support via the x11-libs/gdk-pixbuf library
 gui-apps/swaylock-effects:man - Build and install man pages
-gui-apps/waypipe:dmabuf - Use dmabuf for data exchange and hardware decoding
-gui-apps/waypipe:ffmpeg - Link with ffmpeg for software decoding
-gui-apps/waypipe:man - Build and install man pages
-gui-apps/waypipe:systemtap - Enable SystemTAP/DTrace tracing
-gui-libs/neatvnc:examples - Build and install examples
-gui-libs/neatvnc:jpeg - Enable fast encodings
-gui-libs/neatvnc:tracing - Trace kernel and memory calls
 gui-libs/nuklear:extras - install fonts shipped with package
-gui-wm/cage:man - Build and install man pages
 x11-themes/bibata-cursor-theme:modern - install modern variants of theme
 x11-themes/bibata-cursor-theme:original - install original variation theme
