@@ -27,6 +27,8 @@ src_prepare() {
 	mv mimetypes/scalable/application-vnd.oasis.opendocument.text-master.svg{ln,} || die
 	rm apps/scalable/goa-account-msn* || die
 	sed -e "/^Inherits/d" -i index.theme || die
+	# gentoo specific changes
+	ln -s Zoom.svg "${S}"/apps/scalable/zoom-videocam.svg || die
 }
 
 src_install() {

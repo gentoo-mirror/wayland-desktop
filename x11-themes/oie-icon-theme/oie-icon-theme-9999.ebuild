@@ -25,6 +25,8 @@ src_prepare() {
 	default
 	sed -e "/^Inherits/d" -i OieIcons/index.theme || die
 	find . -xtype l -delete || die
+	# gentoo specific
+	ln -s thunderbird.svg "${S}"/OieIcons/scalable/apps/thunderbird-bin.svg || die
 }
 
 src_install() {
