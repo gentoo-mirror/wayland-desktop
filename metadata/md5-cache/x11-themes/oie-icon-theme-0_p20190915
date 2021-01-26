@@ -7,4 +7,4 @@ LICENSE=LGPL-3
 SLOT=0
 SRC_URI=https://www.opencode.net/adhe/oieicons/-/archive/2231c0d5e578933d9803b8e77701de67d88c2e92/oieicons-2231c0d5e578933d9803b8e77701de67d88c2e92.tar.gz -> oie-icon-theme-0_p20190915.tar.gz
 _eclasses_=xdg-utils	ff2ff954e6b17929574eee4efc5152ba
-_md5_=c831e666d6216c947e73d31aba040445
+_md5_=f27d00c2e356ae006356a9c125030e74

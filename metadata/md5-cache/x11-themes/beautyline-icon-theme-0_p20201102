@@ -8,4 +8,4 @@ RESTRICT=fetch
 SLOT=0
 SRC_URI=BeautyLine.tar.gz
 _eclasses_=xdg-utils	ff2ff954e6b17929574eee4efc5152ba
-_md5_=5c8062e71187c0c083ec730fcb0f6e5d
+_md5_=0b5840e047353eb9bd24966ca1f1aa5c
