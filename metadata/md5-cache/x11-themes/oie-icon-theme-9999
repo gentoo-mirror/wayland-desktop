@@ -1,10 +1,12 @@
 BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
-DEFINED_PHASES=install postinst postrm prepare unpack
+DEFINED_PHASES=install postinst postrm preinst prepare unpack
+DEPEND=dev-util/desktop-file-utils x11-misc/shared-mime-info
 DESCRIPTION=OieIcons Theme
 EAPI=7
 HOMEPAGE=https://www.opencode.net/adhe/oieicons
+IUSE=+no-inherit
 LICENSE=LGPL-3
 PROPERTIES=live
 SLOT=0
-_eclasses_=git-r3	3e7ec3d6619213460c85e2aa48398441	xdg-utils	ff2ff954e6b17929574eee4efc5152ba
-_md5_=f27d00c2e356ae006356a9c125030e74
+_eclasses_=git-r3	3e7ec3d6619213460c85e2aa48398441	xdg	c7ba313ea1eaf266f95cc6235f7d6a07	xdg-utils	ff2ff954e6b17929574eee4efc5152ba
+_md5_=ea5b8f686a769f7a26ffa510a578f061

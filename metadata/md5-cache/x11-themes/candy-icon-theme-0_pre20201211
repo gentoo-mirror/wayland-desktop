@@ -1,10 +1,12 @@
-DEFINED_PHASES=install postinst postrm prepare
+DEFINED_PHASES=install postinst postrm preinst prepare
+DEPEND=dev-util/desktop-file-utils x11-misc/shared-mime-info
 DESCRIPTION=sweet gradient icons
 EAPI=7
 HOMEPAGE=https://github.com/EliverLara/candy-icons
+IUSE=+no-inherit
 KEYWORDS=~amd64
 LICENSE=GPL-3
 SLOT=0
 SRC_URI=https://github.com/EliverLara/candy-icons/archive/1bc770ee96ce2aa8e333262c9f4db480ff434e53.tar.gz -> candy-icon-theme-0_pre20201211.tar.gz
-_eclasses_=xdg-utils	ff2ff954e6b17929574eee4efc5152ba
-_md5_=8a8c94bface531db41efced0ee4d6e05
+_eclasses_=xdg	c7ba313ea1eaf266f95cc6235f7d6a07	xdg-utils	ff2ff954e6b17929574eee4efc5152ba
+_md5_=9578fd9e98abab393a84f7645dcea309

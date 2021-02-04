@@ -1,11 +1,11 @@
 BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
-DEFINED_PHASES=compile unpack
+DEFINED_PHASES=configure unpack
 DESCRIPTION=dotfiles for creating a consistent look on wayfire
 EAPI=7
 HOMEPAGE=https://github.com/bsd-ac/pico-wayfire
-LICENSE=GPL-3 ISC CC-BY-NC-ND-3.0
+LICENSE=CC-BY-NC-ND-3.0 GPL-3 ISC
 PROPERTIES=live
-RDEPEND=dev-libs/light gui-apps/grim gui-apps/mako gui-apps/nwg-launchers[bar,dmenu,grid] gui-apps/slurp gui-apps/swappy[libnotify] gui-apps/swaylock-effects[gdk-pixbuf] gui-apps/waybar[network,popups,pulseaudio,tray] gui-apps/wayland-logout gui-apps/wcm gui-apps/wf-shell gui-apps/wl-clipboard gui-wm/wayfire media-fonts/anonymous-pro media-fonts/fira-code media-fonts/fontawesome[otf,ttf] media-fonts/joypixels x11-terms/terminator x11-themes/bibata-cursor-theme[modern] x11-themes/beautyline-icon-theme x11-themes/candy-icon-theme x11-themes/oie-icon-theme x11-themes/pico-wayfire-icon-theme x11-themes/sweet-folders-icon-theme x11-themes/sweet-dark-gtk-theme
+RDEPEND=dev-libs/light gui-apps/grim gui-apps/mako gui-apps/nwg-launchers[bar,dmenu,grid] gui-apps/slurp gui-apps/swappy[libnotify] gui-apps/swaylock-effects[gdk-pixbuf] gui-apps/waybar[network,popups,pulseaudio,tray,wifi(+)] gui-apps/wayland-logout gui-apps/wcm gui-apps/wf-shell gui-apps/wl-clipboard gui-libs/wayfire-plugins-extra media-fonts/fira-code media-fonts/fontawesome[otf,ttf] || ( media-fonts/noto-emoji media-fonts/joypixels ) media-fonts/noto media-fonts/powerline-symbols x11-terms/terminator x11-themes/bibata-cursor-theme[modern] x11-themes/pico-wayfire-icon-theme x11-themes/sweet-dark-gtk-theme
 SLOT=0
-_eclasses_=git-r3	3e7ec3d6619213460c85e2aa48398441	xdg-utils	ff2ff954e6b17929574eee4efc5152ba
-_md5_=b371aa5e68d308ad6feb4942b17111ef
+_eclasses_=git-r3	3e7ec3d6619213460c85e2aa48398441
+_md5_=579d031ccf2a06123724590b45b777c0

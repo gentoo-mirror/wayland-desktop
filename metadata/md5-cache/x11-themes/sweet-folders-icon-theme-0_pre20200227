@@ -1,10 +1,12 @@
-DEFINED_PHASES=install postinst postrm prepare
+DEFINED_PHASES=install postinst postrm preinst prepare
+DEPEND=dev-util/desktop-file-utils x11-misc/shared-mime-info
 DESCRIPTION=sweet gradient icons
 EAPI=7
 HOMEPAGE=https://github.com/EliverLara/Sweet-folders
+IUSE=+no-inherit
 KEYWORDS=~amd64
 LICENSE=GPL-3
 SLOT=0
 SRC_URI=https://github.com/EliverLara/Sweet-folders/archive/d50fbe3d93df4c494958c773b681ab36049935a1.tar.gz -> sweet-folders-icon-theme-0_pre20200227.tar.gz
-_eclasses_=xdg-utils	ff2ff954e6b17929574eee4efc5152ba
-_md5_=311568f73ed08a42400b99490ffdeb9e
+_eclasses_=xdg	c7ba313ea1eaf266f95cc6235f7d6a07	xdg-utils	ff2ff954e6b17929574eee4efc5152ba
+_md5_=9064ec2095b186439e0e31591c4fe1c6

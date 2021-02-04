@@ -1,11 +1,12 @@
-DEFINED_PHASES=install postinst postrm prepare pretend
+DEFINED_PHASES=install postinst postrm preinst prepare pretend
+DEPEND=dev-util/desktop-file-utils x11-misc/shared-mime-info
 DESCRIPTION=BeautyLine Icons Theme
 EAPI=7
 HOMEPAGE=https://www.gnome-look.org/p/1425426
+IUSE=+no-inherit
 KEYWORDS=~amd64
 LICENSE=all-rights-reserved
-RESTRICT=fetch
 SLOT=0
-SRC_URI=BeautyLine.tar.gz
-_eclasses_=xdg-utils	ff2ff954e6b17929574eee4efc5152ba
-_md5_=0b5840e047353eb9bd24966ca1f1aa5c
+SRC_URI=https://bsd.ac/gentoo-distfiles/beautyline-icon-theme-0_p20201102.tar.gz
+_eclasses_=xdg	c7ba313ea1eaf266f95cc6235f7d6a07	xdg-utils	ff2ff954e6b17929574eee4efc5152ba
+_md5_=5d79d6d025443d86696182415f3a4e92

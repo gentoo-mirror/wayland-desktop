@@ -1,10 +1,12 @@
 BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
-DEFINED_PHASES=install postinst postrm unpack
+DEFINED_PHASES=install postinst postrm preinst prepare unpack
+DEPEND=dev-util/desktop-file-utils x11-misc/shared-mime-info
 DESCRIPTION=meta icon theme for pico-wayfire
 EAPI=7
 HOMEPAGE=https://github.com/bsd-ac/pico-wayfire-icon-theme
 LICENSE=ISC
 PROPERTIES=live
+RDEPEND=x11-themes/adwaita-icon-theme x11-themes/beautyline-icon-theme x11-themes/candy-icon-theme x11-themes/hicolor-icon-theme x11-themes/oie-icon-theme
 SLOT=0
-_eclasses_=git-r3	3e7ec3d6619213460c85e2aa48398441	xdg-utils	ff2ff954e6b17929574eee4efc5152ba
-_md5_=33139baae2113066a3c7dce5cee422b3
+_eclasses_=git-r3	3e7ec3d6619213460c85e2aa48398441	xdg	c7ba313ea1eaf266f95cc6235f7d6a07	xdg-utils	ff2ff954e6b17929574eee4efc5152ba
+_md5_=543982a4c8fa91468d8afec8d3ae4bee

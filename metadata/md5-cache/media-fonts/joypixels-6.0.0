@@ -9,4 +9,4 @@ LICENSE=JoyPixel.pdf
 SLOT=0
 SRC_URI=https://cdn.joypixels.com/arch-linux/font/6.0.0/joypixels-android.ttf -> joypixels-6.0.0.ttf
 _eclasses_=font	dd073b36fe3fd8b868c23bc23209db45
-_md5_=20207461f4ea4f91649979a83b97ebc2
+_md5_=369f9584c5cd71eec4b03e91e86d2634

@@ -10,5 +10,5 @@ gui-apps/swaylock-effects:fish-completion - Enable fish completion support
 gui-apps/swaylock-effects:gdk-pixbuf - Enable additional image format support via the x11-libs/gdk-pixbuf library
 gui-apps/swaylock-effects:man - Build and install man pages
 gui-libs/nuklear:extras - install fonts shipped with package
-x11-themes/bibata-cursor-theme:modern - install modern variants of theme
-x11-themes/bibata-cursor-theme:original - install original variation theme
+x11-themes/bibata-cursor-theme:modern - install modern variantion of the theme
+x11-themes/bibata-cursor-theme:original - install original variation of the theme
