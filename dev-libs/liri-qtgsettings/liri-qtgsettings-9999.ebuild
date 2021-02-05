@@ -1,3 +1,6 @@
+# Copyright 2021 Aisha Tammy
+# Distributed under the terms of the ISC License
+
 EAPI=7
 
 inherit cmake
@@ -22,7 +25,9 @@ RESTRICT="!test? ( test )"
 
 DEPEND="
 	dev-libs/glib
+	dev-libs/liri-cmake-shared
 	dev-qt/qtcore:5
 	dev-qt/qtdeclarative:5
+	kde-frameworks/extra-cmake-modules:5
 "
 RDEPEND="${DEPEND}"
