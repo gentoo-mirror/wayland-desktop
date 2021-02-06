@@ -8,4 +8,4 @@ LICENSE=GPL-3
 SLOT=0
 SRC_URI=https://github.com/EliverLara/Sweet/releases/download/2.0/Sweet-Dark.tar.xz -> sweet-dark-gtk-theme-2.0.tar.xz
 _eclasses_=xdg	c7ba313ea1eaf266f95cc6235f7d6a07	xdg-utils	ff2ff954e6b17929574eee4efc5152ba
-_md5_=e216c8267ff7db051f26f406fd13f0c4
+_md5_=98c01d682c55daf44bdda132094159ed
