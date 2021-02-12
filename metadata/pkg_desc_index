@@ -28,7 +28,8 @@ media-fonts/joypixels 6.0.0: joypixels font for better emoji and unicode support
 x11-themes/beautyline-icon-theme 0_p20201102: BeautyLine Icons Theme
 x11-themes/bibata-cursor-theme 1.0.3: material based cursor theme
 x11-themes/candy-icon-theme 0_pre20201031 0_pre20201211 9999: sweet gradient icons
+x11-themes/hey-icon-theme 0_pre20191021 9999: gradient icons inspired by linebit
 x11-themes/oie-icon-theme 0_p20190915 9999: OieIcons Theme
-x11-themes/pico-wayfire-icon-theme 1-r1 2 9999: meta icon theme for pico-wayfire
+x11-themes/pico-wayfire-icon-theme 1-r1 2 3 9999: meta icon theme for pico-wayfire
 x11-themes/sweet-dark-gtk-theme 1.10.5 2.0-r1: Sweet (dark) gtk theme
 x11-themes/sweet-folders-icon-theme 0_pre20200227 9999: sweet gradient icons
