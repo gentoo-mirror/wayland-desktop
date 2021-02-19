@@ -24,7 +24,7 @@ gui-wm/labwc 0_p20201101 9999: openbox clone on wayland
 gui-wm/liri-shell 9999: QtQuick and Wayland shell for convergence
 gui-wm/taiwins 9999: dynamic wayland compositor
 gui-wm/waybox 9999: openbox clone on wayland
-media-fonts/joypixels 6.0.0: joypixels font for better emoji and unicode support
+media-fonts/joypixels 6.5.0: joypixels font for better emoji and unicode support
 x11-themes/beautyline-icon-theme 0_p20201102: BeautyLine Icons Theme
 x11-themes/bibata-cursor-theme 1.0.3: material based cursor theme
 x11-themes/candy-icon-theme 0_pre20201031 0_pre20201211 9999: sweet gradient icons
