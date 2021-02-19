@@ -8,11 +8,12 @@ inherit font
 DESCRIPTION="joypixels font for better emoji and unicode support"
 HOMEPAGE="https://www.joypixels.com/"
 
-SRC_URI="https://cdn.joypixels.com/arch-linux/font/${PV}/joypixels-android.ttf -> ${P}.ttf"
+SRC_URI="https://cdn.joypixels.com/distributions/gentoo-linux/font/${PV}/joypixels-android.ttf -> ${P}.ttf"
 KEYWORDS="~amd64"
 S="${WORKDIR}"
 
-LICENSE="JoyPixel.pdf"
+#https://cdn.joypixels.com/distributions/gentoo-linux/appendix/joypixels-license-appendix.txt
+LICENSE="JoyPixels"
 SLOT="0"
 
 FONT_CONF=( "${FILESDIR}"/75-joypixels.conf )
