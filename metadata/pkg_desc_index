@@ -12,7 +12,6 @@ gui-libs/libdesq 0_p20201105 9999: DesQ library for X/Wayland protocol handling
 gui-libs/libdesqui 0_p20201021 9999: DesQ library for UI elements
 gui-libs/libdesqwl 0_p20201110 9999: DesQ library for additional Wayland protocol handling
 gui-libs/nuklear 4.06.1-r1 4.06.2: single-header ANSI C cross platform GUI library
-gui-libs/westeros 9999: wayland compositing library
 gui-liri/libliri 0_pre20201205 9999: Liri core library
 gui-liri/liri-cmake-shared 0_pre20201011 9999: shared cmake configuration utils for liri
 gui-liri/liri-eglfs 0_pre20201011 9999: shared cmake configuration utils for liri
