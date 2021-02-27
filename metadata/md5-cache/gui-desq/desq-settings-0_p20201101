@@ -10,4 +10,4 @@ RDEPEND=dev-libs/libdbusmenu-qt dev-qt/qtcore:5 dev-qt/qtgui:5
 SLOT=0
 SRC_URI=https://gitlab.com/DesQ/DesQUtils/SettingsDaemon/-/archive/5f0b22059106685078f18cfcff4ab1bb9e60e488/SettingsDaemon-5f0b22059106685078f18cfcff4ab1bb9e60e488.tar.gz -> desq-settings-0_p20201101.tar.gz
 _eclasses_=multilib	d410501a125f99ffb560b0c523cd3d1e	qmake-utils	dc74fe3891abc25e80dad5cd3d7c6e47	toolchain-funcs	24921b57d6561d87cbef4916a296ada4
-_md5_=10afcf937d0627b236db8f9084ec6b22
+_md5_=107410450b38b428be75f003e83971a5

@@ -10,4 +10,4 @@ RDEPEND=dev-qt/qtcore:5 dev-qt/qtdbus:5 dev-qt/qtgui:5[wayland,X] dev-qt/qtnetwo
 SLOT=0
 SRC_URI=https://gitlab.com/DesQ/libdesq/-/archive/070b841e2e529a3168901f9e66043ec2c08bbfb4/libdesq-070b841e2e529a3168901f9e66043ec2c08bbfb4.tar.gz -> libdesq-0_p20201105.tar.gz
 _eclasses_=multilib	d410501a125f99ffb560b0c523cd3d1e	qmake-utils	dc74fe3891abc25e80dad5cd3d7c6e47	toolchain-funcs	24921b57d6561d87cbef4916a296ada4
-_md5_=8a00ce289256bf9e6605807215fdd081
+_md5_=62aba524a970857268ac3186f7d0fe10

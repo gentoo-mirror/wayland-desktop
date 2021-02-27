@@ -1,13 +1,13 @@
 BDEPEND=virtual/pkgconfig
 DEFINED_PHASES=compile install prepare
-DEPEND=dev-qt/qtcore:5 dev-qt/qtgui:5[wayland,X] dev-qt/qtwayland:5[X] dev-libs/wayland gui-libs/libdesq:=
+DEPEND=dev-qt/qtcore:5 dev-qt/qtgui:5[wayland,X] dev-qt/qtwayland:5[X] dev-libs/wayland gui-desq/libdesq:=
 DESCRIPTION=DesQ library for additional Wayland protocol handling
 EAPI=7
 HOMEPAGE=https://desq-project.org/
 KEYWORDS=~amd64
 LICENSE=GPL-3
-RDEPEND=dev-qt/qtcore:5 dev-qt/qtgui:5[wayland,X] dev-qt/qtwayland:5[X] dev-libs/wayland gui-libs/libdesq:=
+RDEPEND=dev-qt/qtcore:5 dev-qt/qtgui:5[wayland,X] dev-qt/qtwayland:5[X] dev-libs/wayland gui-desq/libdesq:=
 SLOT=0
 SRC_URI=https://gitlab.com/DesQ/libdesqwl/-/archive/cd1bdb629f20313e188b3a92abc5f38baed3396f/libdesqwl-cd1bdb629f20313e188b3a92abc5f38baed3396f.tar.gz -> libdesqwl-0_p20201110.tar.gz
 _eclasses_=multilib	d410501a125f99ffb560b0c523cd3d1e	qmake-utils	dc74fe3891abc25e80dad5cd3d7c6e47	toolchain-funcs	24921b57d6561d87cbef4916a296ada4
-_md5_=0fa8e659ed8da567c1e2a56af1bd1ce6
+_md5_=4cae39d08daeae88048b40d749678703

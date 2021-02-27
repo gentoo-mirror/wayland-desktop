@@ -1,12 +1,12 @@
 BDEPEND=virtual/pkgconfig >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile install prepare unpack
-DEPEND=dev-qt/qtcore:5 dev-qt/qtgui:5[wayland,X] dev-qt/qtwayland:5[X] dev-libs/wayland gui-libs/libdesq:=
+DEPEND=dev-qt/qtcore:5 dev-qt/qtgui:5[wayland,X] dev-qt/qtwayland:5[X] dev-libs/wayland gui-desq/libdesq:=
 DESCRIPTION=DesQ library for additional Wayland protocol handling
 EAPI=7
 HOMEPAGE=https://desq-project.org/
 LICENSE=GPL-3
 PROPERTIES=live
-RDEPEND=dev-qt/qtcore:5 dev-qt/qtgui:5[wayland,X] dev-qt/qtwayland:5[X] dev-libs/wayland gui-libs/libdesq:=
+RDEPEND=dev-qt/qtcore:5 dev-qt/qtgui:5[wayland,X] dev-qt/qtwayland:5[X] dev-libs/wayland gui-desq/libdesq:=
 SLOT=0
 _eclasses_=git-r3	3e7ec3d6619213460c85e2aa48398441	multilib	d410501a125f99ffb560b0c523cd3d1e	qmake-utils	dc74fe3891abc25e80dad5cd3d7c6e47	toolchain-funcs	24921b57d6561d87cbef4916a296ada4
-_md5_=0fa8e659ed8da567c1e2a56af1bd1ce6
+_md5_=4cae39d08daeae88048b40d749678703

@@ -1,12 +1,12 @@
 BDEPEND=virtual/pkgconfig >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile install prepare unpack
-DEPEND=dev-qt/qtcore:5 dev-qt/qtdbus:5 gui-libs/libdesq:= gui-libs/libdesqwl:= x11-libs/libxcb[xkb]
-DESCRIPTION=session manager for DesQ
+DEPEND=dev-qt/qtcore:5 dev-qt/qtgui:5[X] dev-qt/qtnetwork:5 dev-qt/qtwidgets:5[X] gui-desq/libdesq:=
+DESCRIPTION=DesQ library for UI elements
 EAPI=7
 HOMEPAGE=https://desq-project.org/
 LICENSE=GPL-3
 PROPERTIES=live
-RDEPEND=dev-qt/qtcore:5 dev-qt/qtdbus:5 gui-libs/libdesq:= gui-libs/libdesqwl:= x11-libs/libxcb[xkb] gui-apps/desq-shell gui-apps/desq-settings gui-wm/wayfire
+RDEPEND=dev-qt/qtcore:5 dev-qt/qtgui:5[X] dev-qt/qtnetwork:5 dev-qt/qtwidgets:5[X] gui-desq/libdesq:=
 SLOT=0
 _eclasses_=git-r3	3e7ec3d6619213460c85e2aa48398441	multilib	d410501a125f99ffb560b0c523cd3d1e	qmake-utils	dc74fe3891abc25e80dad5cd3d7c6e47	toolchain-funcs	24921b57d6561d87cbef4916a296ada4
-_md5_=4dc72ff5ff09eca9b6796893286c60cb
+_md5_=799967d0e1a3cd670878cc3f507c21db
