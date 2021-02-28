@@ -13,7 +13,7 @@ gui-desq/libdesqwl 0_p20210228 9999: DesQ library for additional Wayland protoco
 gui-desq/plugins-sni 0_pre20210228 9999: SNI plugin for DesQ
 gui-desq/util-polkitexec 0_p20210228 9999: polkit auth backend for DesQ
 gui-desq/util-settingsdaemon 0_p20210228 9999: main user interface shell for DesQ
-gui-libs/nuklear 4.06.1-r1 4.06.2: single-header ANSI C cross platform GUI library
+gui-libs/nuklear 4.06.2-r1: single-header ANSI C cross platform GUI library
 gui-liri/libliri 0_pre20201205 9999: Liri core library
 gui-liri/liri-cmake-shared 0_pre20201011 9999: shared cmake configuration utils for liri
 gui-liri/liri-eglfs 0_pre20201011 9999: shared cmake configuration utils for liri
