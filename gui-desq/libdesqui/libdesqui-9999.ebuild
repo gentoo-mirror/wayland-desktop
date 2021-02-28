@@ -3,8 +3,7 @@
 
 EAPI=7
 
-inherit qmake-utils
-
+inherit cmake
 DESCRIPTION="DesQ library for UI elements"
 
 HOMEPAGE="https://desq-project.org/"
@@ -13,7 +12,7 @@ if [[ ${PV} == 9999 ]]; then
 	inherit git-r3
 	EGIT_REPO_URI="https://gitlab.com/DesQ/libdesqui"
 else
-	COMMIT=b97a042ac712999ee43675b17c210b3b48a36a78
+	COMMIT=6bf1f40f8f3694d1d0936f83de6f98100e108757
 	SRC_URI="https://gitlab.com/DesQ/libdesqui/-/archive/${COMMIT}/libdesqui-${COMMIT}.tar.gz -> ${P}.tar.gz"
 	S="${WORKDIR}"/libdesqui-${COMMIT}
 	KEYWORDS="~amd64"
@@ -27,24 +26,6 @@ DEPEND="
 	dev-qt/qtgui:5[X]
 	dev-qt/qtnetwork:5
 	dev-qt/qtwidgets:5[X]
-	gui-desq/libdesq:=
+	gui-desq/libdesq
 "
 RDEPEND="${DEPEND}"
-BDEPEND="
-	virtual/pkgconfig
-"
-
-src_prepare() {
-	sed -e "/LIBDIR = \$\$PREFIX\/lib\//s/lib/$(get_libdir)/" \
-		-i DesQUI.pro || die
-	default
-}
-
-src_compile() {
-	eqmake5 DesQUI.pro
-	default
-}
-
-src_install() {
-	emake INSTALL_ROOT="${ED}" install
-}
