@@ -1,11 +1,14 @@
-BDEPEND=gui-libs/wlroots x11-libs/libxkbcommon:=[X] >=dev-libs/wayland-protocols-1.14 virtual/pkgconfig >=dev-util/meson-0.54.0 >=dev-util/ninja-1.8.2 dev-util/meson-format-array >=dev-vcs/git-1.8.2.1[curl]
-DEFINED_PHASES=compile configure install test unpack
+BDEPEND=lua_single_target_lua5-3? ( dev-lang/lua:5.3 ) dev-libs/libinput gnome-base/librsvg gui-libs/wlroots[X] media-libs/freetype sys-libs/pam virtual/opengl x11-libs/cairo x11-libs/libxcb[xkb] x11-libs/libxkbcommon:=[X] x11-libs/pixman >=dev-libs/wayland-protocols-1.14 virtual/pkgconfig doc? ( app-doc/doxygen ) >=dev-util/meson-0.54.0 >=dev-util/ninja-1.8.2 dev-util/meson-format-array >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile configure install prepare setup test unpack
+DEPEND=lua_single_target_lua5-3? ( dev-lang/lua:5.3 ) dev-libs/libinput gnome-base/librsvg gui-libs/wlroots[X] media-libs/freetype sys-libs/pam virtual/opengl x11-libs/cairo x11-libs/libxcb[xkb] x11-libs/libxkbcommon:=[X] x11-libs/pixman
 DESCRIPTION=dynamic wayland compositor
 EAPI=7
 HOMEPAGE=https://github.com/taiwins/taiwins
+IUSE=doc profile +lua_single_target_lua5-3
 LICENSE=MIT
 PROPERTIES=live
-RDEPEND=gui-libs/wlroots x11-libs/libxkbcommon:=[X]
+RDEPEND=lua_single_target_lua5-3? ( dev-lang/lua:5.3 ) dev-libs/libinput gnome-base/librsvg gui-libs/wlroots[X] media-libs/freetype sys-libs/pam virtual/opengl x11-libs/cairo x11-libs/libxcb[xkb] x11-libs/libxkbcommon:=[X] x11-libs/pixman
+REQUIRED_USE=^^ ( lua_single_target_lua5-3 )
 SLOT=0
-_eclasses_=git-r3	3e7ec3d6619213460c85e2aa48398441	meson	e43eef9331f54965a573ed380854ff47	multilib	d410501a125f99ffb560b0c523cd3d1e	multiprocessing	cac3169468f893670dac3e7cb940e045	ninja-utils	132cbb376048d079b5a012f5467c4e7f	python-utils-r1	69861348186337fa4b269de5826004b3	toolchain-funcs	24921b57d6561d87cbef4916a296ada4
-_md5_=5eb206530438d02cb51d265887b0f413
+_eclasses_=git-r3	3e7ec3d6619213460c85e2aa48398441	lua-single	f91b5656f00869c220a6e35ae0521c54	lua-utils	736947973cfbc9de01fdb8548f942f82	meson	e43eef9331f54965a573ed380854ff47	multilib	d410501a125f99ffb560b0c523cd3d1e	multiprocessing	cac3169468f893670dac3e7cb940e045	ninja-utils	132cbb376048d079b5a012f5467c4e7f	python-utils-r1	69861348186337fa4b269de5826004b3	toolchain-funcs	24921b57d6561d87cbef4916a296ada4
+_md5_=316cccec2168bf25c2c84fa8b8a7a2fc
