@@ -24,7 +24,8 @@ SLOT="0"
 DEPEND="
 	dev-libs/libdbusmenu-qt
 	dev-qt/qtcore:5
-	dev-qt/qtgui:5
+	dev-qt/qtgui:5[wayland,X]
+	dev-qt/qtnetwork:5
 	dev-qt/qtwidgets:5
 	dev-qt/qtsvg:5
 	gui-desq/libdesq
@@ -32,5 +33,6 @@ DEPEND="
 	gui-desq/libdesqui
 "
 RDEPEND="${DEPEND}
+	gui-wm/wayfire
 	x11-misc/qt5ct
 "
