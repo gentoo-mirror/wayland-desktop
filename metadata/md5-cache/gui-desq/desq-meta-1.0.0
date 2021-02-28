@@ -1,0 +1,8 @@
+DEFINED_PHASES=-
+DESCRIPTION=meta packafe for DesQ Project ports
+EAPI=7
+HOMEPAGE=https://github.com/bsd-ac/wayland-desktop
+LICENSE=ISC
+RDEPEND=gui-desq/desq-session
+SLOT=0
+_md5_=32e6edbf79da948f18b5605562b3e41f
