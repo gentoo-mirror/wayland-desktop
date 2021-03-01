@@ -1,10 +1,12 @@
 dev-libs/rax 1.2 9999: radix tree implementation in ANSI C
-gui-apps/nwg-launchers 0.4.2-r2 9999: simple gtk launchers for X and wlroots compositors
+dev-libs/tllist 1.0.5 9999: C header only implementation of a typed linked list
+gui-apps/nwg-launchers 0.4.4 9999: GTK launchers for X and wlroots compositors
 gui-apps/oguri 0_p20201102 9999: animated wallpaper daemon for Wayland compositors
 gui-apps/pico-wayfire 9999: Opinionated dotfiles for a consistent look on wayfire
 gui-apps/qtgreet 1.0.0a_p20210127 9999: QT based greeter for greetd
 gui-apps/swappy 1.2.1 9999: wayland native snapshot editing tool
 gui-apps/swaylock-effects 1.6.2 1.6.3 9999: Screen locker for Wayland
+gui-apps/yambar 1.6.1 9999: Modular status panel for X11 and Wayland
 gui-desq/desq-meta 1.0.0: meta packafe for DesQ Project ports
 gui-desq/desq-session 0_p20210228 9999: session manager for DesQ
 gui-desq/desq-shell 0_p20210228 9999: main user interface shell for DesQ
@@ -41,6 +43,7 @@ gui-wm/river 9999: Dynamic tiling wayland compositor
 gui-wm/taiwins 9999: dynamic wayland compositor
 gui-wm/waybox 9999: openbox clone on wayland
 media-fonts/joypixels 6.5.0: joypixels font for better emoji and unicode support
+media-libs/fcft 2.3.2 9999: Library for font loading and glyph rasterization
 x11-themes/beautyline-icon-theme 0_p20201102: BeautyLine Icons Theme
 x11-themes/bibata-cursor-theme 1.0.3 1.1.0: material based cursor theme
 x11-themes/candy-icon-theme 0_pre20201031 0_pre20201211 9999: sweet gradient icons
