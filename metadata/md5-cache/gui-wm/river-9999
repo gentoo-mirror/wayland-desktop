@@ -1,13 +1,14 @@
-BDEPEND=>=dev-lang/zig-0.7.1 dev-libs/wayland-protocols virtual/pkgconfig doc? ( app-text/scdoc ) >=dev-vcs/git-1.8.2.1[curl]
-DEFINED_PHASES=compile install unpack
-DEPEND=dev-libs/libevdev dev-libs/libinput dev-libs/wayland gui-libs/wlroots[X] x11-libs/cairo[X] x11-libs/libxkbcommon:=[X] x11-libs/pixman
-DESCRIPTION=Openbox alternative for wayland
+BDEPEND=>=dev-lang/zig-0.7.1 dev-libs/wayland-protocols virtual/pkgconfig app-text/scdoc >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile configure install test unpack
+DEPEND=dev-libs/libevdev dev-libs/libinput dev-libs/wayland <gui-libs/wlroots-9999[X,x11-backend] x11-libs/cairo[X] x11-libs/libxkbcommon:=[X] x11-libs/pixman
+DESCRIPTION=Dynamic tiling wayland compositor
 EAPI=7
 HOMEPAGE=https://github.com/johanmalm/labwc
-IUSE=doc +X
-LICENSE=GPL-2
+IUSE=test
+LICENSE=GPL-3
 PROPERTIES=live
-RDEPEND=dev-libs/libevdev dev-libs/libinput dev-libs/wayland gui-libs/wlroots[X] x11-libs/cairo[X] x11-libs/libxkbcommon:=[X] x11-libs/pixman
+RDEPEND=dev-libs/libevdev dev-libs/libinput dev-libs/wayland <gui-libs/wlroots-9999[X,x11-backend] x11-libs/cairo[X] x11-libs/libxkbcommon:=[X] x11-libs/pixman
+RESTRICT=!test? ( test )
 SLOT=0
 _eclasses_=git-r3	3e7ec3d6619213460c85e2aa48398441
-_md5_=9de1768a1f425dd9b99511a3708fb59c
+_md5_=5b4f59726d82209b7109be98e3b12859
