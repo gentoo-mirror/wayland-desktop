@@ -1,9 +1,11 @@
+# Copyright 2021 Aisha Tammy
+# Distributed under the terms of the ISC License
 
 EAPI=7
 
-inherit meson
+inherit meson xdg
 
-DESCRIPTION="simple gtk launchers for X and wlroots compositors"
+DESCRIPTION="GTK launchers for X and wlroots compositors"
 HOMEPAGE="https://github.com/nwg-piotr/nwg-launchers"
 
 if [[ "${PV}" == 9999 ]]
@@ -39,5 +41,5 @@ src_install() {
 	meson_src_install
 
 	insinto /usr/share/icons/nwg-launchers
-	doins -r "${FILESDIR}"/.
+	doins -r "${FILESDIR}"/{icons,index.theme}
 }
