@@ -1,12 +1,13 @@
+BDEPEND=X? ( >=x11-apps/mkfontscale-1.2.0 media-fonts/encodings )
 DEFINED_PHASES=install postinst postrm setup
-DEPEND=X? ( >=x11-apps/mkfontscale-1.2.0 media-fonts/encodings )
 DESCRIPTION=single-header ANSI C cross platform GUI library
 EAPI=7
 HOMEPAGE=https://immediate-mode-ui.github.io/Nuklear/
+INHERIT=font
 IUSE=X
 KEYWORDS=~amd64
 LICENSE=MIT Unlicense
 SLOT=0/1-2
 SRC_URI=https://github.com/Immediate-Mode-UI/Nuklear/archive/74a4df4eb965150ede86fefa6c147476541078a4.tar.gz -> nuklear-4.06.2.tar.gz
-_eclasses_=font	dd073b36fe3fd8b868c23bc23209db45
+_eclasses_=font	0667878c2b594871023dd1833d05996f
 _md5_=55b6b546cfa0acb1c21e8ec531943fe8
