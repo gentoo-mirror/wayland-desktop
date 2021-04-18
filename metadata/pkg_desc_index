@@ -47,7 +47,7 @@ gui-wm/waybox 9999: openbox clone on wayland
 media-fonts/joypixels 6.5.0: joypixels font for better emoji and unicode support
 media-libs/fcft 2.3.2 9999: Library for font loading and glyph rasterization
 x11-themes/beautyline-icon-theme 0_p20201102 0_p20210310130119 0_p20210311201730: BeautyLine Icons Theme
-x11-themes/bibata-cursor-theme 1.0.3 1.1.0: material based cursor theme
+x11-themes/bibata-cursor-theme 1.0.3 1.1.0 1.1.1: material based cursor theme
 x11-themes/candy-icon-theme 0_pre20201031 0_pre20201211 9999: sweet gradient icons
 x11-themes/hey-icon-theme 0_pre20191021 9999: gradient icons inspired by linebit
 x11-themes/oie-icon-theme 0_p20190915 9999: OieIcons Theme
