@@ -12,7 +12,7 @@ if [[ "${PV}" == "9999" ]]; then
 	inherit git-r3
 	EGIT_REPO_URI="https://github.com/EliverLara/candy-icons.git"
 else
-	COMMIT="4c80adb4630fb75c16ce2c94be7614e6d45f35ba"
+	COMMIT="03abc12fe4ec3ef61f406858992d4792c68c4616"
 	SRC_URI="https://github.com/EliverLara/candy-icons/archive/${COMMIT}.tar.gz -> ${P}.tar.gz"
 	KEYWORDS="~amd64"
 	S="${WORKDIR}/candy-icons-${COMMIT}"
@@ -28,6 +28,8 @@ src_prepare() {
 	find . -xtype l -delete || die
 	# pico wayfire specific changes
 	use no-inherit && sed -e "/^Inherits/d" -i index.theme || die
+	ln -s dropbox.svg apps/scalable/dropboxstatus-logo.svg || die
+	ln -s zoom-desktop.svg apps/scalable/zoom-videocam.svg || die
 }
 
 src_install() {
