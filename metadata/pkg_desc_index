@@ -49,7 +49,7 @@ media-fonts/lato 2.015: Sanserif type face family with classical proportions
 media-libs/fcft 2.3.2 9999: Library for font loading and glyph rasterization
 x11-themes/beautyline-icon-theme 0_p20210310130119 0_p20210311201730: BeautyLine Icons Theme
 x11-themes/bibata-cursor-theme 1.0.3 1.1.0 1.1.1: material based cursor theme
-x11-themes/candy-icon-theme 0_pre20201031 0_pre20201211 0_pre20210316 9999: sweet gradient icons
+x11-themes/candy-icon-theme 0_pre20210316-r1 9999: sweet gradient icons
 x11-themes/hey-icon-theme 0_pre20191021 9999: gradient icons inspired by linebit
 x11-themes/lyra-icon-theme 0_pre20210415 9999: colorful design icon theme
 x11-themes/oie-icon-theme 0_p20190915 9999: OieIcons Theme
