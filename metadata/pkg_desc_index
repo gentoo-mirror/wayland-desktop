@@ -46,7 +46,7 @@ gui-wm/taiwins 9999: dynamic wayland compositor
 gui-wm/waybox 0_pre20210414 9999: openbox clone on wayland
 media-fonts/joypixels 6.5.0: joypixels font for better emoji and unicode support
 media-fonts/lato 2.015: Sanserif type face family with classical proportions
-media-libs/fcft 2.3.2 9999: Library for font loading and glyph rasterization
+media-libs/fcft 2.3.2 2.3.3 9999: Library for font loading and glyph rasterization
 x11-themes/beautyline-icon-theme 0_p20210310130119 0_p20210311201730: BeautyLine Icons Theme
 x11-themes/bibata-cursor-theme 1.0.3 1.1.0 1.1.1: material based cursor theme
 x11-themes/candy-icon-theme 0_pre20210316-r1 9999: sweet gradient icons
