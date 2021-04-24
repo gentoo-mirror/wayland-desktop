@@ -1,0 +1,12 @@
+DEFINED_PHASES=install postinst postrm preinst prepare
+DEPEND=dev-util/desktop-file-utils x11-misc/shared-mime-info
+DESCRIPTION=Dracula GTK theme
+EAPI=7
+HOMEPAGE=https://draculatheme.com/gtk
+INHERIT=xdg
+KEYWORDS=~amd64
+LICENSE=GPL-3
+SLOT=0
+SRC_URI=https://github.com/dracula/gtk/releases/download/v2.0/Dracula-pink-accent.tar.xz https://github.com/dracula/gtk/releases/download/v2.0/Dracula.tar.xz
+_eclasses_=xdg-utils	ff2ff954e6b17929574eee4efc5152ba	xdg	c7ba313ea1eaf266f95cc6235f7d6a07
+_md5_=433f93ac61ca10ae4a7113c6d9a11126
