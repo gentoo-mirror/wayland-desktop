@@ -9,5 +9,5 @@ LICENSE=ISC
 PROPERTIES=live
 RDEPEND=x11-themes/adwaita-icon-theme x11-themes/beautyline-icon-theme[no-inherit] x11-themes/candy-icon-theme[no-inherit] x11-themes/hey-icon-theme[no-inherit] x11-themes/hicolor-icon-theme x11-themes/oie-icon-theme[no-inherit]
 SLOT=0
-_eclasses_=xdg-utils	ff2ff954e6b17929574eee4efc5152ba	xdg	c7ba313ea1eaf266f95cc6235f7d6a07	git-r3	b8e8c92aa5fe8df7187e466138eb4e52
+_eclasses_=xdg-utils	ff2ff954e6b17929574eee4efc5152ba	xdg	c7ba313ea1eaf266f95cc6235f7d6a07	git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da
 _md5_=134c5c12b68b69a614ee133e0eb761de
