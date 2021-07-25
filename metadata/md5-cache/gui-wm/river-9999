@@ -1,6 +1,6 @@
-BDEPEND=>=dev-lang/zig-0.7.1 dev-libs/wayland-protocols virtual/pkgconfig app-text/scdoc >=dev-vcs/git-1.8.2.1[curl]
+BDEPEND=>=dev-lang/zig-0.8.0 dev-libs/wayland-protocols virtual/pkgconfig app-text/scdoc >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile configure install test unpack
-DEPEND=dev-libs/libevdev dev-libs/libinput dev-libs/wayland <gui-libs/wlroots-9999[X] x11-libs/cairo[X] x11-libs/libxkbcommon:=[X] x11-libs/pixman
+DEPEND=dev-libs/libevdev dev-libs/libinput dev-libs/wayland >=gui-libs/wlroots-0.14.0[X] x11-libs/cairo[X] x11-libs/libxkbcommon:=[X] x11-libs/pixman
 DESCRIPTION=Dynamic tiling wayland compositor
 EAPI=7
 HOMEPAGE=https://github.com/johanmalm/labwc
@@ -8,8 +8,8 @@ INHERIT=git-r3
 IUSE=test
 LICENSE=GPL-3
 PROPERTIES=live
-RDEPEND=dev-libs/libevdev dev-libs/libinput dev-libs/wayland <gui-libs/wlroots-9999[X] x11-libs/cairo[X] x11-libs/libxkbcommon:=[X] x11-libs/pixman
+RDEPEND=dev-libs/libevdev dev-libs/libinput dev-libs/wayland >=gui-libs/wlroots-0.14.0[X] x11-libs/cairo[X] x11-libs/libxkbcommon:=[X] x11-libs/pixman
 RESTRICT=!test? ( test )
 SLOT=0
 _eclasses_=git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da
-_md5_=36f5cb5cdf300e90ebb2124fc9e82054
+_md5_=119f4e612fdf575520033881bf3a9dec
