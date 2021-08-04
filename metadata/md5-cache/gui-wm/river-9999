@@ -12,4 +12,4 @@ RDEPEND=dev-libs/libevdev dev-libs/libinput dev-libs/wayland >=gui-libs/wlroots-
 RESTRICT=!test? ( test )
 SLOT=0
 _eclasses_=git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da
-_md5_=119f4e612fdf575520033881bf3a9dec
+_md5_=f53cba5e81370f002d3863cbe1888cd3
