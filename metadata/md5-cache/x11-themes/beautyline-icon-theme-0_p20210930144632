@@ -8,6 +8,6 @@ IUSE=no-inherit
 KEYWORDS=~amd64
 LICENSE=GPL-3
 SLOT=0
-SRC_URI=mirror://bsd.ac/beautyline-icon-theme-0_p20210310130119.tar.gz
+SRC_URI=mirror://bsd.ac/beautyline-icon-theme-0_p20210930144632.tar.gz
 _eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	xdg	6024fbc93167fad782e2032933654857
 _md5_=7fbf46d4cd722d2cee59209b5570f4f8
