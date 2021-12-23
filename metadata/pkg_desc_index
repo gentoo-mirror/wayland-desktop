@@ -44,11 +44,10 @@ gui-wm/cagebreak 1.5.1 1.7.0 1.8.2 9999: Wayland tiling compositor inspired by R
 gui-wm/kiwmi 0_p20201011 9999: fully programmable wayland compositor
 gui-wm/labwc 0.2.1 0.3.0 9999: Openbox alternative for wayland
 gui-wm/river 9999: Dynamic tiling wayland compositor
-gui-wm/taiwins 9999: dynamic wayland compositor
 gui-wm/waybox 0_pre20210414 9999: openbox clone on wayland
 media-fonts/lato 2.015: Sanserif type face family with classical proportions
 media-libs/fcft 2.5.1 9999: Library for font loading and glyph rasterization
-x11-themes/beautyline-icon-theme 0_p20210310130119 0_p20210311201730 0_p20210930144632: BeautyLine Icons Theme
+x11-themes/beautyline-icon-theme 0_p20210310130119 0_p20210311201730 0_p20210930144632 0_p20211220092736: BeautyLine Icons Theme
 x11-themes/bibata-cursor-theme 1.0.3 1.1.0 1.1.1 1.1.2: material based cursor theme
 x11-themes/candy-icon-theme 0_pre20210316-r1 0_pre20211113 9999: sweet gradient icons
 x11-themes/dracula-gtk-theme 2.0: Dracula GTK theme
