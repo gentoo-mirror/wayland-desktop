@@ -3,23 +3,22 @@
 
 EAPI=7
 
-inherit font meson
+inherit meson
 
-DESCRIPTION="Wayland tiling compositor inspired by RatPoison"
-HOMEPAGE="https://github.com/project-repo/cagebreak"
+DESCRIPTION="Openbox alternative for wayland"
+HOMEPAGE="https://github.com/johanmalm/labwc"
 
 if [[ ${PV} == 9999 ]]; then
 	inherit git-r3
-	EGIT_REPO_URI="https://github.com/project-repo/cagebreak"
+	EGIT_REPO_URI="https://github.com/johanmalm/labwc"
 else
-	SRC_URI="https://github.com/project-repo/cagebreak/releases/download/${PV}/release_${PV}.tar.gz -> ${P}.tar.gz"
-	S="${WORKDIR}"/${PN}
+	SRC_URI="https://github.com/johanmalm/labwc/archive/${PV}.tar.gz -> ${P}.tar.gz"
 	KEYWORDS="~amd64"
 fi
 
-LICENSE="MIT"
+LICENSE="GPL-2"
 SLOT="0"
-IUSE="X"
+IUSE="+X"
 
 RDEPEND="
 	dev-libs/glib:2
@@ -31,18 +30,19 @@ RDEPEND="
 	x11-libs/libxkbcommon:=[X?]
 	x11-libs/pango[X?]
 	x11-libs/pixman
+	X? ( x11-libs/libxcb:0= )
 "
 DEPEND="${RDEPEND}"
 BDEPEND="
+	app-text/scdoc
 	dev-libs/wayland-protocols
 	virtual/pkgconfig
-	app-text/scdoc
 "
 
 src_configure() {
 	local emesonargs=(
-		$(meson_use X xwayland)
-		$(meson_use man man-pages)
+		$(meson_feature X xwayland)
+		-Dman-pages=enabled
 	)
 	meson_src_configure
 }

@@ -19,9 +19,12 @@ fi
 
 LICENSE="MIT"
 SLOT="0"
-IUSE="+text-shaping"
+IUSE="examples +grapheme-shaping +run-shaping test test-text-shaping"
+REQUIRED_USE="test-text-shaping? ( run-shaping ) run-shaping? ( grapheme-shaping )"
+RESTRICT="!test? ( test )"
 
 RDEPEND="
+	dev-libs/libutf8proc
 	media-libs/harfbuzz
 	media-libs/fontconfig
 	media-libs/freetype
@@ -32,12 +35,24 @@ DEPEND="${RDEPEND}
 "
 BDEPEND="
 	app-text/scdoc
+	test? ( dev-libs/check )
 "
 
 src_configure() {
 	local emesonargs=(
 		-Dwerror=false
-		$(meson_feature text-shaping)
+		-Ddocs=enabled
+		$(meson_feature grapheme-shaping)
+		$(meson_feature run-shaping)
+		$(meson_use examples)
+		$(meson_use test-text-shaping)
 	)
 	meson_src_configure
+}
+
+src_install() {
+	meson_src_install
+	rm -r "${ED}/usr/share/doc/fcft" || die
+	local -x DOCS=( LICENSE README.md CHANGELOG.md )
+	einstalldocs
 }
