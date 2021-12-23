@@ -1,7 +1,7 @@
 dev-libs/rax 1.2 9999: radix tree implementation in ANSI C
 dev-libs/tllist 1.0.5 9999: C header only implementation of a typed linked list
 dev-python/i3ipc 2.2.1 9999: An improved Python library to control i3wm and sway.
-gui-apps/fuzzel 1.5.1 9999: Application launcher similar to rofi's 'drun' mode
+gui-apps/fuzzel 1.6.5 9999: Application launcher similar to rofi's 'drun' mode
 gui-apps/nwg-launchers 0.4.4 0.6.3 9999: GTK launchers for X and wlroots compositors
 gui-apps/nwg-panel 0.4.3 9999: GTK3-based panel for sway window manager
 gui-apps/oguri 0_p20201102 9999: animated wallpaper daemon for Wayland compositors
