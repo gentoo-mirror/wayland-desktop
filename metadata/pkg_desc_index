@@ -54,7 +54,7 @@ x11-themes/dracula-gtk-theme 2.0: Dracula GTK theme
 x11-themes/hey-icon-theme 0_pre20191021 9999: gradient icons inspired by linebit
 x11-themes/lyra-icon-theme 0_pre20210415 9999: colorful design icon theme
 x11-themes/oie-icon-theme 0_p20190915 9999: OieIcons Theme
-x11-themes/pico-wayfire-icon-theme 1-r1 2 3 9999: meta icon theme for pico-wayfire
+x11-themes/pico-wayfire-icon-theme 1-r1 2 3 4 9999: meta icon theme for pico-wayfire
 x11-themes/sweet-dark-gtk-theme 2.0-r2: Sweet (dark) gtk theme
 x11-themes/sweet-dark-kvantum-theme 0_pre20210312: Sweet (dark) kvantum theme
 x11-themes/sweet-folders-icon-theme 0_pre20200227 9999: sweet gradient icons
