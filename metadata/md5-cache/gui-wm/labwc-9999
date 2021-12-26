@@ -1,6 +1,6 @@
 BDEPEND=app-text/scdoc dev-libs/wayland-protocols virtual/pkgconfig >=dev-util/meson-0.58.2-r1 >=dev-util/ninja-1.8.2 dev-util/meson-format-array >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile configure install test unpack
-DEPEND=dev-libs/glib:2 dev-libs/libinput dev-libs/libxml2:2 >=gui-libs/wlroots-0.16.0:=[X?] <gui-libs/wlroots-0.17.0:=[X?] x11-libs/cairo[X?] x11-libs/libxkbcommon:=[X?] x11-libs/pango[X?] x11-libs/pixman X? ( x11-libs/libxcb:0= )
+DEPEND=dev-libs/glib:2 dev-libs/libinput dev-libs/libxml2:2 >=gui-libs/wlroots-0.16.0:=[X?] x11-libs/cairo[X?] x11-libs/libxkbcommon:=[X?] x11-libs/pango[X?] x11-libs/pixman X? ( x11-libs/libxcb:0= )
 DESCRIPTION=Openbox alternative for wayland
 EAPI=7
 HOMEPAGE=https://github.com/johanmalm/labwc
@@ -8,7 +8,7 @@ INHERIT=meson git-r3
 IUSE=+X
 LICENSE=GPL-2
 PROPERTIES=live
-RDEPEND=dev-libs/glib:2 dev-libs/libinput dev-libs/libxml2:2 >=gui-libs/wlroots-0.16.0:=[X?] <gui-libs/wlroots-0.17.0:=[X?] x11-libs/cairo[X?] x11-libs/libxkbcommon:=[X?] x11-libs/pango[X?] x11-libs/pixman X? ( x11-libs/libxcb:0= )
+RDEPEND=dev-libs/glib:2 dev-libs/libinput dev-libs/libxml2:2 >=gui-libs/wlroots-0.16.0:=[X?] x11-libs/cairo[X?] x11-libs/libxkbcommon:=[X?] x11-libs/pango[X?] x11-libs/pixman X? ( x11-libs/libxcb:0= )
 SLOT=0
 _eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	ninja-utils	a4dab848a4490e8e48cf0baab3e61bc2	eapi8-dosym	cd7d420bb5be5ee079f27239ce76b8f5	toolchain-funcs	badd6e329e1f3e6bee99b35bf8763ce8	multilib	8a0248f83ae77f945d376ff4a7953257	python-utils-r1	a8b7938ade305f087865de7e52d079b5	meson	9f3e84959ae1d60e19bc91f212774dcc	git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da
-_md5_=3dafc1d4ae41309f0407cd5c6bd43f66
+_md5_=9c66b4f7b61459cf3378b16e1fd68b6e

@@ -1,15 +1,16 @@
-BDEPEND=>=dev-libs/wayland-protocols-1.14 dev-libs/wayland-protocols virtual/pkgconfig >=dev-util/meson-0.58.2-r1 >=dev-util/ninja-1.8.2 dev-util/meson-format-array >=dev-vcs/git-1.8.2.1[curl]
-DEFINED_PHASES=compile configure install setup test unpack
+BDEPEND=>=dev-libs/wayland-protocols-1.14 dev-libs/wayland-protocols virtual/pkgconfig >=dev-util/meson-0.58.2-r1 >=dev-util/ninja-1.8.2 dev-util/meson-format-array
+DEFINED_PHASES=compile configure install setup test
 DEPEND=lua_single_target_luajit? ( dev-lang/luajit:= ) lua_single_target_lua5-1? ( dev-lang/lua:5.1 ) lua_single_target_lua5-3? ( dev-lang/lua:5.3 ) dev-libs/libinput dev-libs/wayland gui-libs/wlroots:=[X] x11-libs/libxkbcommon:=[X] x11-libs/pixman
 DESCRIPTION=fully programmable wayland compositor
 EAPI=7
 HOMEPAGE=https://github.com/buffet/kiwmi
-INHERIT=lua-single meson git-r3
+INHERIT=lua-single meson
 IUSE=lua_single_target_luajit lua_single_target_lua5-1 lua_single_target_lua5-3
+KEYWORDS=~amd64
 LICENSE=MPL-2.0
-PROPERTIES=live
 RDEPEND=lua_single_target_luajit? ( dev-lang/luajit:= ) lua_single_target_lua5-1? ( dev-lang/lua:5.1 ) lua_single_target_lua5-3? ( dev-lang/lua:5.3 ) dev-libs/libinput dev-libs/wayland gui-libs/wlroots:=[X] x11-libs/libxkbcommon:=[X] x11-libs/pixman
 REQUIRED_USE=^^ ( lua_single_target_luajit lua_single_target_lua5-1 lua_single_target_lua5-3 )
 SLOT=0
-_eclasses_=toolchain-funcs	badd6e329e1f3e6bee99b35bf8763ce8	multilib	8a0248f83ae77f945d376ff4a7953257	lua-utils	7b7cd623ac8b9dd4a7a6ee27219cada6	lua-single	ba92a0c9d413e015c6625cdb0b9aaf99	multiprocessing	61c959fc55c15c00bbb1079d6a71370b	ninja-utils	a4dab848a4490e8e48cf0baab3e61bc2	eapi8-dosym	cd7d420bb5be5ee079f27239ce76b8f5	python-utils-r1	a8b7938ade305f087865de7e52d079b5	meson	9f3e84959ae1d60e19bc91f212774dcc	git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da
+SRC_URI=https://github.com/buffet/kiwmi/archive/86e0f5b3fa9de1fa1ff58c431b32dbe48c5d3df8.tar.gz -> kiwmi-0_p20211210.tar.gz
+_eclasses_=toolchain-funcs	badd6e329e1f3e6bee99b35bf8763ce8	multilib	8a0248f83ae77f945d376ff4a7953257	lua-utils	7b7cd623ac8b9dd4a7a6ee27219cada6	lua-single	ba92a0c9d413e015c6625cdb0b9aaf99	multiprocessing	61c959fc55c15c00bbb1079d6a71370b	ninja-utils	a4dab848a4490e8e48cf0baab3e61bc2	eapi8-dosym	cd7d420bb5be5ee079f27239ce76b8f5	python-utils-r1	a8b7938ade305f087865de7e52d079b5	meson	9f3e84959ae1d60e19bc91f212774dcc
 _md5_=68a64f8ac6a2ec56cea5b9c3b5bef9b2
