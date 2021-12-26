@@ -26,7 +26,7 @@ gui-desq/util-powerdaemon 0_pre20210228 9999: Power Daemon for DesQ
 gui-desq/util-powermanager 0_pre20210228 9999: Power Manager for DesQ
 gui-desq/util-settingsdaemon 0_p20210228 9999: main user interface shell for DesQ
 gui-desq/util-splash 0_pre20210227 9999: Session splash screen for DesQ
-gui-libs/nuklear 4.9.4: single-header ANSI C cross platform GUI library
+gui-libs/nuklear 4.9.5: single-header ANSI C cross platform GUI library
 gui-liri/libliri 0_pre20201205 9999: Liri core library
 gui-liri/liri-cmake-shared 0_pre20201011 9999: shared cmake configuration utils for liri
 gui-liri/liri-eglfs 0_pre20201011 9999: shared cmake configuration utils for liri
