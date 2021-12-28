@@ -6,7 +6,7 @@ gui-apps/nwg-launchers 0.4.4 0.6.3 9999: GTK launchers for X and wlroots composi
 gui-apps/nwg-panel 0.4.3 0.5.2 9999: GTK3-based panel for sway window manager
 gui-apps/oguri 0_p20201102 9999: animated wallpaper daemon for Wayland compositors
 gui-apps/pico-wayfire 9999: Opinionated dotfiles for a consistent look on wayfire
-gui-apps/qtgreet 1.0.0 1.0.0a_p20210127 9999: QT based greeter for greetd
+gui-apps/qtgreet 1.0.0_p20211109 9999: QT based greeter for greetd
 gui-apps/swaylock-effects 1.6.3 9999: Screen locker for Wayland
 gui-apps/wtype 0.3 9999: xdotool type for wayland
 gui-apps/yambar 1.6.1 1.7.0 9999: Modular status panel for X11 and Wayland
@@ -28,7 +28,7 @@ gui-desq/util-settingsdaemon 0_p20210228 9999: main user interface shell for Des
 gui-desq/util-splash 0_pre20210227 9999: Session splash screen for DesQ
 gui-libs/nuklear 4.9.5: single-header ANSI C cross platform GUI library
 gui-liri/libliri 0_pre20201205 9999: Liri core library
-gui-liri/liri-cmake-shared 0_pre20201011 9999: shared cmake configuration utils for liri
+gui-liri/liri-cmake-shared 0_pre20201011 1.1.0_p20211205 9999: shared cmake configuration utils for liri
 gui-liri/liri-eglfs 0_pre20201011 9999: shared cmake configuration utils for liri
 gui-liri/liri-fluid 1.2.1_p20201011 9999: Liri library for QtQuick apps with Material Design
 gui-liri/liri-platformtheme 1.0.0_p20201203 9999: QtQuick and Wayland shell for convergence
