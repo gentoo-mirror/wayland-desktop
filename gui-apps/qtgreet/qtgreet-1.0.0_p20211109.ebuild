@@ -4,7 +4,7 @@
 
 EAPI=7
 
-inherit cmake
+inherit meson
 
 DESCRIPTION="QT based greeter for greetd"
 HOMEPAGE="https://gitlab.com/marcusbritanicus/QtGreet"
@@ -13,29 +13,24 @@ if [[ ${PV} == 9999 ]]; then
 	inherit git-r3
 	EGIT_REPO_URI="https://gitlab.com/marcusbritanicus/QtGreet"
 else
-	SRC_URI="https://gitlab.com/marcusbritanicus/QtGreet/-/archive/v${PV}/QtGreet-v${PV}.tar.gz -> ${P}.tar.gz"
-	S="${WORKDIR}"/QtGreet-v${PV}
+	COMMIT=32b9a0f50ef29550f3a25dd0bf8ef1f76ae38139
+	SRC_URI="https://gitlab.com/marcusbritanicus/QtGreet/-/archive/${COMMIT}/QtGreet-${COMMIT}.tar.gz -> ${P}.tar.gz"
+	S="${WORKDIR}"/QtGreet-${COMMIT}
 	KEYWORDS="~amd64"
 fi
-
-CMAKE_USE_DIR="${S}"/src
 
 LICENSE="GPL-3"
 SLOT="0"
 
-CDEPEND="
+DEPEND="
 	dev-libs/json-c
 	dev-qt/qtcore:5
 	dev-qt/qtdbus:5
 	dev-qt/qtgui:5
 	dev-qt/qtwayland:5
 	dev-qt/qtwidgets:5
-	gui-libs/wlroots
-"
-DEPEND="${CDEPEND}
-	kde-frameworks/extra-cmake-modules
 "
 RDEPEND="
-	${CDEPEND}
+	${DEPEND}
 	gui-libs/greetd
 "
