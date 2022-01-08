@@ -1,5 +1,6 @@
 # Copyright 2021 Aisha Tammy
 # Copyright 2021 Erik Rodriguez
+# Copyright 2022 Ryan Fox
 # Distributed under the terms of the ISC License
 
 EAPI=7
@@ -7,11 +8,11 @@ EAPI=7
 inherit meson xdg
 
 DESCRIPTION="Application launcher similar to rofi's 'drun' mode"
-HOMEPAGE="https://codeberg.org/dnkl/yambar"
+HOMEPAGE="https://codeberg.org/dnkl/fuzzel"
 
 if [[ ${PV} == 9999 ]]; then
 	inherit git-r3
-	EGIT_REPO_URI="https://codeberg.org/dnkl/fuzzel"
+	EGIT_REPO_URI="https://codeberg.org/dnkl/fuzzel.git"
 else
 	SRC_URI="https://codeberg.org/dnkl/fuzzel/archive/${PV}.tar.gz -> ${P}.tar.gz"
 	S="${WORKDIR}"/${PN}
@@ -42,8 +43,8 @@ BDEPEND="
 src_configure() {
 	local emesonargs=(
 		-Dwerror=false
-		-Dpng-backend=$(usex png none libpng)
-		-Dsvg-backend=$(usex svg none librsvg)
+		-Dpng-backend=$(usex png libpng none)
+		-Dsvg-backend=$(usex svg librsvg none)
 		$(meson_feature cairo enable-cairo)
 	)
 	meson_src_configure
