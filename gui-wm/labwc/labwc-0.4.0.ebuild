@@ -1,7 +1,7 @@
 # Copyright 2021 Aisha Tammy
 # Distributed under the terms of the ISC License
 
-EAPI=7
+EAPI=8
 
 inherit meson
 
@@ -24,7 +24,7 @@ RDEPEND="
 	dev-libs/glib:2
 	dev-libs/libinput
 	dev-libs/libxml2:2
-	>=gui-libs/wlroots-0.14.0:=[X?]
+	>=gui-libs/wlroots-0.15.0:=[X?]
 	x11-libs/cairo[X?]
 	x11-libs/libxkbcommon:=[X?]
 	x11-libs/pango[X?]
