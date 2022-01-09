@@ -1,8 +1,8 @@
 DEFINED_PHASES=install postinst postrm preinst prepare
-DEPEND=dev-util/desktop-file-utils x11-misc/shared-mime-info
 DESCRIPTION=BeautyLine Icons Theme
-EAPI=7
+EAPI=8
 HOMEPAGE=https://www.gnome-look.org/p/1425426
+IDEPEND=dev-util/desktop-file-utils x11-misc/shared-mime-info
 INHERIT=xdg
 IUSE=no-inherit
 KEYWORDS=~amd64
@@ -10,4 +10,4 @@ LICENSE=GPL-3
 SLOT=0
 SRC_URI=mirror://bsd.ac/beautyline-icon-theme-0_p20211220092736.tar.gz
 _eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	xdg	6024fbc93167fad782e2032933654857
-_md5_=44fd5fff106fbedc6a8062aeca73d615
+_md5_=54bf5b4ae6dd571e3516e05ed81c1002

@@ -1,8 +1,8 @@
-DEFINED_PHASES=compile install postinst postrm preinst prepare
-DEPEND=dev-util/desktop-file-utils x11-misc/shared-mime-info
+DEFINED_PHASES=compile install postinst postrm preinst
 DESCRIPTION=colorful design icon theme
-EAPI=7
+EAPI=8
 HOMEPAGE=https://www.gnome-look.org/s/Gnome/p/1460991 https://github.com/yeyushengfan258/Lyra-icon-theme
+IDEPEND=dev-util/desktop-file-utils x11-misc/shared-mime-info
 INHERIT=xdg
 IUSE=no-inherit
 KEYWORDS=~amd64
@@ -10,4 +10,4 @@ LICENSE=GPL-3
 SLOT=0
 SRC_URI=https://github.com/yeyushengfan258/Lyra-icon-theme/archive/62ffd49ee40b5651ffb1fedcc4e97f6b0d0382c5.tar.gz -> lyra-icon-theme-0_pre20210415.tar.gz
 _eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	xdg	6024fbc93167fad782e2032933654857
-_md5_=f7872e251b8ba908a8606ed3b0ff4107
+_md5_=19bddd48c39b8b81c6078dad89852882

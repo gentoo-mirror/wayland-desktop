@@ -1,12 +1,12 @@
-DEFINED_PHASES=install postinst postrm preinst prepare
-DEPEND=dev-util/desktop-file-utils x11-misc/shared-mime-info
+DEFINED_PHASES=install postinst postrm preinst
 DESCRIPTION=Sweet (dark) gtk theme
-EAPI=7
+EAPI=8
 HOMEPAGE=https://github.com/EliverLara/Sweet
+IDEPEND=dev-util/desktop-file-utils x11-misc/shared-mime-info
 INHERIT=xdg
 KEYWORDS=~amd64
 LICENSE=GPL-3
 SLOT=0
 SRC_URI=https://github.com/EliverLara/Sweet/releases/download/2.0/Sweet-Dark.tar.xz -> sweet-dark-gtk-theme-2.0.tar.xz
 _eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	xdg	6024fbc93167fad782e2032933654857
-_md5_=c262a4b3f300a27869f4251fbdd5b8a9
+_md5_=247021574c13e939e00af40c57cbd099

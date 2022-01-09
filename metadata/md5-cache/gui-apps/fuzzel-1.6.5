@@ -1,9 +1,10 @@
 BDEPEND=app-text/scdoc dev-libs/wayland-protocols virtual/pkgconfig >=dev-util/meson-0.58.2-r1 >=dev-util/ninja-1.8.2 dev-util/meson-format-array
-DEFINED_PHASES=compile configure install postinst postrm preinst prepare test
-DEPEND=dev-libs/wayland media-libs/fcft x11-libs/libxkbcommon cairo? ( x11-libs/cairo ) png? ( media-libs/libpng ) svg? ( gnome-base/librsvg ) dev-libs/tllist dev-util/desktop-file-utils x11-misc/shared-mime-info
+DEFINED_PHASES=compile configure install postinst postrm preinst test
+DEPEND=dev-libs/wayland media-libs/fcft x11-libs/libxkbcommon cairo? ( x11-libs/cairo ) png? ( media-libs/libpng ) svg? ( gnome-base/librsvg ) dev-libs/tllist
 DESCRIPTION=Application launcher similar to rofi's 'drun' mode
-EAPI=7
+EAPI=8
 HOMEPAGE=https://codeberg.org/dnkl/fuzzel
+IDEPEND=dev-util/desktop-file-utils x11-misc/shared-mime-info
 INHERIT=meson xdg
 IUSE=cairo png svg
 KEYWORDS=~amd64
@@ -11,5 +12,5 @@ LICENSE=MIT
 RDEPEND=dev-libs/wayland media-libs/fcft x11-libs/libxkbcommon cairo? ( x11-libs/cairo ) png? ( media-libs/libpng ) svg? ( gnome-base/librsvg )
 SLOT=0
 SRC_URI=https://codeberg.org/dnkl/fuzzel/archive/1.6.5.tar.gz -> fuzzel-1.6.5.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	ninja-utils	a4dab848a4490e8e48cf0baab3e61bc2	eapi8-dosym	cd7d420bb5be5ee079f27239ce76b8f5	toolchain-funcs	badd6e329e1f3e6bee99b35bf8763ce8	multilib	de4beb52bfa93c4c5d96792a6b5e1784	python-utils-r1	a8b7938ade305f087865de7e52d079b5	meson	9f3e84959ae1d60e19bc91f212774dcc	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	xdg	6024fbc93167fad782e2032933654857
-_md5_=ceef679f525925d7c2a7bc91b26dca14
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	ninja-utils	a4dab848a4490e8e48cf0baab3e61bc2	toolchain-funcs	badd6e329e1f3e6bee99b35bf8763ce8	multilib	de4beb52bfa93c4c5d96792a6b5e1784	python-utils-r1	a8b7938ade305f087865de7e52d079b5	meson	9f3e84959ae1d60e19bc91f212774dcc	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	xdg	6024fbc93167fad782e2032933654857
+_md5_=5658d1c66cf9fbe2dcaa88159c4b43d7

@@ -2,7 +2,7 @@ BDEPEND=dev-libs/wayland-protocols virtual/pkgconfig >=dev-util/meson-0.58.2-r1 
 DEFINED_PHASES=compile configure install test
 DEPEND=dev-libs/wayland gui-libs/gtk-layer-shell
 DESCRIPTION=animated wallpaper daemon for Wayland compositors
-EAPI=7
+EAPI=8
 HOMEPAGE=https://github.com/vilhalmer/oguri
 INHERIT=meson
 KEYWORDS=~amd64
@@ -10,5 +10,5 @@ LICENSE=ISC
 RDEPEND=dev-libs/wayland gui-libs/gtk-layer-shell
 SLOT=0
 SRC_URI=https://github.com/vilhalmer/oguri/archive/d6f195acca5de465532cba3efd4b0c592ca542d9.tar.gz -> oguri-0_p20201102.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	ninja-utils	a4dab848a4490e8e48cf0baab3e61bc2	eapi8-dosym	cd7d420bb5be5ee079f27239ce76b8f5	toolchain-funcs	badd6e329e1f3e6bee99b35bf8763ce8	multilib	de4beb52bfa93c4c5d96792a6b5e1784	python-utils-r1	a8b7938ade305f087865de7e52d079b5	meson	9f3e84959ae1d60e19bc91f212774dcc
-_md5_=80e01e620060040cfeaa417efead363b
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	ninja-utils	a4dab848a4490e8e48cf0baab3e61bc2	toolchain-funcs	badd6e329e1f3e6bee99b35bf8763ce8	multilib	de4beb52bfa93c4c5d96792a6b5e1784	python-utils-r1	a8b7938ade305f087865de7e52d079b5	meson	9f3e84959ae1d60e19bc91f212774dcc
+_md5_=7b9884c5aa46598020aacd6d352b64f5

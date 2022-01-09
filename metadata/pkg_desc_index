@@ -2,14 +2,14 @@ dev-libs/rax 1.2 9999: radix tree implementation in ANSI C
 dev-libs/tllist 1.0.5 9999: C header only implementation of a typed linked list
 dev-python/i3ipc 2.2.1 9999: An improved Python library to control i3wm and sway.
 gui-apps/fuzzel 1.6.5 9999: Application launcher similar to rofi's 'drun' mode
-gui-apps/nwg-launchers 0.4.4 0.6.3 9999: GTK launchers for X and wlroots compositors
-gui-apps/nwg-panel 0.4.3 0.5.2 9999: GTK3-based panel for sway window manager
+gui-apps/nwg-launchers 0.6.3 9999: GTK launchers for X and wlroots compositors
+gui-apps/nwg-panel 0.5.2 9999: GTK3-based panel for sway window manager
 gui-apps/oguri 0_p20201102 9999: animated wallpaper daemon for Wayland compositors
 gui-apps/pico-wayfire 9999: Opinionated dotfiles for a consistent look on wayfire
 gui-apps/qtgreet 1.0.0_p20211109 9999: QT based greeter for greetd
 gui-apps/swaylock-effects 1.6.3 9999: Screen locker for Wayland
 gui-apps/wtype 0.3 9999: xdotool type for wayland
-gui-apps/yambar 1.6.1 1.7.0 9999: Modular status panel for X11 and Wayland
+gui-apps/yambar 1.7.0 9999: Modular status panel for X11 and Wayland
 gui-desq/desq-meta 1.0.0: meta packafe for DesQ Project ports
 gui-desq/desq-session 0_p20210228 9999: session manager for DesQ
 gui-desq/desq-shell 0_p20210228 9999: main user interface shell for DesQ
@@ -42,14 +42,14 @@ gui-liri/liri-wayland 0_pre20201205 9999: Liri wayland client and server extensi
 gui-liri/liri-xdg-desktop-portal 9999: QtQuick and Wayland shell for convergence
 gui-wm/cagebreak 1.8.2 9999: Wayland tiling compositor inspired by RatPoison
 gui-wm/kiwmi 0_p20211210 9999: fully programmable wayland compositor
-gui-wm/labwc 0.3.0 9999: Openbox alternative for wayland
+gui-wm/labwc 0.4.0 9999: Openbox alternative for wayland
 gui-wm/river 0.1.2 9999: Dynamic tiling wayland compositor
 gui-wm/waybox 0_pre20210414 9999: openbox clone on wayland
 media-fonts/lato 2.015: Sanserif type face family with classical proportions
 media-libs/fcft 2.5.1 9999: Library for font loading and glyph rasterization
-x11-themes/beautyline-icon-theme 0_p20210310130119 0_p20210311201730 0_p20210930144632 0_p20211220092736: BeautyLine Icons Theme
-x11-themes/bibata-cursor-theme 1.0.3 1.1.0 1.1.1 1.1.2: material based cursor theme
-x11-themes/candy-icon-theme 0_pre20210316-r1 0_pre20211113 9999: sweet gradient icons
+x11-themes/beautyline-icon-theme 0_p20211220092736: BeautyLine Icons Theme
+x11-themes/bibata-cursor-theme 1.1.2: material based cursor theme
+x11-themes/candy-icon-theme 0_pre20211113 9999: sweet gradient icons
 x11-themes/dracula-gtk-theme 2.0: Dracula GTK theme
 x11-themes/hey-icon-theme 0_pre20191021 9999: gradient icons inspired by linebit
 x11-themes/lyra-icon-theme 0_pre20210415 9999: colorful design icon theme

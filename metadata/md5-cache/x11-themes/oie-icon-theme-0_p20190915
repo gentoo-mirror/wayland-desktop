@@ -1,8 +1,8 @@
 DEFINED_PHASES=install postinst postrm preinst prepare
-DEPEND=dev-util/desktop-file-utils x11-misc/shared-mime-info
 DESCRIPTION=OieIcons Theme
-EAPI=7
+EAPI=8
 HOMEPAGE=https://www.opencode.net/adhe/oieicons
+IDEPEND=dev-util/desktop-file-utils x11-misc/shared-mime-info
 INHERIT=xdg
 IUSE=no-inherit
 KEYWORDS=~amd64
@@ -10,4 +10,4 @@ LICENSE=LGPL-3
 SLOT=0
 SRC_URI=https://www.opencode.net/adhe/oieicons/-/archive/2231c0d5e578933d9803b8e77701de67d88c2e92/oieicons-2231c0d5e578933d9803b8e77701de67d88c2e92.tar.gz -> oie-icon-theme-0_p20190915.tar.gz
 _eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	xdg	6024fbc93167fad782e2032933654857
-_md5_=7283d6309247a7b6df575db4679fa2fe
+_md5_=977240c622cf63365b9e375ea5ff2681

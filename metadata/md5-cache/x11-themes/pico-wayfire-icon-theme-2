@@ -1,8 +1,8 @@
-DEFINED_PHASES=install postinst postrm preinst prepare
-DEPEND=dev-util/desktop-file-utils x11-misc/shared-mime-info
+DEFINED_PHASES=install postinst postrm preinst
 DESCRIPTION=meta icon theme for pico-wayfire
-EAPI=7
+EAPI=8
 HOMEPAGE=https://github.com/bsd-ac/pico-wayfire-icon-theme
+IDEPEND=dev-util/desktop-file-utils x11-misc/shared-mime-info
 INHERIT=xdg
 KEYWORDS=~amd64
 LICENSE=ISC
@@ -10,4 +10,4 @@ RDEPEND=x11-themes/adwaita-icon-theme x11-themes/beautyline-icon-theme[no-inheri
 SLOT=0
 SRC_URI=https://github.com/bsd-ac/pico-wayfire-icon-theme/archive/2.tar.gz -> pico-wayfire-icon-theme-2.tar.gz
 _eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	xdg	6024fbc93167fad782e2032933654857
-_md5_=19691367987d7df57b7e3f871a308c3a
+_md5_=72a48eb3d67865d3bea53ea9de1c7a00
