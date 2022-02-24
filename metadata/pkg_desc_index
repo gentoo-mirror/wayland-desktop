@@ -43,7 +43,7 @@ gui-liri/liri-xdg-desktop-portal 9999: QtQuick and Wayland shell for convergence
 gui-wm/cagebreak 1.8.2 9999: Wayland tiling compositor inspired by RatPoison
 gui-wm/kiwmi 0_p20211210 9999: fully programmable wayland compositor
 gui-wm/labwc 0.4.0 9999: Openbox alternative for wayland
-gui-wm/river 0.1.2 9999: Dynamic tiling wayland compositor
+gui-wm/river 0.1.2 0.1.3 9999: Dynamic tiling wayland compositor
 gui-wm/waybox 0_pre20210414 9999: openbox clone on wayland
 media-fonts/lato 2.015: Sanserif type face family with classical proportions
 media-libs/fcft 2.5.1 9999: Library for font loading and glyph rasterization
