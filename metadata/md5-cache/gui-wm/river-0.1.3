@@ -1,13 +1,14 @@
-BDEPEND=>=dev-lang/zig-0.9.1 dev-libs/wayland-protocols virtual/pkgconfig app-text/scdoc
+BDEPEND=>=dev-lang/zig-0.9.0 dev-libs/wayland-protocols virtual/pkgconfig app-text/scdoc
 DEFINED_PHASES=compile configure install test
 DEPEND=dev-libs/libevdev dev-libs/libinput dev-libs/wayland >=gui-libs/wlroots-0.15.0:=[X] x11-libs/cairo[X] x11-libs/libxkbcommon:=[X] x11-libs/pixman
 DESCRIPTION=Dynamic tiling wayland compositor
 EAPI=8
 HOMEPAGE=https://github.com/riverwm/river
 IUSE=test
+KEYWORDS=~amd64
 LICENSE=GPL-3
 RDEPEND=dev-libs/libevdev dev-libs/libinput dev-libs/wayland >=gui-libs/wlroots-0.15.0:=[X] x11-libs/cairo[X] x11-libs/libxkbcommon:=[X] x11-libs/pixman
 RESTRICT=!test? ( test )
 SLOT=0
 SRC_URI=https://github.com/riverwm/river/releases/download/v0.1.3/river-0.1.3.tar.gz
-_md5_=f36ce0ef7d15435682c0b75602642c00
+_md5_=c30a00e8fcbba946e57af84640c26c17
