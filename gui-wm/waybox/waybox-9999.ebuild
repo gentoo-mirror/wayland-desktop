@@ -12,9 +12,7 @@ if [[ ${PV} == 9999 ]]; then
 	inherit git-r3
 	EGIT_REPO_URI="https://github.com/wizbright/waybox.git"
 else
-	COMMIT=309ccd2faf08079e698104b19eff32b3a255b947
-	SRC_URI="https://github.com/wizbright/waybox/archive/${COMMIT}.tar.gz -> ${P}.tar.gz"
-	S="${WORKDIR}"/waybox-${COMMIT}
+	SRC_URI="https://github.com/wizbright/waybox/archive/refs/tags/${PV}.tar.gz -> ${P}.tar.gz"
 	KEYWORDS="~amd64"
 fi
 
@@ -22,10 +20,10 @@ LICENSE="MIT"
 SLOT="0"
 
 RDEPEND="
-	>=gui-libs/wlroots-0.13.0
+	>=gui-libs/wlroots-0.15.0
 	x11-libs/libxkbcommon:=[X]
 "
-
+DEPEND="${RDEPEND}"
 BDEPEND="
 	${RDEPEND}
 	>=dev-libs/wayland-protocols-1.14
