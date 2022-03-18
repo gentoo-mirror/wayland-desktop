@@ -13,6 +13,5 @@ gui-apps/yambar:modules - Build plugins as dynamically loaded shared librarie
 gui-liri/liri-xdg-desktop-portal:pipewire - Enable support for media-video/pipewire
 media-libs/fcft:grapheme-shaping - enable shaping of individual grapheme clusters
 media-libs/fcft:run-shaping - enable shaping of whole text runs
-media-libs/fcft:test-text-shaping - enable tests for text shaping
 x11-themes/bibata-cursor-theme:modern - install modern variantion of the theme
 x11-themes/bibata-cursor-theme:original - install original variation of the theme
