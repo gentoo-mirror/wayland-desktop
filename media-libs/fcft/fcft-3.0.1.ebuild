@@ -19,8 +19,8 @@ fi
 
 LICENSE="MIT"
 SLOT="0"
-IUSE="examples +grapheme-shaping +run-shaping test test-text-shaping"
-REQUIRED_USE="test-text-shaping? ( run-shaping ) run-shaping? ( grapheme-shaping )"
+IUSE="examples +grapheme-shaping +run-shaping test"
+REQUIRED_USE="test? ( run-shaping ) run-shaping? ( grapheme-shaping )"
 RESTRICT="!test? ( test )"
 
 RDEPEND="
@@ -35,7 +35,10 @@ DEPEND="${RDEPEND}
 "
 BDEPEND="
 	app-text/scdoc
-	test? ( dev-libs/check )
+	test? (
+		dev-libs/check
+		media-fonts/noto-emoji
+	)
 "
 
 src_configure() {
@@ -45,7 +48,7 @@ src_configure() {
 		$(meson_feature grapheme-shaping)
 		$(meson_feature run-shaping)
 		$(meson_use examples)
-		$(meson_use test-text-shaping)
+		$(meson_use test test-text-shaping)
 	)
 	meson_src_configure
 }
