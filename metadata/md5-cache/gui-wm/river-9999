@@ -11,5 +11,5 @@ PROPERTIES=live
 RDEPEND=dev-libs/libevdev dev-libs/libinput dev-libs/wayland >=gui-libs/wlroots-0.15.0:=[X] x11-libs/cairo[X] x11-libs/libxkbcommon:=[X] x11-libs/pixman
 RESTRICT=!test? ( test )
 SLOT=0
-_eclasses_=git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da
+_eclasses_=git-r3	b9ac6f96d2a88edb5b351df634dc5e53
 _md5_=c30a00e8fcbba946e57af84640c26c17

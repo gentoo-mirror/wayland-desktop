@@ -9,5 +9,5 @@ KEYWORDS=~amd64
 LICENSE=GPL-3
 SLOT=0
 SRC_URI=https://github.com/EliverLara/candy-icons/archive/2cc7c9acb6a75d6075e24c95ab7813373a4ba92a.tar.gz -> candy-icon-theme-0_pre20211113.tar.gz
-_eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	xdg	6024fbc93167fad782e2032933654857
+_eclasses_=xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	xdg	6024fbc93167fad782e2032933654857
 _md5_=b2f21c042245b9021c93130b7a3417c0

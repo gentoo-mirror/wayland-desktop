@@ -9,5 +9,5 @@ KEYWORDS=~amd64
 LICENSE=OFL-1.1
 SLOT=0
 SRC_URI=https://www.latofonts.com/download/lato2ofl-zip/ -> lato-2.015.zip
-_eclasses_=font	0667878c2b594871023dd1833d05996f
+_eclasses_=font	b500e97c1ae30f830e84a95be6e9bd36
 _md5_=7bba1b6e6acb9252cd7b651814b63eef
