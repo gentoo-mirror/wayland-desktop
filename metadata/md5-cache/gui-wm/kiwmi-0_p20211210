@@ -12,5 +12,5 @@ RDEPEND=lua_single_target_luajit? ( dev-lang/luajit:= ) lua_single_target_lua5-1
 REQUIRED_USE=^^ ( lua_single_target_luajit lua_single_target_lua5-1 lua_single_target_lua5-3 )
 SLOT=0
 SRC_URI=https://github.com/buffet/kiwmi/archive/86e0f5b3fa9de1fa1ff58c431b32dbe48c5d3df8.tar.gz -> kiwmi-0_p20211210.tar.gz
-_eclasses_=toolchain-funcs	badd6e329e1f3e6bee99b35bf8763ce8	multilib	4a33c9008e5ee30cb8840a3fdc24df2b	lua-utils	e69ff116248d78546ae1a234c086fe80	lua-single	f2c2fb82c912dd65d53bdae3613a331f	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ninja-utils	891c4d3862cbc1ce8808ea427facbcd1	python-utils-r1	c44a1c362b7660d46c7a67c553e589c3	meson	4e69b4b5d15387549776392e83e8c42c
+_eclasses_=toolchain-funcs	badd6e329e1f3e6bee99b35bf8763ce8	multilib	4a33c9008e5ee30cb8840a3fdc24df2b	lua-utils	e69ff116248d78546ae1a234c086fe80	lua-single	f2c2fb82c912dd65d53bdae3613a331f	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ninja-utils	58ec4e54962bf45d065fb95030701514	python-utils-r1	c44a1c362b7660d46c7a67c553e589c3	meson	8f48ffde53174aba67239f0da61ac9d3
 _md5_=e93ec0f6b484e3e7246cf2a30d9de783
