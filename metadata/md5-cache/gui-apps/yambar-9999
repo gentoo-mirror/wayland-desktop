@@ -11,5 +11,5 @@ LICENSE=MIT
 PROPERTIES=live
 RDEPEND=dev-libs/libyaml dev-libs/wayland media-libs/fcft media-libs/libmpdclient x11-libs/cairo x11-libs/gtk+:3 x11-libs/libnotify x11-libs/libxcb x11-libs/pango x11-libs/xcb-util x11-libs/xcb-util-cursor x11-libs/xcb-util-wm
 SLOT=0
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ninja-utils	58ec4e54962bf45d065fb95030701514	toolchain-funcs	1542e649be915f43f6908a9e93909961	multilib	5ca4e49abed8e3a2f7b56920eadee157	python-utils-r1	667174e2df1036a5520d3b3b3fb33e98	meson	46c25780996ffc397131ecd35a2194a2	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	xdg	6024fbc93167fad782e2032933654857	git-r3	b9ac6f96d2a88edb5b351df634dc5e53
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ninja-utils	58ec4e54962bf45d065fb95030701514	toolchain-funcs	1542e649be915f43f6908a9e93909961	multilib	5ca4e49abed8e3a2f7b56920eadee157	python-utils-r1	667174e2df1036a5520d3b3b3fb33e98	meson	1994a5aef5d4f5798b92f64d6f9a6003	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	xdg	6024fbc93167fad782e2032933654857	git-r3	b9ac6f96d2a88edb5b351df634dc5e53
 _md5_=ace63f29fe7d8f046c4c9388f9d3f5ba
