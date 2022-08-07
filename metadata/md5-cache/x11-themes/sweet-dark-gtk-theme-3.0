@@ -1,0 +1,13 @@
+BDEPEND=app-arch/unzip
+DEFINED_PHASES=install postinst postrm preinst
+DESCRIPTION=Sweet (dark) gtk theme
+EAPI=8
+HOMEPAGE=https://github.com/EliverLara/Sweet
+IDEPEND=dev-util/desktop-file-utils x11-misc/shared-mime-info
+INHERIT=xdg
+KEYWORDS=~amd64
+LICENSE=GPL-3
+SLOT=0
+SRC_URI=https://github.com/EliverLara/Sweet/releases/download/v3.0/Sweet-Dark.zip -> sweet-dark-gtk-theme-3.0.zip https://github.com/EliverLara/Sweet/releases/download/v3.0/Sweet-Dark-v40.zip -> sweet-dark-gtk-theme-3.0-v40.zip
+_eclasses_=xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	xdg	6024fbc93167fad782e2032933654857
+_md5_=29bfbc24d88df58ada6ebb7607a0bc49
