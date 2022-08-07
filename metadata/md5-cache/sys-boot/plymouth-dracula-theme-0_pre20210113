@@ -1,0 +1,9 @@
+DEFINED_PHASES=install
+DESCRIPTION=dracula theme for plymouth
+EAPI=8
+HOMEPAGE=https://github.com/pspiagicw/dracula-plymouth
+KEYWORDS=~amd64
+LICENSE=GPL-3
+SLOT=0
+SRC_URI=https://github.com/pspiagicw/dracula-plymouth/archive/37aa09b27ecee4a825b43d2c1d20b502e8f19c96.tar.gz -> plymouth-dracula-theme-0_pre20210113.tar.gz
+_md5_=587634bcb3f8d62d1f2eb047fdcbcd18
