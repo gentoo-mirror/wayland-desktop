@@ -1,13 +1,13 @@
 DEFINED_PHASES=install postinst postrm preinst prepare
-DESCRIPTION=BeautyLine Icons Theme
+DESCRIPTION=sweet gradient icons
 EAPI=8
-HOMEPAGE=https://www.gnome-look.org/p/1425426
+HOMEPAGE=https://github.com/EliverLara/candy-icons
 IDEPEND=dev-util/desktop-file-utils x11-misc/shared-mime-info
 INHERIT=xdg
 IUSE=no-inherit
 KEYWORDS=~amd64
 LICENSE=GPL-3
 SLOT=0
-SRC_URI=mirror://bsd.ac/beautyline-icon-theme-0_p20211220092736.tar.gz
+SRC_URI=https://github.com/EliverLara/candy-icons/archive/b8a2ca72e7182f23abf5a2c5d24d93c230de394a.tar.gz -> candy-icon-theme-0_pre20220809.tar.gz
 _eclasses_=xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	xdg	6024fbc93167fad782e2032933654857
-_md5_=54bf5b4ae6dd571e3516e05ed81c1002
+_md5_=9a6fd5bea5cc257450938a21b3ea3d66

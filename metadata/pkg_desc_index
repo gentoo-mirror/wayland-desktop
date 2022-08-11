@@ -48,9 +48,9 @@ gui-wm/waybox 0.2.0 9999: openbox clone on wayland
 media-fonts/lato 2.015: Sanserif type face family with classical proportions
 media-libs/fcft 3.0.1 9999: Library for font loading and glyph rasterization
 sys-boot/plymouth-dracula-theme 0_pre20210113 9999: dracula theme for plymouth
-x11-themes/beautyline-icon-theme 0_p20211220092736: BeautyLine Icons Theme
+x11-themes/beautyline-icon-theme 0_p20211220092736-r1: BeautyLine Icons Theme
 x11-themes/bibata-cursor-theme 1.1.2: material based cursor theme
-x11-themes/candy-icon-theme 0_pre20211113 9999: sweet gradient icons
+x11-themes/candy-icon-theme 0_pre20211113 0_pre20220809 9999: sweet gradient icons
 x11-themes/dracula-gtk-theme 2.0 3.0: Dracula GTK theme
 x11-themes/hey-icon-theme 0_pre20191021 9999: gradient icons inspired by linebit
 x11-themes/lyra-icon-theme 0_pre20210415 9999: colorful design icon theme
