@@ -13,7 +13,7 @@ if [[ ${PV} == 9999 ]]; then
 	inherit git-r3
 	EGIT_REPO_URI="https://gitlab.com/marcusbritanicus/QtGreet"
 else
-	COMMIT=32b9a0f50ef29550f3a25dd0bf8ef1f76ae38139
+	COMMIT=b40b7c8e22fb814950ea402c52e6f63c50e30343
 	SRC_URI="https://gitlab.com/marcusbritanicus/QtGreet/-/archive/${COMMIT}/QtGreet-${COMMIT}.tar.gz -> ${P}.tar.gz"
 	S="${WORKDIR}"/QtGreet-${COMMIT}
 	KEYWORDS="~amd64"
@@ -29,6 +29,7 @@ DEPEND="
 	dev-qt/qtgui:5
 	dev-qt/qtwayland:5
 	dev-qt/qtwidgets:5
+	gui-libs/wayqt
 "
 RDEPEND="
 	${DEPEND}
