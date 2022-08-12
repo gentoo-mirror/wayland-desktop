@@ -1,13 +1,13 @@
 BDEPEND=>=dev-util/meson-0.62.2 >=dev-util/ninja-1.8.2 dev-util/meson-format-array >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile configure install test unpack
-DEPEND=dev-libs/json-c dev-qt/qtcore:5 dev-qt/qtdbus:5 dev-qt/qtgui:5 dev-qt/qtwayland:5 dev-qt/qtwidgets:5
+DEPEND=dev-libs/json-c dev-qt/qtcore:5 dev-qt/qtdbus:5 dev-qt/qtgui:5 dev-qt/qtwayland:5 dev-qt/qtwidgets:5 gui-libs/wayqt
 DESCRIPTION=QT based greeter for greetd
 EAPI=8
 HOMEPAGE=https://gitlab.com/marcusbritanicus/QtGreet
 INHERIT=meson git-r3
 LICENSE=GPL-3
 PROPERTIES=live
-RDEPEND=dev-libs/json-c dev-qt/qtcore:5 dev-qt/qtdbus:5 dev-qt/qtgui:5 dev-qt/qtwayland:5 dev-qt/qtwidgets:5 gui-libs/greetd
+RDEPEND=dev-libs/json-c dev-qt/qtcore:5 dev-qt/qtdbus:5 dev-qt/qtgui:5 dev-qt/qtwayland:5 dev-qt/qtwidgets:5 gui-libs/wayqt gui-libs/greetd
 SLOT=0
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ninja-utils	58ec4e54962bf45d065fb95030701514	toolchain-funcs	1542e649be915f43f6908a9e93909961	multilib	5ca4e49abed8e3a2f7b56920eadee157	python-utils-r1	dd5e1098e305ad508d21f496e9e37046	meson	1994a5aef5d4f5798b92f64d6f9a6003	git-r3	b9ac6f96d2a88edb5b351df634dc5e53
-_md5_=d80b1db093c5b3f47da3b2bbf543cb54
+_md5_=a4a8b71a395806242165a5e53c81b60c
