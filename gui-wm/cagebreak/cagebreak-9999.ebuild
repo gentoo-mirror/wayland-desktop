@@ -23,13 +23,16 @@ IUSE="+X"
 
 RDEPEND="
 	dev-libs/glib:2
+	dev-libs/libevdev
 	dev-libs/libinput
 	dev-libs/libxml2:2
 	>=gui-libs/wlroots-0.14.1:=[X?]
+	media-libs/fontconfig
 	x11-libs/cairo[X?]
 	x11-libs/libxkbcommon:=[X?]
 	x11-libs/pango[X?]
 	x11-libs/pixman
+	virtual/libudev:=
 "
 DEPEND="${RDEPEND}"
 BDEPEND="
