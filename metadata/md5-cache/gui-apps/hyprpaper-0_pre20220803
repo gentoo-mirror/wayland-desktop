@@ -1,0 +1,14 @@
+BDEPEND=dev-libs/wayland-protocols virtual/pkgconfig >=dev-util/ninja-1.8.2 >=dev-util/cmake-3.20.5
+DEFINED_PHASES=compile configure install prepare test
+DEPEND=dev-libs/wayland media-libs/libglvnd media-libs/libjpeg-turbo x11-libs/cairo x11-libs/pango
+DESCRIPTION=blazing fast wayland wallpaper utility with IPC controls.
+EAPI=8
+HOMEPAGE=https://github.com/hyprwm/Hyprpaper
+INHERIT=cmake
+KEYWORDS=~amd64
+LICENSE=BSD
+RDEPEND=dev-libs/wayland media-libs/libglvnd media-libs/libjpeg-turbo x11-libs/cairo x11-libs/pango
+SLOT=0
+SRC_URI=https://github.com/hyprwm/hyprpaper/archive/571f495e88cf9a758698d937d65b9ba35d6eab13.tar.gz -> hyprpaper-0_pre20220803.tar.gz
+_eclasses_=toolchain-funcs	1542e649be915f43f6908a9e93909961	multilib	5ca4e49abed8e3a2f7b56920eadee157	flag-o-matic	38d6ec96711cea42a5cb1cc723a6e906	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ninja-utils	58ec4e54962bf45d065fb95030701514	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	cmake	44afbf15c35884f7c840470f1cf05d0d
+_md5_=f8f7e63bd741464cb0f0b200dcd6b6b0
