@@ -5,7 +5,7 @@ dev-python/i3ipc 2.2.1 9999: An improved Python library to control i3wm and sway
 dev-python/pyfiglet 0.8_p1: Implementation of figlet written in Python
 dev-python/pywm 0.3a 9999: wlroots-based Wayland compositor with Python frontend.
 dev-python/thefuzz 0.19.0 9999: Fuzzy String Matching in Python.
-gui-apps/fuzzel 1.6.5 9999: Application launcher similar to rofi's 'drun' mode
+gui-apps/fuzzel 1.6.5 1.7.0 9999: Application launcher similar to rofi's 'drun' mode
 gui-apps/hyprpaper 0_pre20220803 9999: blazing fast wayland wallpaper utility with IPC controls.
 gui-apps/nwg-launchers 0.6.3 9999: GTK launchers for X and wlroots compositors
 gui-apps/nwg-panel 0.5.2 9999: GTK3-based panel for sway window manager
