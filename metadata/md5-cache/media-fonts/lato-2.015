@@ -1,7 +1,7 @@
 BDEPEND=app-arch/unzip X? ( >=x11-apps/mkfontscale-1.2.0 media-fonts/encodings )
 DEFINED_PHASES=install postinst postrm setup
 DESCRIPTION=Sanserif type face family with classical proportions
-EAPI=7
+EAPI=8
 HOMEPAGE=https://www.latofonts.com/
 INHERIT=font
 IUSE=X
@@ -10,4 +10,4 @@ LICENSE=OFL-1.1
 SLOT=0
 SRC_URI=https://www.latofonts.com/download/lato2ofl-zip/ -> lato-2.015.zip
 _eclasses_=font	d31f12a0f6e13d56dc3062e76ae58a61
-_md5_=7bba1b6e6acb9252cd7b651814b63eef
+_md5_=83315b26a38991c9de561c5b0e6eeafb
