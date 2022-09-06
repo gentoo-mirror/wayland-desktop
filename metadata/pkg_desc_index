@@ -10,7 +10,7 @@ dev-python/thefuzz 0.19.0 9999: Fuzzy String Matching in Python.
 gui-apps/fuzzel 1.6.5 9999: Application launcher similar to rofi's 'drun' mode
 gui-apps/hyprpaper 0_pre20220803 9999: blazing fast wayland wallpaper utility with IPC controls.
 gui-apps/nwg-launchers 0.6.3 9999: GTK launchers for X and wlroots compositors
-gui-apps/nwg-panel 0.5.2 9999: GTK3-based panel for sway window manager
+gui-apps/nwg-panel 0.7.7 9999: GTK3-based panel for sway window manager
 gui-apps/oguri 0_p20201102 9999: animated wallpaper daemon for Wayland compositors
 gui-apps/pico-wayfire 9999: Opinionated dotfiles for a consistent look on wayfire
 gui-apps/qtgreet 1.0.0_p20220711 9999: QT based greeter for greetd
