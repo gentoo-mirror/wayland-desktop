@@ -9,5 +9,5 @@ LICENSE=ISC
 RDEPEND=x11-themes/adwaita-icon-theme x11-themes/beautyline-icon-theme[no-inherit] x11-themes/candy-icon-theme[no-inherit] x11-themes/hey-icon-theme[no-inherit] x11-themes/hicolor-icon-theme x11-themes/oie-icon-theme[no-inherit]
 SLOT=0
 SRC_URI=https://github.com/bsd-ac/pico-wayfire-icon-theme/archive/4.tar.gz -> pico-wayfire-icon-theme-4.tar.gz
-_eclasses_=xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	xdg	6024fbc93167fad782e2032933654857
+_eclasses_=xdg-utils	ac0e315a3688929e34ac75b139e7349a	xdg	6024fbc93167fad782e2032933654857
 _md5_=5082e1b939d407c065bd9af9e97a5cac
