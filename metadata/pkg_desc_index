@@ -1,5 +1,5 @@
 dev-libs/rax 1.2 9999: radix tree implementation in ANSI C
-dev-python/dasbus 1.6 9999: DBus library in Python 3.
+dev-python/dasbus 1.6 1.7 9999: DBus library in Python 3.
 dev-python/i3ipc 2.2.1 9999: An improved Python library to control i3wm and sway.
 dev-python/pyfiglet 0.8_p1: Implementation of figlet written in Python
 dev-python/python-xkbcommon 0.4 9999: Python bindings for the libwayland library.
