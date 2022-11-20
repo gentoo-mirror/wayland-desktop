@@ -9,5 +9,5 @@ KEYWORDS=~amd64
 LICENSE=EULA
 SLOT=0
 SRC_URI=https://aka.ms/SegoeUIVariable -> segoe-1.0-variable.zip https://aka.ms/SegoeFluentIcons -> segoe-1.0-fluent-icons.zip https://aka.ms/segoeuifont -> segoe-1.0-ui.zip https://aka.ms/segoemdl2 -> segoe-1.0-mdl2.zip
-_eclasses_=font	9cdfddf092c05c7c4efd70cc30dea046
+_eclasses_=font	5e03cb70902daa9ff8967c61130f0f60
 _md5_=4218ef6f13a4628112ed02f21a808a12
