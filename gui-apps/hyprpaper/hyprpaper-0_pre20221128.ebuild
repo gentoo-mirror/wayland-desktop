@@ -12,7 +12,7 @@ if [[ ${PV} == 9999 ]]; then
 	inherit git-r3
 	EGIT_REPO_URI="https://github.com/hyprwm/hyprpaper/"
 else
-	COMMIT="571f495e88cf9a758698d937d65b9ba35d6eab13"
+	COMMIT="ab85578dce442b80aa3378fe0304e6cb6f16f593"
 	SRC_URI="https://github.com/hyprwm/hyprpaper/archive/${COMMIT}.tar.gz -> ${P}.tar.gz"
 	S="${WORKDIR}/hyprpaper-${COMMIT}"
 	KEYWORDS="~amd64"
@@ -33,8 +33,6 @@ BDEPEND="
 	dev-libs/wayland-protocols
 	virtual/pkgconfig
 "
-
-PATCHES=( "${FILESDIR}/${PN}-0_pre20220803-buildvars.patch" )
 
 src_compile() {
 	emake protocols
