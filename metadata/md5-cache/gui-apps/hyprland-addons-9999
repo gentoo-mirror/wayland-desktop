@@ -1,0 +1,14 @@
+BDEPEND=app-text/scdoc >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=install unpack
+DESCRIPTION=Community scripts and utilities for Hypr projects
+EAPI=8
+HOMEPAGE=https://github.com/hyprwm/contrib/
+INHERIT=git-r3
+IUSE=+grimblast +shellevents
+LICENSE=MIT
+PROPERTIES=live
+RDEPEND=app-misc/jq gui-apps/grim gui-apps/slurp gui-apps/wl-clipboard gui-wm/hyprland x11-libs/libnotify
+REQUIRED_USE=|| ( grimblast shellevents )
+SLOT=0
+_eclasses_=git-r3	2347f8fe2d392b2a091191f94be37e6f
+_md5_=929b37307ce7edec4b75e97849c6dde2

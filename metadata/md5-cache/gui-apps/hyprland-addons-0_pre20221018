@@ -1,0 +1,13 @@
+BDEPEND=app-text/scdoc
+DEFINED_PHASES=install
+DESCRIPTION=Community scripts and utilities for Hypr projects
+EAPI=8
+HOMEPAGE=https://github.com/hyprwm/contrib/
+IUSE=+grimblast +shellevents
+KEYWORDS=~amd64
+LICENSE=MIT
+RDEPEND=app-misc/jq gui-apps/grim gui-apps/slurp gui-apps/wl-clipboard gui-wm/hyprland x11-libs/libnotify
+REQUIRED_USE=|| ( grimblast shellevents )
+SLOT=0
+SRC_URI=https://github.com/hyprwm/contrib/archive/5b21c74a3200ffdd48ed7764c7041d43c3cd5588.tar.gz -> hyprland-addons-0_pre20221018.tar.gz
+_md5_=929b37307ce7edec4b75e97849c6dde2
