@@ -36,18 +36,7 @@ gui-desq/util-settingsdaemon 0_p20210228 9999: main user interface shell for Des
 gui-desq/util-splash 0_pre20210227 9999: Session splash screen for DesQ
 gui-libs/nuklear 4.9.5: single-header ANSI C cross platform GUI library
 gui-libs/wayqt 0_pre20220707 9999: Qt-based wrapper for various wayland protocols
-gui-liri/libliri 0_pre20201205 9999: Liri core library
 gui-liri/liri-cmake-shared 0_pre20201011 1.1.0_p20211205 9999: shared cmake configuration utils for liri
-gui-liri/liri-eglfs 0_pre20201011 9999: shared cmake configuration utils for liri
-gui-liri/liri-fluid 1.2.1_p20201011 9999: Liri library for QtQuick apps with Material Design
-gui-liri/liri-platformtheme 1.0.0_p20201203 9999: QtQuick and Wayland shell for convergence
-gui-liri/liri-qml-xwayland 0.10.0_p20201203 9999: shared cmake configuration utils for liri
-gui-liri/liri-qtaccountsservice 1.3.0_p20201011 9999: Qt-style API for AccountsService DBus service
-gui-liri/liri-qtgsettings 1.3.0_p20200913 9999: Qt wrapper for GSettings for Liri
-gui-liri/liri-qtudev 1.1.0_p20201001 9999: shared cmake configuration utils for liri
-gui-liri/liri-session 0_pre20201204 9999: QtQuick and Wayland shell for convergence
-gui-liri/liri-shell 0.9.0_p20210204 9999: QtQuick and Wayland shell for convergence
-gui-liri/liri-wayland 0_pre20201205 9999: Liri wayland client and server extensions
 gui-liri/liri-xdg-desktop-portal 9999: QtQuick and Wayland shell for convergence
 gui-wm/cagebreak 1.9.1 9999: Wayland tiling compositor inspired by RatPoison
 gui-wm/hyprland 0.16.0 0.17.0 9999: Dynamic tiling Wayland compositor that doesn't sacrifice on its looks.
