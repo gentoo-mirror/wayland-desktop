@@ -4,8 +4,8 @@ dev-python/dasbus 1.6 1.7 9999: DBus library in Python 3.
 dev-python/i3ipc 2.2.1 9999: An improved Python library to control i3wm and sway.
 dev-python/pyfiglet 0.8_p1: Implementation of figlet written in Python
 dev-python/python-xkbcommon 0.4 9999: Python bindings for the libwayland library.
-dev-python/pywayland 0.4.14 9999: Python bindings for the libwayland library.
-dev-python/pywlroots 0.15.20 9999: Python binding to the wlroots library using cffi.
+dev-python/pywayland 0.4.14 0.4.15 9999: Python bindings for the libwayland library.
+dev-python/pywlroots 0.15.20 0.15.24 9999: Python binding to the wlroots library using cffi.
 dev-python/pywm 0.3a 9999: wlroots-based Wayland compositor with Python frontend.
 dev-python/thefuzz 0.19.0 9999: Fuzzy String Matching in Python.
 gui-apps/fuzzel 1.6.5 9999: Application launcher similar to rofi's 'drun' mode
@@ -52,7 +52,7 @@ gui-liri/liri-shell 0.9.0_p20210204 9999: QtQuick and Wayland shell for converge
 gui-liri/liri-wayland 0_pre20201205 9999: Liri wayland client and server extensions
 gui-liri/liri-xdg-desktop-portal 9999: QtQuick and Wayland shell for convergence
 gui-wm/cagebreak 1.9.1 9999: Wayland tiling compositor inspired by RatPoison
-gui-wm/hyprland 0.16.0 0.17.0 9999: Dynamic tiling Wayland compositor that doesn't sacrifice on its looks.
+gui-wm/hyprland 0.16.0 0.17.0 0.19.2 9999: Dynamic tiling Wayland compositor that doesn't sacrifice on its looks.
 gui-wm/kiwmi 0_p20211210 9999: fully programmable wayland compositor
 gui-wm/labwc 0.4.0 0.5.0 0.5.3 9999: Openbox alternative for wayland
 gui-wm/newm 0.3a 9999: Wayland compositor for laptops and touchpads.
