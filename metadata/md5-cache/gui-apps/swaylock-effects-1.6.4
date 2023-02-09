@@ -1,15 +1,15 @@
 BDEPEND=app-text/scdoc >=dev-libs/wayland-protocols-1.14 virtual/pkgconfig >=dev-util/meson-0.62.2 >=dev-util/ninja-1.8.2 dev-util/meson-format-array
-DEFINED_PHASES=compile configure install prepare test
+DEFINED_PHASES=compile configure install test
 DEPEND=dev-libs/wayland x11-libs/cairo x11-libs/libxkbcommon gdk-pixbuf? ( x11-libs/gdk-pixbuf:2 ) pam? ( sys-libs/pam )
 DESCRIPTION=Screen locker for Wayland
 EAPI=8
-HOMEPAGE=https://github.com/jirutka/swaylock-effects
+HOMEPAGE=https://github.com/mortie/swaylock-effects
 INHERIT=bash-completion-r1 meson
-IUSE=fish-completion +gdk-pixbuf pam cpu_flags_x86_sse
+IUSE=zsh-completion +gdk-pixbuf pam +man cpu_flags_x86_sse
 KEYWORDS=~amd64
 LICENSE=MIT
 RDEPEND=dev-libs/wayland x11-libs/cairo x11-libs/libxkbcommon gdk-pixbuf? ( x11-libs/gdk-pixbuf:2 ) pam? ( sys-libs/pam ) !gui-apps/swaylock
 SLOT=0
-SRC_URI=https://github.com/jirutka/swaylock-effects/archive/refs/tags/v1.6.10.tar.gz -> swaylock-effects-1.6.10.tar.gz
+SRC_URI=https://github.com/mortie/swaylock-effects/archive/v1.6-4.tar.gz -> swaylock-effects-1.6.4.tar.gz
 _eclasses_=toolchain-funcs	9a610728b9bcca1919234cceb35a1027	multilib	5ca4e49abed8e3a2f7b56920eadee157	bash-completion-r1	f5e7a020fd9c741740756aac61bf75ff	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ninja-utils	38c85b725d0467e51954ea921b6c104b	python-utils-r1	429bfd4e8d8e39db5385ba5744f30788	meson	1994a5aef5d4f5798b92f64d6f9a6003
-_md5_=81e09c91fd2637f15c40f8edd1ed7116
+_md5_=0f4a9ba13bce812e5cddebf1a73a0e21
