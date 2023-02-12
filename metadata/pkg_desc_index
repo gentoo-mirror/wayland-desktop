@@ -11,7 +11,7 @@ gui-apps/nwg-launchers 0.6.3 9999: GTK launchers for X and wlroots compositors
 gui-apps/nwg-panel 0.7.7 9999: GTK3-based panel for sway window manager
 gui-apps/oguri 0_p20201102 9999: animated wallpaper daemon for Wayland compositors
 gui-apps/pico-wayfire 9999: Opinionated dotfiles for a consistent look on wayfire
-gui-apps/qtgreet 1.0.0_p20220711 9999: QT based greeter for greetd
+gui-apps/qtgreet 1.0.0_p20220711 2.0.0_pre20230204 9999: QT based greeter for greetd
 gui-apps/swaylock-effects 1.6.3 1.6.4 9999: Screen locker for Wayland
 gui-apps/waylock 0.6.1: Small screenlocker for Wayland compositors
 gui-apps/wtype 0.3 9999: xdotool type for wayland
@@ -32,8 +32,12 @@ gui-desq/util-powerdaemon 0_pre20210228 9999: Power Daemon for DesQ
 gui-desq/util-powermanager 0_pre20210228 9999: Power Manager for DesQ
 gui-desq/util-settingsdaemon 0_p20210228 9999: main user interface shell for DesQ
 gui-desq/util-splash 0_pre20210227 9999: Session splash screen for DesQ
+gui-dfl/dfl-applications 0.2.0_pre20230209 9999: Thin wrapper around Q*Application for DFL project
+gui-dfl/dfl-ipc 0.2.0_pre20230123 9999: IPC library for DFL project applications
+gui-dfl/dfl-login1 9999: systemd/elogin functionality for DFL
+gui-dfl/dfl-utils 0.2.0_pre20230123 9999: Thin wrapper around Q*Application for DFL project
 gui-libs/nuklear 4.10.5: single-header ANSI C cross platform GUI library
-gui-libs/wayqt 0_pre20220707 9999: Qt-based wrapper for various wayland protocols
+gui-libs/wayqt 0.2.0_pre20230211 9999: Qt-based wrapper for various wayland protocols
 gui-libs/xdg-desktop-portal-hyprland 9999: xdg-desktop-portal backend for hyprland
 gui-liri/libliri 0_pre20201205 9999: Liri core library
 gui-liri/liri-cmake-shared 0_pre20201011 1.1.0_p20211205 1.1.0_p20221201 9999: shared cmake configuration utils for liri
