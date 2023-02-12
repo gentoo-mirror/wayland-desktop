@@ -9,7 +9,8 @@ IUSE=+qt5 qt6
 KEYWORDS=~amd64
 LICENSE=GPL-3
 RDEPEND=dev-libs/json-c dev-libs/wayland >=gui-libs/wlroots-0.16.0:0/16 x11-libs/libxkbcommon:= qt5? ( dev-qt/qtcore:5 dev-qt/qtdbus:5 dev-qt/qtgui:5 dev-qt/qtwayland:5 dev-qt/qtwidgets:5 gui-dfl/dfl-applications:=[qt5] gui-dfl/dfl-ipc:=[qt5] gui-dfl/dfl-login1:=[qt5] gui-dfl/dfl-utils:=[qt5] gui-libs/wayqt:=[qt5] ) qt6? ( dev-qt/qtbase:6=[dbus,gui,widgets] dev-qt/qtwayland:6 gui-dfl/dfl-applications:=[qt6] gui-dfl/dfl-ipc:=[qt6] gui-dfl/dfl-login1:=[qt6] gui-dfl/dfl-utils:=[qt6] gui-libs/wayqt:=[qt6] ) gui-libs/greetd
+REQUIRED_USE=^^ ( qt5 qt6 )
 SLOT=0
 SRC_URI=https://gitlab.com/marcusbritanicus/QtGreet/-/archive/6234ab0920cb7e9a4baefc9da2ee32c21a2d04c1/QtGreet-6234ab0920cb7e9a4baefc9da2ee32c21a2d04c1.tar.bz2 -> qtgreet-2.0.0_pre20230204.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ninja-utils	38c85b725d0467e51954ea921b6c104b	toolchain-funcs	9a610728b9bcca1919234cceb35a1027	multilib	5ca4e49abed8e3a2f7b56920eadee157	python-utils-r1	429bfd4e8d8e39db5385ba5744f30788	meson	1994a5aef5d4f5798b92f64d6f9a6003
-_md5_=522054601c7142d83f50ea98cf28f3ba
+_md5_=df19e4e6da09c150b80948b2e4cdcb69
