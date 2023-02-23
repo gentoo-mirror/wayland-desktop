@@ -62,7 +62,7 @@ gui-wm/waybox 0.2.0 9999: openbox clone on wayland
 media-fonts/lato 2.015: Sanserif type face family with classical proportions
 media-fonts/segoe 1.0: Segoe font family by Microsoft
 sys-boot/plymouth-dracula-theme 0_pre20210113 9999: dracula theme for plymouth
-x11-themes/beautyline-icon-theme 0_p20211220092736-r1 0_p20221014202435: BeautyLine Icons Theme
+x11-themes/beautyline-icon-theme 0_p20211220092736-r1 0_p20221014202435 0_p20230128183934: BeautyLine Icons Theme
 x11-themes/bibata-cursor-theme 1.1.2 2.0.0 2.0.1 2.0.2 2.0.3: material based cursor theme
 x11-themes/candy-icon-theme 0_pre20211113 0_pre20220809 9999: sweet gradient icons
 x11-themes/dracula-gtk-theme 2.0 3.0: Dracula GTK theme
