@@ -1,0 +1,16 @@
+BDEPEND=virtual/pkgconfig >=dev-util/meson-0.62.2 >=dev-util/ninja-1.8.2 dev-util/meson-format-array
+DEFINED_PHASES=compile configure install test
+DEPEND=qt5? ( dev-qt/qtcore:5 dev-qt/qtdbus:5 ) qt6? ( dev-qt/qtbase:6[dbus] )
+DESCRIPTION=XDG Status Notification implementation for DFL project applications
+EAPI=8
+HOMEPAGE=https://gitlab.com/desktop-frameworks/status-notifier
+INHERIT=meson
+IUSE=+qt5 qt6
+KEYWORDS=~amd64
+LICENSE=GPL-3
+RDEPEND=qt5? ( dev-qt/qtcore:5 dev-qt/qtdbus:5 ) qt6? ( dev-qt/qtbase:6[dbus] )
+REQUIRED_USE=^^ ( qt5 qt6 )
+SLOT=0
+SRC_URI=https://gitlab.com/desktop-frameworks/status-notifier/-/archive/5212af79e026b7f2e8586350c613297cf7e098a1/status-notifier-5212af79e026b7f2e8586350c613297cf7e098a1.tar.bz2 -> dfl-status-notifier-0.2.0_pre20230206.tar.bz2
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ninja-utils	38c85b725d0467e51954ea921b6c104b	toolchain-funcs	6001248ef162a5fa2a21ce132a212f6b	multilib	5ca4e49abed8e3a2f7b56920eadee157	python-utils-r1	429bfd4e8d8e39db5385ba5744f30788	meson	1994a5aef5d4f5798b92f64d6f9a6003
+_md5_=b9372455216b67b61953fc234450890d

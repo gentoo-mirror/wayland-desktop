@@ -10,6 +10,7 @@ gui-apps/hyprpaper 0_pre20221128 9999: blazing fast wayland wallpaper utility wi
 gui-apps/nwg-launchers 0.6.3 9999: GTK launchers for X and wlroots compositors
 gui-apps/nwg-panel 0.7.7 9999: GTK3-based panel for sway window manager
 gui-apps/oguri 0_p20201102 9999: animated wallpaper daemon for Wayland compositors
+gui-apps/paperde 0.2.1_p20230202 9999: Awesome Desktop Environment built on top of Qt/Wayland and Wayfire
 gui-apps/pico-wayfire 9999: Opinionated dotfiles for a consistent look on wayfire
 gui-apps/qtgreet 2.0.0_pre20230204 9999: QT based greeter for greetd
 gui-apps/swaylock-effects 1.6.3 1.6.4 9999: Screen locker for Wayland
@@ -19,7 +20,7 @@ gui-apps/yambar 1.7.0 9999: Modular status panel for X11 and Wayland
 gui-desq/desq-meta 1.0.0: meta packafe for DesQ Project ports
 gui-desq/desq-session 0_p20210228 9999: session manager for DesQ
 gui-desq/desq-shell 0_p20210228 9999: main user interface shell for DesQ
-gui-desq/libdesq 0_p20210228 9999: DesQ library for X/Wayland protocol handling
+gui-desq/libdesq 0.0.7 9999: DesQ library for X/Wayland protocol handling
 gui-desq/libdesqui 0_p20210228 9999: DesQ library for UI elements
 gui-desq/libdesqwl 0_p20210228 9999: DesQ library for additional Wayland protocol handling
 gui-desq/plugins-sni 0_pre20210228 9999: SNI plugin for DesQ
@@ -35,7 +36,11 @@ gui-desq/util-splash 0_pre20210227 9999: Session splash screen for DesQ
 gui-dfl/dfl-applications 0.2.0_pre20230209 9999: Thin wrapper around Q*Application for DFL project
 gui-dfl/dfl-ipc 0.2.0_pre20230123 9999: IPC library for DFL project applications
 gui-dfl/dfl-login1 0.2.0_pre20230204 9999: systemd/elogin functionality for DFL
+gui-dfl/dfl-settings 0.2.0_pre20230123 9999: QSettings wrapper for DFL project applications
+gui-dfl/dfl-status-notifier 0.2.0_pre20230206 9999: XDG Status Notification implementation for DFL project applications
 gui-dfl/dfl-utils 0.2.0_pre20230123 9999: Helper utilities for the DFL project
+gui-libs/libcprime 4.4.1 9999: Library for bookmarking, saving activities, sharing files and more
+gui-libs/libcsys 4.4.1 9999: Library for managing drive and getting system resource information in real time
 gui-libs/nuklear 4.10.5: single-header ANSI C cross platform GUI library
 gui-libs/wayqt 0.2.0_pre20230211 9999: Qt-based wrapper for various wayland protocols
 gui-libs/xdg-desktop-portal-hyprland 9999: xdg-desktop-portal backend for hyprland
