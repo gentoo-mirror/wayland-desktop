@@ -6,6 +6,6 @@
 		<name>Aisha Tammy</name>
 	</maintainer>
 	<upstream>
-		<remote-id type="gitlab">DesQ/libdesq</remote-id>
+		<remote-id type="gitlab">cubocore/coreapps/libcprime</remote-id>
 	</upstream>
 </pkgmetadata>
