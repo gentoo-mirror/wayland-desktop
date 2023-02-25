@@ -12,7 +12,7 @@ gui-apps/nwg-panel 0.7.7 9999: GTK3-based panel for sway window manager
 gui-apps/oguri 0_p20201102 9999: animated wallpaper daemon for Wayland compositors
 gui-apps/paperde 0.2.1_p20230202 9999: Awesome Desktop Environment built on top of Qt/Wayland and Wayfire
 gui-apps/pico-wayfire 9999: Opinionated dotfiles for a consistent look on wayfire
-gui-apps/qtgreet 2.0.0_pre20230204 9999: QT based greeter for greetd
+gui-apps/qtgreet 2.0.0_pre20230204 2.0.0_pre20230204-r1 9999: QT based greeter for greetd
 gui-apps/swaylock-effects 1.6.3 1.6.4 9999: Screen locker for Wayland
 gui-apps/waylock 0.6.1 0.6.2: Small screenlocker for Wayland compositors
 gui-apps/wtype 0.3 9999: xdotool type for wayland
@@ -21,7 +21,7 @@ gui-desq/desq-meta 1.0.0: meta packafe for DesQ Project ports
 gui-desq/desq-session 0_p20210228 9999: session manager for DesQ
 gui-desq/desq-shell 0_p20210228 9999: main user interface shell for DesQ
 gui-desq/libdesq 0.0.7 9999: DesQ library for X/Wayland protocol handling
-gui-desq/libdesqui 0_p20210228 9999: DesQ library for UI elements
+gui-desq/libdesqui 0.0.7 9999: DesQ library for UI elements
 gui-desq/libdesqwl 0_p20210228 9999: DesQ library for additional Wayland protocol handling
 gui-desq/plugins-sni 0_pre20210228 9999: SNI plugin for DesQ
 gui-desq/util-clipboard 0_pre20210228 9999: Simple clipboard for DesQ Shell
@@ -35,6 +35,7 @@ gui-desq/util-settingsdaemon 0_p20210228 9999: main user interface shell for Des
 gui-desq/util-splash 0_pre20210227 9999: Session splash screen for DesQ
 gui-dfl/dfl-applications 0.2.0_pre20230209 9999: Thin wrapper around Q*Application for DFL project
 gui-dfl/dfl-ipc 0.2.0_pre20230123 9999: IPC library for DFL project applications
+gui-dfl/dfl-layouts 0.2.0_pre20230123 9999: Preconfigured layouts for DFL projects
 gui-dfl/dfl-login1 0.2.0_pre20230204 9999: systemd/elogin functionality for DFL
 gui-dfl/dfl-settings 0.2.0_pre20230123 9999: QSettings wrapper for DFL project applications
 gui-dfl/dfl-status-notifier 0.2.0_pre20230206 9999: XDG Status Notification implementation for DFL project applications
@@ -58,7 +59,7 @@ gui-liri/liri-shell 0.9.0_p20210204 9999: QtQuick and Wayland shell for converge
 gui-liri/liri-wayland 0_pre20201205 9999: Liri wayland client and server extensions
 gui-liri/liri-xdg-desktop-portal 9999: QtQuick and Wayland shell for convergence
 gui-wm/cagebreak 2.0.1 9999: Wayland tiling compositor inspired by RatPoison
-gui-wm/hyprland 0.16.0 0.17.0 0.19.2 0.21.0 0.22.0 9999: Dynamic tiling Wayland compositor that doesn't sacrifice on its looks.
+gui-wm/hyprland 0.22.0-r1 9999: Dynamic tiling Wayland compositor that doesn't sacrifice on its looks.
 gui-wm/kiwmi 0_p20211210 9999: fully programmable wayland compositor
 gui-wm/labwc 0.4.0 0.5.0 0.5.3 0.6.1 9999: Openbox alternative for wayland
 gui-wm/newm 0.3a 9999: Wayland compositor for laptops and touchpads.
