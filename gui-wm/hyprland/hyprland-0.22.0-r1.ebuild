@@ -3,7 +3,7 @@
 
 EAPI=8
 
-inherit toolchain-funcs meson
+inherit toolchain-funcs meson systemd
 
 DESCRIPTION="Dynamic tiling Wayland compositor that doesn't sacrifice on its looks."
 HOMEPAGE="https://github.com/hyprwm/Hyprland"
@@ -14,13 +14,13 @@ if [[ ${PV} == 9999 ]]; then
 else
 	MY_PV="${PV}beta"
 	SRC_URI="https://github.com/hyprwm/Hyprland/releases/download/v${MY_PV}/source-v${MY_PV}.tar.gz -> ${P}.tar.gz"
-	S="${WORKDIR}"
+	S="${WORKDIR}/hyprland-source"
 	KEYWORDS="~amd64"
 fi
 
 LICENSE="MIT"
 SLOT="0"
-IUSE="system-wlroots X"
+IUSE="system-wlroots systemd X"
 
 DEPEND="
 	dev-libs/libevdev
@@ -38,6 +38,9 @@ DEPEND="
 	x11-libs/cairo:=[X?,svg(+)]
 	x11-libs/libxkbcommon:=[X?]
 	x11-libs/pixman
+	systemd? (
+		sys-apps/systemd
+	)
 	X? (
 		x11-libs/libxcb
 		x11-base/xwayland
@@ -51,7 +54,8 @@ RDEPEND="
 "
 
 BDEPEND="
-	dev-libs/wayland-protocols
+	app-misc/jq
+	>=dev-libs/wayland-protocols-1.27
 	virtual/pkgconfig
 "
 
@@ -61,6 +65,7 @@ src_configure() {
 	tc-is-gcc && [[ $(gcc-major-version) -ge 12 ]]  && [[ $(gcc-minor-version) -ge 1 ]] || die "hyprland needs gcc version >= 12.1 for C++23"
 	local emesonargs=(
 		$(meson_feature system-wlroots use_system_wlroots)
+		$(meson_feature systemd)
 		$(meson_feature X xwayland)
 	)
 	meson_src_configure
