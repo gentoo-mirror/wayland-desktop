@@ -1,6 +1,6 @@
 BDEPEND=app-misc/jq >=dev-libs/wayland-protocols-1.27 virtual/pkgconfig >=dev-util/meson-0.62.2 >=dev-util/ninja-1.8.2 dev-util/meson-format-array virtual/pkgconfig
 DEFINED_PHASES=compile configure install test
-DEPEND=dev-libs/libevdev dev-libs/libinput dev-libs/wayland gui-libs/gtk-layer-shell media-libs/glm media-libs/mesa:=[gles2,wayland,X?] media-libs/libglvnd[X?] media-libs/libjpeg-turbo media-libs/libpng media-libs/freetype:=[X?] >=x11-libs/libdrm-2.4.114:= x11-libs/gtk+:3=[wayland,X?] x11-libs/cairo:=[X?,svg(+)] x11-libs/libxkbcommon:=[X?] x11-libs/pixman systemd? ( sys-apps/systemd ) X? ( x11-libs/libxcb x11-base/xwayland ) gui-libs/wlroots:=[X?]
+DEPEND=dev-libs/libevdev dev-libs/libinput dev-libs/libliftoff dev-libs/wayland gui-libs/gtk-layer-shell media-libs/glm media-libs/mesa:=[gles2,wayland,X?] media-libs/libdisplay-info media-libs/libglvnd[X?] media-libs/libjpeg-turbo media-libs/libpng media-libs/freetype:=[X?] >=x11-libs/libdrm-2.4.114:= x11-libs/gtk+:3=[wayland,X?] x11-libs/cairo:=[X?,svg(+)] x11-libs/libxkbcommon:=[X?] x11-libs/pixman systemd? ( sys-apps/systemd ) X? ( x11-libs/libxcb x11-base/xwayland ) gui-libs/wlroots:=[X?]
 DESCRIPTION=Dynamic tiling Wayland compositor that doesn't sacrifice on its looks.
 EAPI=8
 HOMEPAGE=https://github.com/hyprwm/Hyprland
@@ -8,8 +8,8 @@ INHERIT=toolchain-funcs meson systemd
 IUSE=system-wlroots systemd X
 KEYWORDS=~amd64
 LICENSE=MIT
-RDEPEND=dev-libs/libevdev dev-libs/libinput dev-libs/wayland gui-libs/gtk-layer-shell media-libs/glm media-libs/mesa:=[gles2,wayland,X?] media-libs/libglvnd[X?] media-libs/libjpeg-turbo media-libs/libpng media-libs/freetype:=[X?] >=x11-libs/libdrm-2.4.114:= x11-libs/gtk+:3=[wayland,X?] x11-libs/cairo:=[X?,svg(+)] x11-libs/libxkbcommon:=[X?] x11-libs/pixman systemd? ( sys-apps/systemd ) X? ( x11-libs/libxcb x11-base/xwayland ) gui-libs/wlroots:=[X?] x11-misc/xkeyboard-config
+RDEPEND=dev-libs/libevdev dev-libs/libinput dev-libs/libliftoff dev-libs/wayland gui-libs/gtk-layer-shell media-libs/glm media-libs/mesa:=[gles2,wayland,X?] media-libs/libdisplay-info media-libs/libglvnd[X?] media-libs/libjpeg-turbo media-libs/libpng media-libs/freetype:=[X?] >=x11-libs/libdrm-2.4.114:= x11-libs/gtk+:3=[wayland,X?] x11-libs/cairo:=[X?,svg(+)] x11-libs/libxkbcommon:=[X?] x11-libs/pixman systemd? ( sys-apps/systemd ) X? ( x11-libs/libxcb x11-base/xwayland ) gui-libs/wlroots:=[X?] x11-misc/xkeyboard-config
 SLOT=0
 SRC_URI=https://github.com/hyprwm/Hyprland/releases/download/v0.23.0beta/source-v0.23.0beta.tar.gz -> hyprland-0.23.0.tar.gz
 _eclasses_=toolchain-funcs	6001248ef162a5fa2a21ce132a212f6b	multilib	5ca4e49abed8e3a2f7b56920eadee157	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ninja-utils	38c85b725d0467e51954ea921b6c104b	python-utils-r1	429bfd4e8d8e39db5385ba5744f30788	meson	1994a5aef5d4f5798b92f64d6f9a6003	systemd	5f4bb0758df2e483babf68cd517078ca
-_md5_=5f741e38f881a1b7c261c391333821c2
+_md5_=55230a43799b2c8428e768d242f03189
