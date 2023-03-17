@@ -9,5 +9,5 @@ KEYWORDS=~amd64
 LICENSE=LGPL-3
 SLOT=0
 SRC_URI=https://www.opencode.net/adhe/oieicons/-/archive/2231c0d5e578933d9803b8e77701de67d88c2e92/oieicons-2231c0d5e578933d9803b8e77701de67d88c2e92.tar.gz -> oie-icon-theme-0_p20190915.tar.gz
-_eclasses_=xdg-utils	ac0e315a3688929e34ac75b139e7349a	xdg	6024fbc93167fad782e2032933654857
+_eclasses_=xdg-utils	ac0e315a3688929e34ac75b139e7349a	xdg	4a14c5c24f121e7da66e5aab4a168c6e
 _md5_=977240c622cf63365b9e375ea5ff2681
