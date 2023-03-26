@@ -9,5 +9,5 @@ KEYWORDS=~amd64
 LICENSE=GPL-3
 SLOT=0
 SRC_URI=https://www.opencode.net/adhe/hey-icons/-/archive/a5ac75ff6783fe25a301b0b3bd90a86839b265c5.tar.gz -> hey-icon-theme-0_pre20191021.tar.gz
-_eclasses_=xdg-utils	ac0e315a3688929e34ac75b139e7349a	xdg	4a14c5c24f121e7da66e5aab4a168c6e
+_eclasses_=xdg-utils	baea6080dd821f5562d715887954c9d3	xdg	4a14c5c24f121e7da66e5aab4a168c6e
 _md5_=ab8e539bdaf453901fd2f355ed31f652

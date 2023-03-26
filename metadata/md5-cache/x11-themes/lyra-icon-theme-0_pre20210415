@@ -9,5 +9,5 @@ KEYWORDS=~amd64
 LICENSE=GPL-3
 SLOT=0
 SRC_URI=https://github.com/yeyushengfan258/Lyra-icon-theme/archive/62ffd49ee40b5651ffb1fedcc4e97f6b0d0382c5.tar.gz -> lyra-icon-theme-0_pre20210415.tar.gz
-_eclasses_=xdg-utils	ac0e315a3688929e34ac75b139e7349a	xdg	4a14c5c24f121e7da66e5aab4a168c6e
+_eclasses_=xdg-utils	baea6080dd821f5562d715887954c9d3	xdg	4a14c5c24f121e7da66e5aab4a168c6e
 _md5_=19bddd48c39b8b81c6078dad89852882
