@@ -59,7 +59,7 @@ gui-liri/liri-shell 0.9.0_p20210204 9999: QtQuick and Wayland shell for converge
 gui-liri/liri-wayland 0_pre20201205 9999: Liri wayland client and server extensions
 gui-liri/liri-xdg-desktop-portal 9999: QtQuick and Wayland shell for convergence
 gui-wm/cagebreak 2.0.1 9999: Wayland tiling compositor inspired by RatPoison
-gui-wm/hyprland 0.22.0-r1 0.23.0 9999: Dynamic tiling Wayland compositor that doesn't sacrifice on its looks.
+gui-wm/hyprland 0.22.0-r1 0.23.0 0.24.1 9999: Dynamic tiling Wayland compositor that doesn't sacrifice on its looks.
 gui-wm/kiwmi 0_p20211210 9999: fully programmable wayland compositor
 gui-wm/labwc 0.4.0 0.5.0 0.5.3 0.6.1 9999: Openbox alternative for wayland
 gui-wm/newm 0.3a 9999: Wayland compositor for laptops and touchpads.
