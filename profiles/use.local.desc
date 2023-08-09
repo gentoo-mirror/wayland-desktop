@@ -14,6 +14,5 @@ gui-apps/wtype:modules - Build plugins as dynamically loaded shared librarie
 gui-apps/yambar:modules - Build plugins as dynamically loaded shared librarie
 gui-libs/xdg-desktop-portal-hyprland:elogind - Enable support for rootless session via elogind
 gui-liri/liri-xdg-desktop-portal:pipewire - Enable support for media-video/pipewire
-gui-wm/hyprland:system-wlroots - use the system wide wlroots, else build it as a submodule.
 x11-themes/bibata-cursor-theme:modern - install modern variantion of the theme
 x11-themes/bibata-cursor-theme:original - install original variation of the theme
