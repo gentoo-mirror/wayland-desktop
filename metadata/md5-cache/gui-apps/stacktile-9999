@@ -1,0 +1,15 @@
+BDEPEND=|| ( =dev-lang/zig-0.10* =dev-lang/zig-bin-0.10* ) dev-util/wayland-scanner >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile install test unpack
+DEPEND=dev-libs/wayland dev-libs/wayland-protocols
+DESCRIPTION=stacktile is a layout generator for the river Wayland compositor.
+EAPI=8
+HOMEPAGE=https://git.sr.ht/~leon_plickat/stacktile
+INHERIT=git-r3
+IUSE=test
+LICENSE=GPLv3
+PROPERTIES=live
+RDEPEND=dev-libs/wayland dev-libs/wayland-protocols
+RESTRICT=!test? ( test )
+SLOT=0
+_eclasses_=git-r3	2358a7b20091609e24bd3a83b3ac5991
+_md5_=edc278fb0661951d63c3dca7064bb310
