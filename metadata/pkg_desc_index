@@ -10,9 +10,11 @@ gui-apps/hyprpaper 0_pre20221128 9999: blazing fast wayland wallpaper utility wi
 gui-apps/nwg-launchers 0.6.3 9999: GTK launchers for X and wlroots compositors
 gui-apps/nwg-panel 0.7.7 9999: GTK3-based panel for sway window manager
 gui-apps/oguri 0_p20201102 9999: animated wallpaper daemon for Wayland compositors
+gui-apps/owm 9999: An experimental River layout generator using mathematical optimization to invent layouts on-the-fly
 gui-apps/paperde 0.2.1_p20230202 9999: Awesome Desktop Environment built on top of Qt/Wayland and Wayfire
 gui-apps/pico-wayfire 9999: Opinionated dotfiles for a consistent look on wayfire
 gui-apps/qtgreet 2.0.0_pre20230204 2.0.0_pre20230204-r1 9999: QT based greeter for greetd
+gui-apps/river-luatile 0.1.3 9999: Write your own river layout generator in lua
 gui-apps/river-tag-overlay 1.0.0: A pop-up showing tag status [in the river window manager]
 gui-apps/stacktile 1.0.0 9999: stacktile is a layout generator for the river Wayland compositor.
 gui-apps/swaylock-effects 9999: Screen locker for Wayland
