@@ -22,7 +22,7 @@ RDEPEND="
 	x11-libs/libxkbcommon:=
 "
 DEPEND="${RDEPEND}"
-EZIG_VISION="0.10*"
+EZIG_VISION="0.11*"
 BDEPEND="
 	|| ( =dev-lang/zig-${EZIG_VISION} =dev-lang/zig-bin-${EZIG_VISION} )
 	dev-libs/wayland-protocols
@@ -48,7 +48,7 @@ ezig() {
 src_compile() {
 	local zigoptions=(
 		--verbose
-		-Drelease-safe
+		-Doptimize=ReleaseSafe
 		-Dman-pages=$(usex man true false)
 		-Dpie=$(usex pie true false)
 		${ZIG_FLAGS[@]}
