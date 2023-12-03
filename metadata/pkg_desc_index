@@ -48,7 +48,6 @@ gui-libs/libcprime 4.4.1 9999: Library for bookmarking, saving activities, shari
 gui-libs/libcsys 4.4.1 9999: Library for managing drive and getting system resource information in real time
 gui-libs/nuklear 4.10.5: single-header ANSI C cross platform GUI library
 gui-libs/wayqt 0.2.0_pre20230211 9999: Qt-based wrapper for various wayland protocols
-gui-libs/xdg-desktop-portal-hyprland 9999: xdg-desktop-portal backend for hyprland
 gui-liri/libliri 0_pre20201205 9999: Liri core library
 gui-liri/liri-cmake-shared 0_pre20201011 1.1.0_p20211205 1.1.0_p20221201 9999: shared cmake configuration utils for liri
 gui-liri/liri-eglfs 0_pre20201011 9999: shared cmake configuration utils for liri
