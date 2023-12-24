@@ -9,7 +9,7 @@ DESCRIPTION="Dynamic tiling wayland compositor"
 HOMEPAGE="https://github.com/riverwm/river"
 
 SRC_URI="https://github.com/riverwm/river/releases/download/v${PV}/${P}.tar.gz"
-KEYWORDS="~amd64"
+KEYWORDS="~amd64 ~arm64"
 
 LICENSE="GPL-3"
 SLOT="0"
@@ -20,7 +20,7 @@ RDEPEND="
 	dev-libs/libevdev
 	dev-libs/libinput
 	dev-libs/wayland
-	>=gui-libs/wlroots-0.16.0:=[X?]
+	=gui-libs/wlroots-0.16*:=[X?]
 	x11-libs/libxkbcommon:=[X?]
 	x11-libs/pixman
 "
