@@ -11,5 +11,5 @@ PROPERTIES=live
 RDEPEND=dev-libs/json-c dev-libs/wayland >=gui-libs/wlroots-0.16.0:0/16 x11-libs/libxkbcommon:= qt5? ( dev-qt/qtcore:5 dev-qt/qtdbus:5 dev-qt/qtgui:5 dev-qt/qtwayland:5 dev-qt/qtwidgets:5 gui-dfl/dfl-applications:=[qt5] gui-dfl/dfl-ipc:=[qt5] gui-dfl/dfl-login1:=[qt5] gui-dfl/dfl-utils:=[qt5] gui-libs/wayqt:=[qt5] ) qt6? ( dev-qt/qtbase:6=[dbus,gui,widgets] dev-qt/qtwayland:6 gui-dfl/dfl-applications:=[qt6] gui-dfl/dfl-ipc:=[qt6] gui-dfl/dfl-login1:=[qt6] gui-dfl/dfl-utils:=[qt6] gui-libs/wayqt:=[qt6] ) gui-libs/greetd
 REQUIRED_USE=^^ ( qt5 qt6 )
 SLOT=0
-_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ninja-utils	c8951c1dfcc1d43e3f967f61fd0ec59c	toolchain-funcs	eed10cf5e5a06916e654d31f5a1925cc	multilib	c19072c3cd7ac5cb21de013f7e9832e0	python-utils-r1	474cb53a7d1b62721a91809a1d702661	meson	576e6bbef90e9753368f8b4ad0bd5383	git-r3	86fa1f157b70b9d2ff340c4633b1cf4b
+_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ninja-utils	c8951c1dfcc1d43e3f967f61fd0ec59c	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0	python-utils-r1	474cb53a7d1b62721a91809a1d702661	meson	576e6bbef90e9753368f8b4ad0bd5383	git-r3	86fa1f157b70b9d2ff340c4633b1cf4b
 _md5_=75c56c562b9e5532fcc39af2dab70912
