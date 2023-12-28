@@ -1,0 +1,14 @@
+BDEPEND=>=dev-util/meson-1.2.1 app-alternatives/ninja dev-util/meson-format-array
+DEFINED_PHASES=compile configure install test
+DEPEND=x11-libs/libnotify dev-qt/qtcore:5 dev-qt/qtdbus:5 dev-qt/qtgui:5 dev-qt/qtnetwork:5 dev-qt/qtwidgets:5
+DESCRIPTION=Library for bookmarking, saving activities, sharing files and more
+EAPI=8
+HOMEPAGE=https://gitlab.com/cubocore/libcprime
+INHERIT=meson
+KEYWORDS=~amd64
+LICENSE=GPL-3
+RDEPEND=x11-libs/libnotify dev-qt/qtcore:5 dev-qt/qtdbus:5 dev-qt/qtgui:5 dev-qt/qtnetwork:5 dev-qt/qtwidgets:5
+SLOT=0
+SRC_URI=https://gitlab.com/cubocore/libcprime/-/archive/v4.5.0/libcprime-v4.5.0.tar.bz2 -> libcprime-4.5.0.tar.bz2
+_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ninja-utils	c8951c1dfcc1d43e3f967f61fd0ec59c	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0	python-utils-r1	474cb53a7d1b62721a91809a1d702661	meson	576e6bbef90e9753368f8b4ad0bd5383
+_md5_=2c6c9816c158dc2b834d5e1b6d6e9686

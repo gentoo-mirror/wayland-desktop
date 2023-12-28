@@ -13,7 +13,7 @@ gui-apps/oguri 0_p20201102 9999: animated wallpaper daemon for Wayland composito
 gui-apps/owm 9999: An experimental River layout generator using mathematical optimization to invent layouts on-the-fly
 gui-apps/paperde 0.2.1_p20230202 9999: Awesome Desktop Environment built on top of Qt/Wayland and Wayfire
 gui-apps/pico-wayfire 9999: Opinionated dotfiles for a consistent look on wayfire
-gui-apps/qtgreet 2.0.0_pre20230204 2.0.0_pre20230204-r1 9999: QT based greeter for greetd
+gui-apps/qtgreet 2.0.0_pre20230204 2.0.0_pre20230204-r1 2.0.0 9999: QT based greeter for greetd
 gui-apps/river-luatile 0.1.3 9999: Write your own river layout generator in lua
 gui-apps/river-tag-overlay 1.0.0: A pop-up showing tag status [in the river window manager]
 gui-apps/stacktile 1.0.0 9999: stacktile is a layout generator for the river Wayland compositor.
@@ -37,17 +37,17 @@ gui-desq/util-powerdaemon 0_pre20210228 9999: Power Daemon for DesQ
 gui-desq/util-powermanager 0_pre20210228 9999: Power Manager for DesQ
 gui-desq/util-settingsdaemon 0_p20210228 9999: main user interface shell for DesQ
 gui-desq/util-splash 0_pre20210227 9999: Session splash screen for DesQ
-gui-dfl/dfl-applications 0.2.0_pre20230209 9999: Thin wrapper around Q*Application for DFL project
-gui-dfl/dfl-ipc 0.2.0_pre20230123 9999: IPC library for DFL project applications
-gui-dfl/dfl-layouts 0.2.0_pre20230123 9999: Preconfigured layouts for DFL projects
-gui-dfl/dfl-login1 0.2.0_pre20230204 9999: systemd/elogin functionality for DFL
-gui-dfl/dfl-settings 0.2.0_pre20230123 9999: QSettings wrapper for DFL project applications
-gui-dfl/dfl-status-notifier 0.2.0_pre20230206 9999: XDG Status Notification implementation for DFL project applications
-gui-dfl/dfl-utils 0.2.0_pre20230123 9999: Helper utilities for the DFL project
-gui-libs/libcprime 4.4.1 9999: Library for bookmarking, saving activities, sharing files and more
-gui-libs/libcsys 4.4.1 9999: Library for managing drive and getting system resource information in real time
+gui-dfl/dfl-applications 0.2.0_pre20230209 0.2.0 9999: Thin wrapper around Q*Application for DFL project
+gui-dfl/dfl-ipc 0.2.0_pre20230123 0.2.0 9999: IPC library for DFL project applications
+gui-dfl/dfl-layouts 0.2.0_pre20230123 0.2.0 9999: Preconfigured layouts for DFL projects
+gui-dfl/dfl-login1 0.2.0_pre20230204 0.2.0 9999: systemd/elogin functionality for DFL
+gui-dfl/dfl-settings 0.2.0_pre20230123 0.2.0 9999: QSettings wrapper for DFL project applications
+gui-dfl/dfl-status-notifier 0.2.0_pre20230206 0.2.0 9999: XDG Status Notification implementation for DFL project applications
+gui-dfl/dfl-utils 0.2.0_pre20230123 0.2.0 9999: Helper utilities for the DFL project
+gui-libs/libcprime 4.4.1 4.5.0 9999: Library for bookmarking, saving activities, sharing files and more
+gui-libs/libcsys 4.4.1 4.5.0 9999: Library for managing drive and getting system resource information in real time
 gui-libs/nuklear 4.10.5: single-header ANSI C cross platform GUI library
-gui-libs/wayqt 0.2.0_pre20230211 9999: Qt-based wrapper for various wayland protocols
+gui-libs/wayqt 0.2.0_pre20230211 0.2.0 9999: Qt-based wrapper for various wayland protocols
 gui-liri/libliri 0_pre20201205 9999: Liri core library
 gui-liri/liri-cmake-shared 0_pre20201011 1.1.0_p20211205 1.1.0_p20221201 9999: shared cmake configuration utils for liri
 gui-liri/liri-eglfs 0_pre20201011 9999: shared cmake configuration utils for liri
