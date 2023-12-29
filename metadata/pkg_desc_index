@@ -19,7 +19,7 @@ gui-apps/river-tag-overlay 1.0.0: A pop-up showing tag status [in the river wind
 gui-apps/stacktile 1.0.0 9999: stacktile is a layout generator for the river Wayland compositor.
 gui-apps/swaylock-effects 9999: Screen locker for Wayland
 gui-apps/waylock 0.6.3: Small screenlocker for Wayland compositors
-gui-apps/wtype 0.3 9999: xdotool type for wayland
+gui-apps/wtype 0.3 0.4 9999: xdotool type for wayland
 gui-apps/yambar 1.7.0 9999: Modular status panel for X11 and Wayland
 gui-desq/desq-meta 1.0.0: meta packafe for DesQ Project ports
 gui-desq/desq-session 0_p20210228 9999: session manager for DesQ
