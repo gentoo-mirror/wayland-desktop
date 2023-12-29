@@ -24,7 +24,7 @@ SLOT="0"
 IUSE="+qt5 qt6"
 REQUIRED_USE="^^ ( qt5 qt6 )"
 
-DEPEND="
+CDEPEND="
 	dev-libs/json-c
 	dev-libs/wayland
 	>=gui-libs/wlroots-0.16.0:0/16
@@ -35,31 +35,38 @@ DEPEND="
 		dev-qt/qtgui:5
 		dev-qt/qtwayland:5
 		dev-qt/qtwidgets:5
-		gui-dfl/dfl-applications:=[qt5]
-		gui-dfl/dfl-ipc:=[qt5]
-		gui-dfl/dfl-login1:=[qt5]
-		gui-dfl/dfl-utils:=[qt5]
-		gui-libs/wayqt:=[qt5]
+		<gui-dfl/dfl-applications-0.2.0:=[qt5]
+		<gui-dfl/dfl-ipc-0.2.0:=[qt5]
+		<gui-dfl/dfl-login1-0.2.0:=[qt5]
+		<gui-dfl/dfl-utils-0.2.0:=[qt5]
+		<gui-libs/wayqt-0.2.0:=[qt5]
 	)
 	qt6? (
 		dev-qt/qtbase:6=[dbus,gui,widgets]
 		dev-qt/qtwayland:6
-		gui-dfl/dfl-applications:=[qt6]
-		gui-dfl/dfl-ipc:=[qt6]
-		gui-dfl/dfl-login1:=[qt6]
-		gui-dfl/dfl-utils:=[qt6]
-		gui-libs/wayqt:=[qt6]
+		<gui-dfl/dfl-applications-0.2.0:=[qt6]
+		<gui-dfl/dfl-ipc-0.2.0:=[qt6]
+		<gui-dfl/dfl-login1-0.2.0:=[qt6]
+		<gui-dfl/dfl-utils-0.2.0:=[qt6]
+		<gui-libs/wayqt-0.2.0:=[qt6]
 	)
 "
+DEPEND="
+	dev-libs/wayland-protocols
+	${CDEPEND}
+"
 RDEPEND="
-	${DEPEND}
+	${CDEPEND}
 	gui-libs/greetd
 "
 BDEPEND="
-	dev-libs/wayland-protocols
 	dev-util/wayland-scanner
 	virtual/pkgconfig
 "
+
+PATCHES=(
+	"${FILESDIR}"/${PN}-2.0.0_pre20230204-header-fix.patch
+)
 
 src_configure() {
 	local emesonargs=(
