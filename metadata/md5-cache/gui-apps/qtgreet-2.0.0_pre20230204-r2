@@ -12,5 +12,5 @@ RDEPEND=dev-libs/json-c dev-libs/wayland >=gui-libs/wlroots-0.16.0:0/16 x11-libs
 REQUIRED_USE=^^ ( qt5 qt6 )
 SLOT=0
 SRC_URI=https://gitlab.com/marcusbritanicus/QtGreet/-/archive/6234ab0920cb7e9a4baefc9da2ee32c21a2d04c1/QtGreet-6234ab0920cb7e9a4baefc9da2ee32c21a2d04c1.tar.bz2 -> qtgreet-2.0.0_pre20230204.tar.bz2
-_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ninja-utils	c8951c1dfcc1d43e3f967f61fd0ec59c	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0	python-utils-r1	474cb53a7d1b62721a91809a1d702661	meson	576e6bbef90e9753368f8b4ad0bd5383
+_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ninja-utils	c8951c1dfcc1d43e3f967f61fd0ec59c	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0	python-utils-r1	042f4cc53680245bf99a84669b94155a	meson	576e6bbef90e9753368f8b4ad0bd5383
 _md5_=43054757d8a57ca28d855f93fa46d3cb
