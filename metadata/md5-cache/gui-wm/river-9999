@@ -1,6 +1,6 @@
 BDEPEND=|| ( dev-lang/zig:0.11 dev-lang/zig-bin:0.11 ) dev-libs/wayland-protocols virtual/pkgconfig app-text/scdoc >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile configure install test unpack
-DEPEND=dev-libs/libevdev dev-libs/libinput dev-libs/wayland >=gui-libs/wlroots-0.16.0:0/16[X] x11-libs/cairo[X] x11-libs/libxkbcommon:=[X] x11-libs/pixman
+DEPEND=dev-libs/libevdev dev-libs/libinput dev-libs/wayland >=gui-libs/wlroots-0.17.0:0/17[X] x11-libs/cairo[X] x11-libs/libxkbcommon:=[X] x11-libs/pixman
 DESCRIPTION=Dynamic tiling wayland compositor
 EAPI=8
 HOMEPAGE=https://github.com/riverwm/river
@@ -8,8 +8,8 @@ INHERIT=git-r3
 IUSE=test
 LICENSE=GPL-3
 PROPERTIES=live
-RDEPEND=dev-libs/libevdev dev-libs/libinput dev-libs/wayland >=gui-libs/wlroots-0.16.0:0/16[X] x11-libs/cairo[X] x11-libs/libxkbcommon:=[X] x11-libs/pixman
+RDEPEND=dev-libs/libevdev dev-libs/libinput dev-libs/wayland >=gui-libs/wlroots-0.17.0:0/17[X] x11-libs/cairo[X] x11-libs/libxkbcommon:=[X] x11-libs/pixman
 RESTRICT=!test? ( test )
 SLOT=0
 _eclasses_=git-r3	86fa1f157b70b9d2ff340c4633b1cf4b
-_md5_=4fe51018435d7bc8541b43099f9dd406
+_md5_=a93d61166ddbafb513375239800af43d
