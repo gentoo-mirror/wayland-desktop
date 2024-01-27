@@ -7,6 +7,7 @@ dev-python/thefuzz 0.19.0 9999: Fuzzy String Matching in Python.
 gui-apps/fuzzel 1.6.5 9999: Application launcher similar to rofi's 'drun' mode
 gui-apps/hyprland-addons 0_pre20221018 9999: Community scripts and utilities for Hypr projects
 gui-apps/hyprpaper 0_pre20221128 9999: blazing fast wayland wallpaper utility with IPC controls.
+gui-apps/hyprshot 1.2.3 9999: Hyprshot is an utility to easily take screenshot in Hyprland using your mouse
 gui-apps/nwg-launchers 0.6.3 9999: GTK launchers for X and wlroots compositors
 gui-apps/nwg-panel 0.7.7 9999: GTK3-based panel for sway window manager
 gui-apps/oguri 0_p20201102 9999: animated wallpaper daemon for Wayland compositors
