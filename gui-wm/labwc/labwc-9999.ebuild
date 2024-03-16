@@ -18,18 +18,21 @@ fi
 
 LICENSE="GPL-2"
 SLOT="0"
-IUSE="+X"
+IUSE="+nls +svg +X"
 
 RDEPEND="
 	dev-libs/glib:2
 	dev-libs/libinput
 	dev-libs/libxml2:2
 	>=gui-libs/wlroots-0.17.0:=[X?]
+	media-libs/libpng
 	x11-libs/cairo[X?]
 	x11-libs/libdrm:=
 	x11-libs/libxkbcommon:=[X?]
 	x11-libs/pango[X?]
 	x11-libs/pixman
+	nls? ( sys-devel/gettext )
+	svg? ( gnome-base/librsvg:= )
 	X? ( x11-libs/libxcb:0= )
 "
 DEPEND="${RDEPEND}"
