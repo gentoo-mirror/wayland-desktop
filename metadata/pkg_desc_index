@@ -6,6 +6,7 @@ dev-python/pywm 0.3a 9999: wlroots-based Wayland compositor with Python frontend
 dev-python/thefuzz 0.19.0 9999: Fuzzy String Matching in Python.
 gui-apps/fuzzel 1.6.5 9999: Application launcher similar to rofi's 'drun' mode
 gui-apps/hyprland-addons 0_pre20221018 9999: Community scripts and utilities for Hypr projects
+gui-apps/hyprland-per-window-layout 2.6 9999: Per window keyboard layout (language) for Hyprland wayland compositor
 gui-apps/hyprpaper 0_pre20221128 9999: blazing fast wayland wallpaper utility with IPC controls.
 gui-apps/hyprshot 1.2.3 9999: Hyprshot is an utility to easily take screenshot in Hyprland using your mouse
 gui-apps/nwg-launchers 0.6.3 9999: GTK launchers for X and wlroots compositors
