@@ -3,7 +3,7 @@ DEFINED_PHASES=compile configure install test unpack
 DEPEND=dev-libs/libevdev dev-libs/libinput dev-libs/wayland >=gui-libs/wlroots-0.17.0:0/17[X] x11-libs/cairo[X] x11-libs/libxkbcommon:=[X] x11-libs/pixman
 DESCRIPTION=Dynamic tiling wayland compositor
 EAPI=8
-HOMEPAGE=https://github.com/riverwm/river
+HOMEPAGE=https://codeberg.org/river/river
 INHERIT=git-r3
 IUSE=test
 LICENSE=GPL-3
@@ -12,4 +12,4 @@ RDEPEND=dev-libs/libevdev dev-libs/libinput dev-libs/wayland >=gui-libs/wlroots-
 RESTRICT=!test? ( test )
 SLOT=0
 _eclasses_=git-r3	86fa1f157b70b9d2ff340c4633b1cf4b
-_md5_=a93d61166ddbafb513375239800af43d
+_md5_=a099fec16bf42eb3689d346386d804ca
