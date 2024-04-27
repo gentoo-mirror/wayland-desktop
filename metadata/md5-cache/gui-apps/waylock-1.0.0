@@ -3,7 +3,7 @@ DEFINED_PHASES=compile install test
 DEPEND=dev-libs/wayland sys-libs/pam x11-libs/libxkbcommon:=
 DESCRIPTION=Small screenlocker for Wayland compositors
 EAPI=8
-HOMEPAGE=https://github.com/ifreund/waylock
+HOMEPAGE=https://codeberg.org/ifreund/waylock
 INHERIT=edo
 IUSE=+man pie test
 KEYWORDS=~amd64
@@ -11,6 +11,6 @@ LICENSE=ISC
 RDEPEND=dev-libs/wayland sys-libs/pam x11-libs/libxkbcommon:=
 RESTRICT=!test? ( test )
 SLOT=0
-SRC_URI=https://github.com/ifreund/waylock/releases/download/v0.6.3/waylock-0.6.3.tar.gz
+SRC_URI=https://codeberg.org/ifreund/waylock/releases/download/v1.0.0/waylock-1.0.0.tar.gz
 _eclasses_=edo	c0eb9cbe6b0bd01fcb4918f12598a4d3
-_md5_=b83a4deaf192c2a12081b5d023f4b7b9
+_md5_=3f973ad497a7f2d992263881096342fc

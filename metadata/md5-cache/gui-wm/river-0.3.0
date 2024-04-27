@@ -1,0 +1,16 @@
+BDEPEND=|| ( =dev-lang/zig-0.11* =dev-lang/zig-bin-0.11* ) dev-libs/wayland-protocols man? ( app-text/scdoc ) virtual/pkgconfig
+DEFINED_PHASES=compile install test
+DEPEND=dev-libs/libevdev dev-libs/libinput dev-libs/wayland =gui-libs/wlroots-0.17*:=[X?] x11-libs/libxkbcommon:=[X?] x11-libs/pixman
+DESCRIPTION=Dynamic tiling wayland compositor
+EAPI=8
+HOMEPAGE=https://codeberg.org/river/river
+INHERIT=edo
+IUSE=+man pie test +X
+KEYWORDS=~amd64 ~arm64
+LICENSE=GPL-3
+RDEPEND=dev-libs/libevdev dev-libs/libinput dev-libs/wayland =gui-libs/wlroots-0.17*:=[X?] x11-libs/libxkbcommon:=[X?] x11-libs/pixman
+RESTRICT=!test? ( test )
+SLOT=0
+SRC_URI=https://codeberg.org/river/river/releases/download/v0.3.0/river-0.3.0.tar.gz
+_eclasses_=edo	c0eb9cbe6b0bd01fcb4918f12598a4d3
+_md5_=0dda07259841d031b0f972fc4eae871f
