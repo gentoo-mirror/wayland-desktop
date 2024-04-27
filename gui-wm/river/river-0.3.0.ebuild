@@ -1,36 +1,39 @@
-# Copyright 2023 Niklaus 'vimja' Hofer
+# Copyright 2021-2022 Aisha Tammy
 # Distributed under the terms of the ISC License
 
 EAPI=8
 
 inherit edo
 
-DESCRIPTION="Small screenlocker for Wayland compositors"
-HOMEPAGE="https://github.com/ifreund/waylock"
+DESCRIPTION="Dynamic tiling wayland compositor"
+HOMEPAGE="https://codeberg.org/river/river"
 
-SRC_URI="https://github.com/ifreund/waylock/releases/download/v${PV}/${P}.tar.gz"
-KEYWORDS="~amd64"
-
-LICENSE="ISC"
+SRC_URI="https://codeberg.org/river/river/releases/download/v${PV}/${P}.tar.gz"
+LICENSE="GPL-3"
 SLOT="0"
-IUSE="+man pie test"
+KEYWORDS="~amd64 ~arm64"
+
+IUSE="+man pie test +X"
 RESTRICT="!test? ( test )"
 
 RDEPEND="
+	dev-libs/libevdev
+	dev-libs/libinput
 	dev-libs/wayland
-	sys-libs/pam
-	x11-libs/libxkbcommon:=
+	=gui-libs/wlroots-0.17*:=[X?]
+	x11-libs/libxkbcommon:=[X?]
+	x11-libs/pixman
 "
 DEPEND="${RDEPEND}"
 EZIG_VISION="0.11*"
 BDEPEND="
 	|| ( =dev-lang/zig-${EZIG_VISION} =dev-lang/zig-bin-${EZIG_VISION} )
 	dev-libs/wayland-protocols
-	virtual/pkgconfig
 	man? ( app-text/scdoc )
+	virtual/pkgconfig
 "
 
-QA_FLAGS_IGNORED="usr/bin/waylock"
+QA_FLAGS_IGNORED="usr/bin/river(ctl|tile)?"
 
 # : refer to sys-fs/ncdu :
 zig-set_EZIG() {
@@ -51,6 +54,7 @@ src_compile() {
 		-Doptimize=ReleaseSafe
 		-Dman-pages=$(usex man true false)
 		-Dpie=$(usex pie true false)
+		-Dxwayland=$(usex X true false)
 		${ZIG_FLAGS[@]}
 	)
 
@@ -62,7 +66,7 @@ src_test() {
 }
 
 src_install() {
-	cp -r "${T}"/{etc,usr} "${ED}"/ || die
+	cp -a "${T}"/usr "${ED}"/usr || die
 
-	dodoc README.md || die
+	dodoc -r README.md example || die
 }
