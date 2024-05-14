@@ -12,5 +12,5 @@ RDEPEND=dev-libs/libevdev dev-libs/libinput dev-libs/wayland =gui-libs/wlroots-0
 RESTRICT=!test? ( test )
 SLOT=0
 SRC_URI=https://codeberg.org/river/river/releases/download/v0.3.0/river-0.3.0.tar.gz
-_eclasses_=edo	c0eb9cbe6b0bd01fcb4918f12598a4d3
+_eclasses_=edo	f75ee9179825c4cb6679eb3094d7a779
 _md5_=0dda07259841d031b0f972fc4eae871f
