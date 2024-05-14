@@ -12,5 +12,5 @@ RDEPEND=dev-libs/wayland sys-libs/pam x11-libs/libxkbcommon:=
 RESTRICT=!test? ( test )
 SLOT=0
 SRC_URI=https://codeberg.org/ifreund/waylock/releases/download/v1.0.0/waylock-1.0.0.tar.gz
-_eclasses_=edo	f75ee9179825c4cb6679eb3094d7a779
+_eclasses_=edo	367e103a74bf77e6a8da7894d999fa3c
 _md5_=3f973ad497a7f2d992263881096342fc
