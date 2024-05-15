@@ -9,6 +9,7 @@ gui-apps/hyprland-addons 0_pre20221018 9999: Community scripts and utilities for
 gui-apps/hyprland-per-window-layout 2.6 2.9 2.10 9999: Per window keyboard layout (language) for Hyprland wayland compositor
 gui-apps/hyprpaper 0_pre20221128 9999: blazing fast wayland wallpaper utility with IPC controls.
 gui-apps/hyprshot 1.2.3 9999: Hyprshot is an utility to easily take screenshot in Hyprland using your mouse
+gui-apps/labwc-tweaks 0_pre20240506 9999: A GUI 'Settings' application for labwc
 gui-apps/nwg-launchers 0.6.3 9999: GTK launchers for X and wlroots compositors
 gui-apps/nwg-panel 0.7.7 9999: GTK3-based panel for sway window manager
 gui-apps/oguri 0_p20201102 9999: animated wallpaper daemon for Wayland compositors
