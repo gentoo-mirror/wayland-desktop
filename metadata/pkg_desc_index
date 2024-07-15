@@ -6,7 +6,7 @@ dev-python/pywm 0.3a 9999: wlroots-based Wayland compositor with Python frontend
 dev-python/thefuzz 0.19.0 9999: Fuzzy String Matching in Python.
 gui-apps/fuzzel 1.6.5 9999: Application launcher similar to rofi's 'drun' mode
 gui-apps/hyprland-addons 0_pre20221018 9999: Community scripts and utilities for Hypr projects
-gui-apps/hyprland-per-window-layout 2.6 2.9 2.10 9999: Per window keyboard layout (language) for Hyprland wayland compositor
+gui-apps/hyprland-per-window-layout 2.6 2.9 2.10 2.11 9999: Per window keyboard layout (language) for Hyprland wayland compositor
 gui-apps/hyprpaper 0_pre20221128 9999: blazing fast wayland wallpaper utility with IPC controls.
 gui-apps/hyprshot 1.2.3 9999: Hyprshot is an utility to easily take screenshot in Hyprland using your mouse
 gui-apps/labwc-tweaks 0_pre20240506 9999: A GUI 'Settings' application for labwc
@@ -21,7 +21,7 @@ gui-apps/river-luatile 0.1.3 9999: Write your own river layout generator in lua
 gui-apps/river-tag-overlay 1.0.0: A pop-up showing tag status [in the river window manager]
 gui-apps/stacktile 1.0.0 9999: stacktile is a layout generator for the river Wayland compositor.
 gui-apps/swaylock-effects 9999: Screen locker for Wayland
-gui-apps/waylock 1.0.0: Small screenlocker for Wayland compositors
+gui-apps/waylock 1.0.0 1.1.0: Small screenlocker for Wayland compositors
 gui-apps/wtype 0.3 0.4 9999: xdotool type for wayland
 gui-apps/yambar 1.7.0 9999: Modular status panel for X11 and Wayland
 gui-desq/desq-meta 1.0.0: meta packafe for DesQ Project ports
@@ -68,7 +68,7 @@ gui-wm/cagebreak 2.0.1 2.2.3 9999: Wayland tiling compositor inspired by RatPois
 gui-wm/kiwmi 0_p20211210 9999: fully programmable wayland compositor
 gui-wm/labwc 0.7.1 0.7.2 9999: Openbox alternative for wayland
 gui-wm/newm 0.3a 9999: Wayland compositor for laptops and touchpads.
-gui-wm/river 0.2.6 0.3.1 9999: Dynamic tiling wayland compositor
+gui-wm/river 0.2.6 0.3.1 0.3.2 9999: Dynamic tiling wayland compositor
 gui-wm/waybox 0.2.0 0.2.2 9999: openbox clone on wayland
 media-fonts/lato 2.015: Sanserif type face family with classical proportions
 media-fonts/segoe 1.0: Segoe font family by Microsoft
