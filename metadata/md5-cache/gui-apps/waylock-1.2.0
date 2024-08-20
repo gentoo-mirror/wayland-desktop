@@ -1,0 +1,16 @@
+BDEPEND=|| ( =dev-lang/zig-0.13* =dev-lang/zig-bin-0.13* ) dev-libs/wayland-protocols virtual/pkgconfig man? ( app-text/scdoc )
+DEFINED_PHASES=compile install prepare test
+DEPEND=dev-libs/wayland sys-libs/pam x11-libs/libxkbcommon:=
+DESCRIPTION=Small screenlocker for Wayland compositors
+EAPI=8
+HOMEPAGE=https://codeberg.org/ifreund/waylock
+INHERIT=edo
+IUSE=+man pie test
+KEYWORDS=~amd64
+LICENSE=ISC
+RDEPEND=dev-libs/wayland sys-libs/pam x11-libs/libxkbcommon:=
+RESTRICT=!test? ( test )
+SLOT=0
+SRC_URI=https://codeberg.org/ifreund/waylock/releases/download/v1.2.0/waylock-1.2.0.tar.gz https://codeberg.org/ifreund/zig-wayland/archive/v0.2.0.tar.gz -> zig-wayland-0.2.0.tar.gz https://codeberg.org/ifreund/zig-xkbcommon/archive/v0.2.0.tar.gz -> zig-xkbcommon-0.2.0.tar.gz
+_eclasses_=edo	367e103a74bf77e6a8da7894d999fa3c
+_md5_=2abf678c8c53b4a674438fd88fbe0ec5
