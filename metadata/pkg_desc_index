@@ -67,7 +67,7 @@ gui-wm/cagebreak 2.0.1 2.2.3 9999: Wayland tiling compositor inspired by RatPois
 gui-wm/kiwmi 0_p20211210 9999: fully programmable wayland compositor
 gui-wm/labwc 0.7.1 0.7.2 0.7.4 0.8.0 9999: Openbox alternative for wayland
 gui-wm/newm 0.3a 9999: Wayland compositor for laptops and touchpads.
-gui-wm/river 0.3.1 0.3.2 9999: Dynamic tiling wayland compositor
+gui-wm/river 0.3.1 0.3.2 0.3.5 9999: Dynamic tiling wayland compositor
 gui-wm/waybox 0.2.0 0.2.2 9999: openbox clone on wayland
 media-fonts/lato 2.015: Sanserif type face family with classical proportions
 media-fonts/segoe 1.0: Segoe font family by Microsoft
