@@ -12,15 +12,14 @@ if [[ ${PV} == 9999 ]]; then
 	inherit git-r3
 	EGIT_REPO_URI="https://gitlab.com/desktop-frameworks/wayqt"
 else
-	COMMIT="3ff30f67193df6b03006c4d29761ba7f17691d6f"
-	SRC_URI="https://gitlab.com/desktop-frameworks/wayqt/-/archive/${COMMIT}/wayqt-${COMMIT}.tar.bz2 -> ${P}.tar.bz2"
-	S="${WORKDIR}/wayqt-${COMMIT}"
+	SRC_URI="https://gitlab.com/desktop-frameworks/wayqt/-/archive/v${PV}/wayqt-v${PV}.tar.bz2 -> ${P}.tar.bz2"
+	S="${WORKDIR}/wayqt-v${PV}"
 	KEYWORDS="~amd64"
 fi
 
 LICENSE="MIT Unlicense"
 SLOT="0"
-IUSE="+qt5 qt6"
+IUSE="qt5 +qt6"
 REQUIRED_USE="^^ ( qt5 qt6 )"
 
 DEPEND="

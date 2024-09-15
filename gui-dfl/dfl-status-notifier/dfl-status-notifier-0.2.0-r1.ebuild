@@ -12,15 +12,14 @@ if [[ ${PV} == 9999 ]]; then
 	inherit git-r3
 	EGIT_REPO_URI="https://gitlab.com/desktop-frameworks/status-notifier"
 else
-	COMMIT="5212af79e026b7f2e8586350c613297cf7e098a1"
-	SRC_URI="https://gitlab.com/desktop-frameworks/status-notifier/-/archive/${COMMIT}/status-notifier-${COMMIT}.tar.bz2 -> ${P}.tar.bz2"
-	S="${WORKDIR}/status-notifier-${COMMIT}"
+	SRC_URI="https://gitlab.com/desktop-frameworks/status-notifier/-/archive/v${PV}/status-notifier-v${PV}.tar.bz2 -> ${P}.tar.bz2"
+	S="${WORKDIR}/status-notifier-v${PV}"
 	KEYWORDS="~amd64"
 fi
 
 LICENSE="GPL-3"
 SLOT="0"
-IUSE="+qt5 qt6"
+IUSE="qt5 +qt6"
 REQUIRED_USE="^^ ( qt5 qt6 )"
 
 DEPEND="

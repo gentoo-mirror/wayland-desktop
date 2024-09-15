@@ -1,34 +1,34 @@
-# Copyright 2023 Aisha Tammy
+# Copyright 2022 Aisha Tammy
 # Distributed under the terms of the ISC License
 
 EAPI=8
 
 inherit meson
 
-DESCRIPTION="Preconfigured layouts for DFL projects"
-HOMEPAGE="https://gitlab.com/desktop-frameworks/layouts"
+DESCRIPTION="systemd/elogin functionality for DFL"
+HOMEPAGE="https://gitlab.com/desktop-frameworks/login1"
 
 if [[ ${PV} == 9999 ]]; then
 	inherit git-r3
-	EGIT_REPO_URI="https://gitlab.com/desktop-frameworks/layouts"
+	EGIT_REPO_URI="https://gitlab.com/desktop-frameworks/login1"
 else
-	SRC_URI="https://gitlab.com/desktop-frameworks/layouts/-/archive/v${PV}/layouts-v${PV}.tar.bz2 -> ${P}.tar.bz2"
-	S="${WORKDIR}/layouts-v${PV}"
+	SRC_URI="https://gitlab.com/desktop-frameworks/login1/-/archive/v${PV}/login1-v${PV}.tar.bz2 -> ${P}.tar.bz2"
+	S="${WORKDIR}/login1-v${PV}"
 	KEYWORDS="~amd64"
 fi
 
 LICENSE="GPL-3"
 SLOT="0"
-IUSE="+qt5 qt6"
+IUSE="qt5 +qt6"
 REQUIRED_USE="^^ ( qt5 qt6 )"
 
 DEPEND="
 	qt5? (
 		dev-qt/qtcore:5
-		dev-qt/qtwidgets:5
+		dev-qt/qtdbus:5
 	)
 	qt6? (
-		dev-qt/qtbase:6[widgets]
+		dev-qt/qtbase:6[dbus]
 	)
 "
 RDEPEND="

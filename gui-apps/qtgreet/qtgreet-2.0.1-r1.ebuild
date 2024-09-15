@@ -20,7 +20,7 @@ fi
 
 LICENSE="GPL-3"
 SLOT="0"
-IUSE="greetwl +qt5 qt6"
+IUSE="greetwl qt5 +qt6"
 REQUIRED_USE="^^ ( qt5 qt6 )"
 
 CDEPEND="

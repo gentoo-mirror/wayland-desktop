@@ -12,15 +12,14 @@ if [[ ${PV} == 9999 ]]; then
 	inherit git-r3
 	EGIT_REPO_URI="https://gitlab.com/desktop-frameworks/ipc"
 else
-	COMMIT="1762393f1d77865b6fdc111d0dd1dceb4edb7d67"
-	SRC_URI="https://gitlab.com/desktop-frameworks/ipc/-/archive/${COMMIT}/ipc-${COMMIT}.tar.bz2 -> ${P}.tar.bz2"
-	S="${WORKDIR}/ipc-${COMMIT}"
+	SRC_URI="https://gitlab.com/desktop-frameworks/ipc/-/archive/v${PV}/ipc-v${PV}.tar.bz2 -> ${P}.tar.bz2"
+	S="${WORKDIR}/ipc-v${PV}"
 	KEYWORDS="~amd64"
 fi
 
 LICENSE="GPL-3"
 SLOT="0"
-IUSE="+qt5 qt6"
+IUSE="qt5 +qt6"
 REQUIRED_USE="^^ ( qt5 qt6 )"
 
 DEPEND="
