@@ -1,16 +1,16 @@
 BDEPEND=virtual/pkgconfig >=dev-build/meson-1.2.3 app-alternatives/ninja dev-build/meson-format-array
 DEFINED_PHASES=compile configure install test
-DEPEND=qt5? ( dev-qt/qtcore:5 dev-qt/qtgui:5 ) qt6? ( dev-qt/qtbase:6[gui] )
-DESCRIPTION=QSettings wrapper for DFL project applications
+DEPEND=qt5? ( dev-qt/qtcore:5 ) qt6? ( dev-qt/qtbase:6 )
+DESCRIPTION=IPC library for DFL project applications
 EAPI=8
-HOMEPAGE=https://gitlab.com/desktop-frameworks/settings
+HOMEPAGE=https://gitlab.com/desktop-frameworks/ipc
 INHERIT=meson
-IUSE=+qt5 qt6
+IUSE=qt5 +qt6
 KEYWORDS=~amd64
 LICENSE=GPL-3
-RDEPEND=qt5? ( dev-qt/qtcore:5 dev-qt/qtgui:5 ) qt6? ( dev-qt/qtbase:6[gui] )
+RDEPEND=qt5? ( dev-qt/qtcore:5 ) qt6? ( dev-qt/qtbase:6 )
 REQUIRED_USE=^^ ( qt5 qt6 )
 SLOT=0
-SRC_URI=https://gitlab.com/desktop-frameworks/settings/-/archive/68570df1caac53ebdecd14b75fb84faf64b36ecd/settings-68570df1caac53ebdecd14b75fb84faf64b36ecd.tar.bz2 -> dfl-settings-0.2.0_pre20230123.tar.bz2
+SRC_URI=https://gitlab.com/desktop-frameworks/ipc/-/archive/v0.2.0/ipc-v0.2.0.tar.bz2 -> dfl-ipc-0.2.0.tar.bz2
 _eclasses_=toolchain-funcs	948855ec7ad9f11351edf9066708dfa9	multilib	7e1347c006a76bb812f3a9f663b79991	flag-o-matic	fa33e3696fe4689dda7e9affe92e2c94	multiprocessing	e644caa6eb7ce7e5ab0864383ac13ad9	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	python-utils-r1	6881b056477c23167d9a6b33e146374e	meson	99466844dd8d4fcfb07578a76f5a9922
-_md5_=cb59bd03b5d088d1ee3e00bd14e22200
+_md5_=e61802d119b88d2ffc85454c2461709e
