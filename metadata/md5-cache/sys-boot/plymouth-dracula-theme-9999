@@ -2,10 +2,10 @@ BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=install unpack
 DESCRIPTION=dracula theme for plymouth
 EAPI=8
-HOMEPAGE=https://github.com/pspiagicw/dracula-plymouth
+HOMEPAGE=https://github.com/dracula/plymouth
 INHERIT=git-r3
 LICENSE=GPL-3
 PROPERTIES=live
 SLOT=0
 _eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81
-_md5_=771c719d5615997f4cf4bf6e5a0464a0
+_md5_=a623af7fee2969a1e833a8d984e2a50f
