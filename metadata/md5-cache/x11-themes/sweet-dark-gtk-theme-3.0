@@ -9,5 +9,5 @@ KEYWORDS=~amd64
 LICENSE=GPL-3
 SLOT=0
 SRC_URI=https://github.com/EliverLara/Sweet/releases/download/v3.0/Sweet-Dark.zip -> sweet-dark-gtk-theme-3.0.zip https://github.com/EliverLara/Sweet/releases/download/v3.0/Sweet-Dark-v40.zip -> sweet-dark-gtk-theme-3.0-v40.zip
-_eclasses_=xdg-utils	5465aed08f1dfc2a75f14cbea4272961	xdg	854eae304447322625df5991e20ed18f
+_eclasses_=xdg-utils	42869b3c8d86a70ef3cf75165a395e09	xdg	3ef49a87c52c8b77c476351195dfe575
 _md5_=29bfbc24d88df58ada6ebb7607a0bc49

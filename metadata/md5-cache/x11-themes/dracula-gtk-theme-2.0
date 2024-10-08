@@ -8,5 +8,5 @@ KEYWORDS=~amd64
 LICENSE=GPL-3
 SLOT=0
 SRC_URI=https://github.com/dracula/gtk/releases/download/v2.0/Dracula-pink-accent.tar.xz -> dracula-gtk-theme-2.0-pink.tar.xz https://github.com/dracula/gtk/releases/download/v2.0/Dracula.tar.xz -> dracula-gtk-theme-2.0.tar.xz
-_eclasses_=xdg-utils	5465aed08f1dfc2a75f14cbea4272961	xdg	854eae304447322625df5991e20ed18f
+_eclasses_=xdg-utils	42869b3c8d86a70ef3cf75165a395e09	xdg	3ef49a87c52c8b77c476351195dfe575
 _md5_=153e9c977fab98055ac80dcccc7fa245
