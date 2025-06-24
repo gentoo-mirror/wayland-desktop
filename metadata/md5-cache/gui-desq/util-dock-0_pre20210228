@@ -10,5 +10,5 @@ LICENSE=GPL-3
 RDEPEND=dev-qt/qtcore:5 dev-qt/qtgui:5[wayland,X] dev-qt/qtwayland:5 dev-qt/qtwidgets:5
 SLOT=0
 SRC_URI=https://gitlab.com/DesQ/DesQUtils/Dock/-/archive/685f90e8dd75907c1f807e547710461932584f98/Dock-685f90e8dd75907c1f807e547710461932584f98.tar.gz -> util-dock-0_pre20210228.tar.gz
-_eclasses_=toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	flag-o-matic	b892042b2667b8ac69ec8a2571dc290a	multiprocessing	1e32df7deee68372153dca65f4a7c21f	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	cmake	02a4b2b45c23260fb969448904a8d9d9
+_eclasses_=toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	flag-o-matic	b892042b2667b8ac69ec8a2571dc290a	multiprocessing	1e32df7deee68372153dca65f4a7c21f	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	cmake	460729dc36f68cf03b044bc1d367e34a
 _md5_=fb0f650f1bbf64c24a75d6d212ccbbd7
