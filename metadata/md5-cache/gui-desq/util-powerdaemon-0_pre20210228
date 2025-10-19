@@ -10,5 +10,5 @@ LICENSE=GPL-3
 RDEPEND=dev-qt/qtcore:5 dev-qt/qtdbus:5
 SLOT=0
 SRC_URI=https://gitlab.com/DesQ/DesQUtils/PowerDaemon/-/archive/2e71fbbb97b78af1f411590bd66af7928efe88c5/PowerDaemon-2e71fbbb97b78af1f411590bd66af7928efe88c5.tar.gz -> util-powerdaemon-0_pre20210228.tar.gz
-_eclasses_=toolchain-funcs	98d9f464d912ae6b7316fb8a3721f5db	flag-o-matic	a7afe42e95fb46ce9691605acfb24672	multiprocessing	1e32df7deee68372153dca65f4a7c21f	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	cmake	3d9a5fc17dadea162813d5d8918328b4
+_eclasses_=toolchain-funcs	98d9f464d912ae6b7316fb8a3721f5db	flag-o-matic	a7afe42e95fb46ce9691605acfb24672	multiprocessing	1e32df7deee68372153dca65f4a7c21f	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	cmake	c34c4b7abe27f71d1e7770f36cc51eed
 _md5_=e8edfdf57177ee288bdcf36438cc8b20
