@@ -9,5 +9,5 @@ LICENSE=MIT
 RDEPEND=kde-frameworks/extra-cmake-modules
 SLOT=0
 SRC_URI=https://github.com/lirios/cmake-shared/archive/3eba2e3465cff5450a6ca6247bf9adcb02e23541.tar.gz -> liri-cmake-shared-1.1.0_p20221201.tar.gz
-_eclasses_=toolchain-funcs	98d9f464d912ae6b7316fb8a3721f5db	flag-o-matic	a7afe42e95fb46ce9691605acfb24672	multiprocessing	1e32df7deee68372153dca65f4a7c21f	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	cmake	2d36accef058c00889b1f93ea4bc4061
+_eclasses_=toolchain-funcs	98d9f464d912ae6b7316fb8a3721f5db	flag-o-matic	a7afe42e95fb46ce9691605acfb24672	multiprocessing	1e32df7deee68372153dca65f4a7c21f	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	cmake	29a000891e576f0392730bb6834b67f5
 _md5_=edac32d54a943b764b2dc58308fa6647
